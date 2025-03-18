@@ -13,7 +13,7 @@ app = dash.Dash(__name__,
                     # Google Fonts for Sans Serif
                     "https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
                 ])
-
+server = app.server
 # Function to get all section files
 def get_section_files(sections_dir="sections"):
     """
