@@ -13,7 +13,7 @@ app = dash.Dash(__name__,
                     # Google Fonts for Sans Serif
                     "https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
                 ])
-server = app.server
+
 # Function to get all section files
 def get_section_files(sections_dir="sections"):
     """
@@ -106,14 +106,14 @@ app.index_string = '''
             /* Import custom fonts */
             @font-face {
                 font-family: 'Uthman Taha Naskh';
-                src: url('https://cdn.jsdelivr.net/gh/fawazahmed0/quran-api@1/fonts/UthmanTN1%20Ver10.otf') format('opentype');
+                src: url('/assets/KFGQPC Uthman Taha Naskh Bold.ttf') format('opentype');
                 font-weight: normal;
                 font-style: normal;
             }
             
             @font-face {
                 font-family: 'Sharif FarsiWeb';
-                src: url('https://cdn.fontcdn.ir/Font/Persian/Farsi_Web/Farsi_Web.ttf') format('truetype');
+                src: url('/assets/Fahood.ttf') format('truetype');
                 font-weight: normal;
                 font-style: normal;
             }
@@ -147,17 +147,20 @@ app.index_string = '''
             /* Papyrus-like background for text content */
             .papyrus-bg {
                 background-color: #e8dcb5;
-                background-image: url('https://www.transparenttextures.com/patterns/papyrus.png');
+                background-image: url('/assets/natural-paper.png');
                 box-shadow: 0 4px 8px rgba(0,0,0,0.2);
                 border-radius: 5px;
                 direction: rtl; /* Right-to-left text direction */
                 text-align: right;
             }
+        
             
             /* Ancient rock background for sidebar */
             .rock-bg {
-                background-color: #cc9921;
-                background-image: url('https://www.transparenttextures.com/patterns/stone.png');
+                background-color: #aa7641; /* Base color */
+                background-image: url('/assets/natural-paper.png');
+                background-repeat: repeat; /* Make the image repeat as a pattern */
+                background-size: auto; /* Don't try to fit/cover the container */
                 box-shadow: inset 0 0 10px rgba(0,0,0,0.7);
                 color: #f5f5f5;
             }
@@ -187,7 +190,7 @@ app.index_string = '''
             }
             
             .rock-scroll::-webkit-scrollbar-thumb {
-                background-color: #3a3529;
+                background-color: #AD9C8D;
                 border-radius: 6px;
                 border: 3px solid #5a5343;
             }
@@ -276,7 +279,7 @@ app.index_string = '''
             /* Sidebar header styling */
             .sidebar-header {
                 font-family: 'Open Sans', sans-serif;
-                font-weight: 600;
+                font-weight: bold;
                 text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
             }
             
@@ -284,15 +287,15 @@ app.index_string = '''
             .main-header {
                 font-family: 'Open Sans', sans-serif;
                 color: #FFD700; /* Golden text color */
-                padding: 20px;
+                padding: 25px;
                 margin: 0;
-                text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
+                text-shadow: 2px 2px 4px rgba(0,0,0,0.9);
                 background-image: url('/assets/mujmal.png');
-                background-size: cover;
-                background-position: center;
+                background-size: 120%;
+                background-position: center center;
                 position: relative;
-                border: 2px solid #C0C0C0; /* Silver border */
-                box-shadow: 0 0 10px rgba(192, 192, 192, 0.7); /* Silver glow effect */
+                border-bottom: 3px solid #3a3529; /* Darker border at bottom */
+                box-shadow: 0 4px 12px rgba(0,0,0,0.5); /* Stronger shadow effect */
                 height: 120px; /* Fixed height to ensure proper fitting */
                 display: flex;
                 align-items: center;
@@ -307,7 +310,7 @@ app.index_string = '''
                 right: 0;
                 bottom: 0;
                 left: 0;
-                background: rgba(0, 0, 0, 0.5);
+                background: rgba(0, 0, 0, 0.6);
                 z-index: -1;
             }
             
@@ -316,13 +319,19 @@ app.index_string = '''
                 font-family: 'Open Sans', sans-serif;
                 color: #5d4037;
                 border-bottom: 2px solid #8d6e63;
-                padding-bottom: 10px;
+                padding-bottom: 15px;
                 text-align: right;
                 background-image: url('/assets/mujmal.png')
-                font-size: 24px;
+                font-size: 36px;
                 font-weight: bold;
             }
-            
+            /* Arabic text in header */
+            .main-header h1 span {
+                font-size: 40px; /* Even larger for Arabic text */
+                font-weight: bold;
+                display: inline-block;
+                margin-left: 5px;
+            }
         </style>
     </head>
     <body>
@@ -382,7 +391,7 @@ app.layout = html.Div([
                 className='custom-radio'
             )
         ], className='sidebar rock-bg rock-scroll', style={
-            'borderRight': '1px solid #3a3529',
+            'borderRight': '1px solid #3a3529',# border scrollbar colour
             'overflowY': 'auto'
         }),
         
@@ -402,12 +411,23 @@ app.layout = html.Div([
                         'borderRadius': '5px',
                         'flex': '1',
                         'overflowY': 'auto',
-                        'backgroundColor': '#e8dcb5',
+                        'backgroundColor': '#e8dcb5', #background of main text
                         'backgroundImage': 'url("https://www.transparenttextures.com/patterns/papyrus.png")',
                         'boxShadow': '0 4px 8px rgba(0,0,0,0.2)'
                     })
         ], className='content')
-    ], className='content-container')
+    ], className='content-container'),
+    
+    # Footer
+    html.Footer([
+        html.Div([
+            html.P("© Aslisho Qurboniev 2025", 
+                  style={
+                      'margin': '0',
+                      'textAlign': 'center'
+                  })
+        ], className='footer-content')
+    ], className='main-footer')
 ], className='main-container')
 
 # Single callback for updating text content
