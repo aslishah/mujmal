@@ -14,10 +14,29 @@ app = dash.Dash(__name__,
                     "https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
                 ])
 
-# Function to get all section files
+# Add this function to extract the first line (heading) from a file
+def get_first_line_after_header(file_path):
+    """
+    Extract the first line after the '### | ' header from a file.
+    """
+    try:
+        with open(file_path, 'r', encoding='utf-8') as file:
+            lines = file.readlines()
+            for i, line in enumerate(lines):
+                if line.startswith('### | '):
+                    # Return the header line itself, without the '### | ' prefix
+                    return line.replace('### | ', '').strip()
+            # If no header found, return empty string
+            return ""
+    except Exception as e:
+        print(f"Error reading file {file_path}: {str(e)}")
+        return ""
+
+# Modify the get_section_files function to also return headings
 def get_section_files(sections_dir="sections"):
     """
     Get all text files from the sections directory and sort them properly.
+    Returns a list of tuples (filename, display_name) where display_name includes the heading.
     """
     # Check if directory exists
     if not os.path.exists(sections_dir):
@@ -43,9 +62,28 @@ def get_section_files(sections_dir="sections"):
     
     # Sort the files using the custom sorting function
     section_files.sort(key=sort_key)
-    return section_files
+    
+    # Create a list of tuples (filename, display_name)
+    result = []
+    for file in section_files:
+        file_path = os.path.join(sections_dir, file)
+        heading = get_first_line_after_header(file_path)
+        display_name = file.replace('.txt', '')
+        
+        # Add heading if available
+        if heading:
+            # Truncate heading if too long (for better UI)
+            if len(heading) > 50:
+                heading = heading[:47] + "..."
+            display_name = f"{display_name}: {heading}"
+        
+        result.append((file, display_name))
+    
+    return result
 
-# Function to convert OpenITI markdown to HTML components
+# Get the section files with headings
+section_files_with_headings = get_section_files()
+
 def openiti_to_html_components(text):
     """
     Convert OpenITI markdown to Dash HTML components.
@@ -89,9 +127,6 @@ def openiti_to_html_components(text):
         components.append(html.P(line))
     
     return components
-
-# Get the section files
-section_files = get_section_files()
 
 # Define custom CSS for the app
 app.index_string = '''
@@ -350,13 +385,13 @@ app.index_string = '''
 </html>
 '''
 
-# Define the app layout with a flex container to ensure side-by-side panels
+# Then modify the app layout to use the new section_files_with_headings
 app.layout = html.Div([
     # Header with Persian manuscript background
     html.Div([
         html.H1([
             "Mujmal al-Hikma – ",
-            html.Span("مجمل الحكمة", style={'fontFamily': 'Neirizi, serif'})
+            html.Span("مجمل الحكمة", style={'fontFamily': 'Uthman Taha Naskh, serif'})
         ], style={
             'textAlign': 'center',
             'margin': '0',
@@ -380,11 +415,12 @@ app.layout = html.Div([
                         'fontFamily': 'Open Sans, sans-serif'
                     }),
             
-            # Simple radio items for section selection
+            # Modified radio items for section selection with headings
             dcc.RadioItems(
                 id='section-selector',
-                options=[{'label': file.replace('.txt', ''), 'value': file} for file in section_files],
-                value=section_files[0] if section_files else None,
+                options=[{'label': display_name, 'value': file} 
+                         for file, display_name in section_files_with_headings],
+                value=section_files_with_headings[0][0] if section_files_with_headings else None,
                 labelStyle={
                     'display': 'block', 
                     'margin': '10px 0', 
@@ -396,7 +432,7 @@ app.layout = html.Div([
                 className='custom-radio'
             )
         ], className='sidebar rock-bg rock-scroll', style={
-            'borderRight': '1px solid #3a3529',# border scrollbar colour
+            'borderRight': '1px solid #3a3529',
             'overflowY': 'auto'
         }),
         
@@ -416,7 +452,7 @@ app.layout = html.Div([
                         'borderRadius': '5px',
                         'flex': '1',
                         'overflowY': 'auto',
-                        'backgroundColor': '#e8dcb5', #background of main text
+                        'backgroundColor': '#e8dcb5',
                         'backgroundImage': 'url("https://www.transparenttextures.com/patterns/papyrus.png")',
                         'boxShadow': '0 4px 8px rgba(0,0,0,0.2)'
                     })
@@ -429,13 +465,13 @@ app.layout = html.Div([
             html.P("© Aslisho Qurboniev 2025", 
                   style={
                       'margin': '0',
-                      'textAlign': 'center'
+                      'textAlign': 'left'
                   })
         ], className='footer-content')
     ], className='main-footer')
 ], className='main-container')
 
-# Single callback for updating text content
+# The callback remains the same
 @app.callback(
     [Output('text-header', 'children'),
      Output('text-content', 'children')],
@@ -462,8 +498,7 @@ def update_text_content(selected_file):
         return f"Summary of {section_name}", components
     except Exception as e:
         print(f"Error reading file {file_path}: {str(e)}")
-        return f"Error: {section_name}", f"Could not read the file: {str(e)}"
-
+        return f"Error: {section_name}", f"Could not read the file: {str(e)}"    
 # Run the app
 if __name__ == '__main__':
     print("Starting Dash app...")
