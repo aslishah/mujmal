@@ -117,7 +117,12 @@ app.index_string = '''
                 font-weight: normal;
                 font-style: normal;
             }
-            
+                        @font-face {
+                font-family: 'Neirizi';
+                src: url('/assets/Neirizi.ttf') format('truetype');
+                font-weight: normal;
+                font-style: normal;
+            }
             /* Custom CSS for styling */
             body {
                 font-family: 'Open Sans', sans-serif;
@@ -351,7 +356,7 @@ app.layout = html.Div([
     html.Div([
         html.H1([
             "Mujmal al-Hikma – ",
-            html.Span("مجمل الحكمة", style={'fontFamily': 'Uthman Taha Naskh, serif'})
+            html.Span("مجمل الحكمة", style={'fontFamily': 'Neirizi, serif'})
         ], style={
             'textAlign': 'center',
             'margin': '0',
