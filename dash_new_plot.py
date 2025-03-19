@@ -32,7 +32,7 @@ def get_first_line_after_header(file_path):
     except Exception as e:
         print(f"Error reading file {file_path}: {str(e)}")
         return ""
-
+server = app.server
 # Modify the get_section_files function to also return headings
 def get_section_files(sections_dir="sections"):
     """
