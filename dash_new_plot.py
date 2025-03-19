@@ -13,7 +13,7 @@ app = dash.Dash(__name__,
                     # Google Fonts for Sans Serif
                     "https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
                 ])
-<<<<<<< HEAD
+
 
 # Add this function to extract the first line (heading) from a file
 def get_first_line_after_header(file_path):
@@ -34,10 +34,6 @@ def get_first_line_after_header(file_path):
         return ""
 
 # Modify the get_section_files function to also return headings
-=======
-server = app.server
-# Function to get all section files
->>>>>>> ea5f31a5a871c1f60e4ffb69f18eb600c98edb3a
 def get_section_files(sections_dir="sections"):
     """
     Get all text files from the sections directory and sort them properly.
