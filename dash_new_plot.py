@@ -393,7 +393,7 @@ app.layout = html.Div([
     html.Div([
         html.H1([
             "Mujmal al-Hikma – ",
-            html.Span("مجمل الحكمة", style={'fontFamily': 'Uthman Taha Naskh, serif'})
+            html.Span("مجمل الحكمة", style={'fontFamily': 'Neirizi, serif'})
         ], style={
             'textAlign': 'center',
             'margin': '0',
