@@ -92,7 +92,11 @@ def openiti_to_html_components(text):
     """
     # Create a list to store HTML components
     components = []
-    
+
+    # Common style with Neirizi font
+    #neirizi_style = {'fontFamily': 'Neirizi, serif'}
+    terafik_style = {'fontFamily': 'Terafik, sans-serif'}
+
     # Process the text line by line
     lines = text.split('\n')
     for line in lines:
@@ -104,7 +108,7 @@ def openiti_to_html_components(text):
         # Process headers (### | syntax)
         if line.startswith('### | '):
             content = line.replace('### | ', '')
-            components.append(html.H1(content, className='openiti-h1'))
+            components.append(html.H1(content, className='openiti-h1', style = terafik_style))
             continue
         
         if line.startswith('### || '):
@@ -126,7 +130,7 @@ def openiti_to_html_components(text):
         # Process regular paragraphs
         # For page numbers, uncertain readings, and editorial notes, we'll use simple text
         # as these would require more complex HTML manipulation
-        components.append(html.P(line))
+        components.append(html.P(line, style=terafik_style))
     
     return components
 
@@ -150,7 +154,7 @@ app.index_string = '''
             
             @font-face {
                 font-family: 'Sharif FarsiWeb';
-                src: url('/assets/Fahood.ttf') format('truetype');
+                src: url('/assets/terafik.ttf') format('truetype');
                 font-weight: normal;
                 font-style: normal;
             }
@@ -289,7 +293,7 @@ app.index_string = '''
                 margin: 1em 0 0.5em 0;
                 border-bottom: 1px solid #8d6e63;
                 padding-bottom: 0.3em;
-                font-family: 'Uthman Taha Naskh', serif;
+                font-family: 'Terafik', serif;
                 font-weight: bold;
             }
             
@@ -464,7 +468,7 @@ app.layout = html.Div([
     # Footer
     html.Footer([
         html.Div([
-            html.P("© Aslisho Qurboniev 2025", 
+            html.P("    © Aslisho Qurboniev 2025", 
                   style={
                       'margin': '0',
                       'textAlign': 'left'
