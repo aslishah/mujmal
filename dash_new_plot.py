@@ -50,8 +50,8 @@ def get_section_files(sections_dir="sections"):
     
     # Custom sorting function that handles special filenames
     def sort_key(filename):
-        if filename == "Introduction.txt":
-            return 0  # Place Introduction first
+        if filename == "Preface.txt":
+            return 0  # Place Preface first
         elif "Risala_" in filename:
             # Extract the number after "Risala_"
             try:
