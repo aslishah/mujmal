@@ -1,4 +1,5 @@
-# Mujmal al-hikma App
+# Mujmal al-hikma App - published version
+
 
 import os
 import dash
