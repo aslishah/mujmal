@@ -325,7 +325,7 @@ app.index_string = '''
             /* Sidebar header styling */
             .sidebar-header {
                 font-family: 'Open Sans', sans-serif;
-                font-weight: bold;
+                font-weight: regular;
                 text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
             }
             
@@ -337,15 +337,21 @@ app.index_string = '''
                 margin: 0;
                 text-shadow: 2px 2px 4px rgba(0,0,0,0.9);
                 background-image: url('/assets/mujmal.png');
-                background-size: 120%;
-                background-position: center center;
+                background-size: 75%;
+                background-repeat: no-repeat; /* Prevents the image from repeating */
+                background-position: left;
                 position: relative;
                 border-bottom: 3px solid #3a3529; /* Darker border at bottom */
                 box-shadow: 0 4px 12px rgba(0,0,0,0.5); /* Stronger shadow effect */
-                height: 120px; /* Fixed height to ensure proper fitting */
+                height: 50px; /* Fixed height to ensure proper fitting */
                 display: flex;
                 align-items: center;
                 justify-content: center;
+                background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.15)), url('/assets/mujmal.png');
+                background-size: contain;
+                background-position: left;
+                background-repeat: no-repeat;
+                background-color: #e8dcb5;   
             }
             
             /* Overlay for better text readability on the manuscript background */
@@ -359,21 +365,30 @@ app.index_string = '''
                 background: rgba(0, 0, 0, 0.6);
                 z-index: -1;
             }
-            
+            .main-header::after {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background: radial-gradient(ellipse at center, transparent 70%, #e8dcb5 100%);
+                pointer-events: none;
+}
             /* Text header styling */
             .text-header {
                 font-family: 'Open Sans', sans-serif;
                 color: #5d4037;
                 border-bottom: 2px solid #8d6e63;
                 padding-bottom: 15px;
-                text-align: right;
+                text-align: center;
                 background-image: url('/assets/mujmal.png')
                 font-size: 36px;
-                font-weight: bold;
+                font-weight: regular;
             }
             /* Arabic text in header */
             .main-header h1 span {
-                font-size: 40px; /* Even larger for Arabic text */
+                font-size: 36px; /* Even larger for Arabic text */
                 font-weight: bold;
                 display: inline-block;
                 margin-left: 5px;
@@ -396,15 +411,15 @@ app.layout = html.Div([
     # Header with Persian manuscript background
     html.Div([
         html.H1([
-            "Mujmal al-Hikma – ",
+            "Rasaʾil Ikhwān al-Ṣafāʾ – ",
             html.Span("مجمل الحكمة", style={'fontFamily': 'Neirizi, serif'})
         ], style={
-            'textAlign': 'center',
-            'margin': '0',
+            'textAlign': 'right',
+            'margin': '5px',
             'position': 'relative',
             'zIndex': '1',
             'fontFamily': 'Open Sans, sans-serif',
-            'fontWeight': '700'
+            'fontWeight': '700',
         })
     ], className='main-header'),
     
