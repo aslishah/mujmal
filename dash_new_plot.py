@@ -381,7 +381,7 @@ app.index_string = '''
                 color: #5d4037;
                 border-bottom: 2px solid #8d6e63;
                 padding-bottom: 15px;
-                text-align: center;
+                text-align: right;
                 background-image: url('/assets/mujmal.png')
                 font-size: 36px;
                 font-weight: regular;
