@@ -6,8 +6,6 @@ import dash
 from dash import html, dcc
 from dash.dependencies import Input, Output
 import re
-from dash import clientside_callback, Input, Output
-
 
 # Initialize the Dash app
 app = dash.Dash(__name__,
@@ -495,26 +493,12 @@ app.layout = html.Div([
     ], className='main-footer')
 ], className='main-container')
 
-# Clientside callback version
-app.clientside_callback(
-    """
-    function(sectionValue) {
-        // Return an array with two values:
-        // 1. The text for the header
-        // 2. The text for the content
-        return [sectionValue, "Content for section: " + sectionValue];
-        
-        // Note: You'll need to modify this JavaScript function
-        // to match the exact logic in your original callback function
-    }
-    """,
-    # Outputs remain the same
+# The callback remains the same
+@app.callback(
     [Output('text-header', 'children'),
      Output('text-content', 'children')],
-    # Inputs remain the same
     [Input('section-selector', 'value')]
 )
-
 def update_text_content(selected_file):
     if not selected_file:
         return "Welcome to the Text Viewer", "Please select a section to view its content."
