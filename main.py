@@ -4,7 +4,8 @@
 import os
 import dash
 from dash import html, dcc
-from dash.dependencies import Input, Output
+
+from dash.dependencies import Input, Output, State
 import re
 
 # Initialize the Dash app
@@ -13,7 +14,9 @@ app = dash.Dash(__name__,
                 # routes_pathname_prefix='/<mujmal>/', #this was also for github actions
                 external_stylesheets=[
                     # Google Fonts for Sans Serif
-                    "https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
+
+                    "https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap",
+                    "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
                 ])
 
 
@@ -394,6 +397,34 @@ app.index_string = '''
                 display: inline-block;
                 margin-left: 5px;
             }
+            /* Custom radio button with scroll icon */
+            .custom-radio .radio-input + label {
+                position: relative;
+            }
+
+            .custom-radio .radio-input + label::before {
+                content: "";
+                position: absolute;
+                left: 10px;
+                width: 20px;
+                height: 20px;
+                background-image: url('/assets/inkwell.png');
+                background-size: contain;
+                background-repeat: no-repeat;
+                opacity: 0.7;
+                transition: all 0.3s;
+            }
+
+            .custom-radio .radio-input:checked + label::before {
+                opacity: 1;
+                color: #5d4037;
+                transform: scale(1.2);
+            }
+
+            /* Hover effect */
+            .custom-radio label:hover::before {
+                opacity: 0.9;
+            }
         </style>
     </head>
     <body>
@@ -436,12 +467,16 @@ app.layout = html.Div([
                         'textAlign': 'left',
                         'fontFamily': 'Open Sans, sans-serif'
                     }),
-            
-            # Modified radio items for section selection with headings
+            # Modified radio items with Unicode scroll icon
             dcc.RadioItems(
                 id='section-selector',
-                options=[{'label': display_name, 'value': file} 
-                         for file, display_name in section_files_with_headings],
+                options=[{
+                    'label': html.Span([
+                        "📜 " ,  # scroll unicode
+                        display_name
+                    ], style={'display': 'inline-block'}), 
+                    'value': file
+                } for file, display_name in section_files_with_headings],
                 value=section_files_with_headings[0][0] if section_files_with_headings else None,
                 labelStyle={
                     'display': 'block', 
@@ -451,8 +486,58 @@ app.layout = html.Div([
                     'borderRadius': '5px',
                     'transition': 'background-color 0.3s'
                 },
+                inputStyle={"display": "none"},  # This hides the actual radio button
                 className='custom-radio'
-            )
+            ),
+            
+            # Add search box
+            html.Hr(style={'margin': '20px 0', 'borderColor': 'rgba(255,255,255,0.2)'}),
+            
+            html.H3("Search in Sections:", 
+                    className='sidebar-header',
+                    style={
+                        'marginBottom': '10px',
+                        'color': '#f5f5f5',
+                        'textAlign': 'left',
+                        'fontFamily': 'Open Sans, sans-serif'
+                    }),
+            
+            dcc.Input(
+                id='search-input',
+                type='text',
+                placeholder='Enter search term...',
+                style={
+                    'width': '100%',
+                    'padding': '10px',
+                    'borderRadius': '5px',
+                    'border': 'none',
+                    'marginBottom': '10px',
+                    'backgroundColor': 'rgba(255,255,255,0.9)',
+                }
+            ),
+            
+            html.Button('Search', 
+                id='search-button', 
+                style={
+                    'width': '100%',
+                    'padding': '10px',
+                    'borderRadius': '5px',
+                    'border': 'none',
+                    'backgroundColor': '#8d6e63',
+                    'color': 'white',
+                    'cursor': 'pointer',
+                    'fontWeight': 'bold',
+                    'transition': 'background-color 0.3s'
+                }
+            ),
+            
+            html.Div(id='search-results-summary', 
+                    style={
+                        'marginTop': '10px',
+                        'color': '#f5f5f5',
+                        'fontSize': '14px'
+                    })
+            
         ], className='sidebar rock-bg rock-scroll', style={
             'borderRight': '1px solid #3a3529',
             'overflowY': 'auto'
@@ -484,7 +569,7 @@ app.layout = html.Div([
     # Footer
     html.Footer([
         html.Div([
-            html.P("    © Aslisho Qurboniev 2025", 
+            html.P("_____© Aslisho Qurboniev 2025", 
                   style={
                       'margin': '0',
                       'textAlign': 'left'
@@ -526,4 +611,85 @@ if __name__ == '__main__':
     print("Starting Dash app...")
     app.run(debug=True)
 
-# This text shows that the code easn't modifed
+
+# Add this after your existing callbacks
+@app.callback(
+    [Output('text-content', 'children'),
+     Output('search-results-summary', 'children')],
+    [Input('search-button', 'n_clicks')],
+    [State('search-input', 'value'),
+     State('section-selector', 'value')]
+)
+def search_content(n_clicks, search_term, selected_file):
+    # Only trigger on button click
+    if not n_clicks:
+        raise PreventUpdate
+    
+    # Validate inputs
+    if not search_term or not search_term.strip():
+        return dash.no_update, "Please enter a search term"
+    
+    if not selected_file:
+        return dash.no_update, "Please select a section first"
+    
+    search_term = search_term.strip()
+    file_path = os.path.join("sections", selected_file)
+    
+    try:
+        with open(file_path, 'r', encoding='utf-8') as file:
+            content = file.read()
+        
+        # Case-insensitive search
+        pattern = re.compile(re.escape(search_term), re.IGNORECASE)
+        matches = list(pattern.finditer(content))
+        
+        if matches:
+            # Create highlighted content
+            result_components = []
+            last_pos = 0
+            
+            for match in matches:
+                start, end = match.span()
+                
+                # Add text before match
+                if start > last_pos:
+                    pre_match_text = content[last_pos:start]
+                    result_components.extend(openiti_to_html_components(pre_match_text))
+                
+                # Add highlighted match
+                match_text = content[start:end]
+                result_components.append(html.Span(
+                    match_text,
+                    style={
+                        'backgroundColor': '#FFD700',  # Gold highlight
+                        'color': '#000000',
+                        'padding': '2px 0',
+                        'borderRadius': '3px'
+                    }
+                ))
+                
+                last_pos = end
+            
+            # Add remaining text after last match
+            if last_pos < len(content):
+                remaining_text = content[last_pos:]
+                result_components.extend(openiti_to_html_components(remaining_text))
+            
+            return result_components, f"Found {len(matches)} matches for '{search_term}'"
+        else:
+            # No matches found
+            return openiti_to_html_components(content), f"No matches found for '{search_term}'"
+            
+    except Exception as e:
+        print(f"Error during search: {str(e)}")
+        return html.Div(f"Error: {str(e)}"), "Error during search"
+
+@app.callback(
+    [Output('search-input', 'value'),
+     Output('search-results-summary', 'children', allow_duplicate=True)],
+    [Input('section-selector', 'value')],
+    prevent_initial_call=True
+)
+def clear_search_on_section_change(selected_section):
+    # Clear search input and results when changing sections
+    return "", ""
