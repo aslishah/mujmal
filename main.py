@@ -8,8 +8,9 @@ from dash.dependencies import Input, Output
 import re
 
 # Initialize the Dash app
-app = dash.Dash(__name__, 
-                # Add external stylesheets for custom fonts
+app = dash.Dash(__name__,
+                requests_pathname_prefix='/<mujmal>/',
+                routes_pathname_prefix='/<mujmal>/',
                 external_stylesheets=[
                     # Google Fonts for Sans Serif
                     "https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
