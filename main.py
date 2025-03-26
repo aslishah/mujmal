@@ -9,8 +9,8 @@ import re
 
 # Initialize the Dash app
 app = dash.Dash(__name__,
-                requests_pathname_prefix='/<mujmal>/',
-                routes_pathname_prefix='/<mujmal>/',
+                # requests_pathname_prefix='/<mujmal>/', #these were used for github action
+                # routes_pathname_prefix='/<mujmal>/', #this was also for github actions
                 external_stylesheets=[
                     # Google Fonts for Sans Serif
                     "https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
