@@ -1,11 +1,12 @@
 # Mujmal al-hikma App - published version
 
-
 import os
 import dash
 from dash import html, dcc
-from dash.dependencies import Input, Output
+from dash.dependencies import Input, Output, State, ALL, MATCH
 import re
+import json
+from dash.exceptions import PreventUpdate
 
 # Initialize the Dash app
 app = dash.Dash(__name__,
@@ -452,7 +453,54 @@ app.layout = html.Div([
                     'transition': 'background-color 0.3s'
                 },
                 className='custom-radio'
-            )
+            ),
+            
+            # Add a simple search panel
+            html.Div([
+                html.H3("Search Texts:", 
+                        className='sidebar-header',
+                        style={'marginTop': '30px', 'color': '#f5f5f5'}),
+                
+                # Search input
+                dcc.Input(
+                    id='search-input',
+                    type='text',
+                    placeholder='Enter search term...',
+                    style={
+                        'width': '100%',
+                        'padding': '10px',
+                        'borderRadius': '5px',
+                        'border': 'none',
+                        'backgroundColor': '#e8dcb5',
+                        'marginBottom': '10px',
+                        'direction': 'rtl',
+                        'textAlign': 'right'
+                    }
+                ),
+                
+                # Search button
+                html.Button('Search', 
+                            id='search-button', 
+                            style={
+                                'width': '100%',
+                                'padding': '10px',
+                                'borderRadius': '5px',
+                                'border': 'none',
+                                'backgroundColor': '#8d6e63',
+                                'color': 'white',
+                                'cursor': 'pointer',
+                                'marginBottom': '20px'
+                            }),
+                
+                # Search results container
+                html.Div(id='search-results', 
+                         style={
+                             'marginTop': '10px',
+                             'maxHeight': '400px',
+                             'overflowY': 'auto',
+                             'color': '#e8dcb5'
+                         })
+            ], style={'marginTop': '30px'})
         ], className='sidebar rock-bg rock-scroll', style={
             'borderRight': '1px solid #3a3529',
             'overflowY': 'auto'
@@ -521,9 +569,200 @@ def update_text_content(selected_file):
     except Exception as e:
         print(f"Error reading file {file_path}: {str(e)}")
         return f"Error: {section_name}", f"Could not read the file: {str(e)}"    
+@app.callback(
+    Output('section-selector', 'value'),
+    [Input({'type': 'search-result', 'index': ALL}, 'n_clicks'),
+     Input({'type': 'match-context', 'index': ALL}, 'n_clicks_timestamp')],
+    prevent_initial_call=True
+)
+def open_search_result(result_clicks, context_clicks):
+    ctx = dash.callback_context
+    
+    if not ctx.triggered:
+        raise PreventUpdate
+    
+    # Get the triggered component's ID
+    triggered_id = ctx.triggered[0]['prop_id'].split('.')[0]
+    
+    try:
+        # Parse the ID to get the file path
+        id_dict = json.loads(triggered_id)
+        if 'index' in id_dict:
+            file_path = id_dict['index']
+            print(f"Opening file: {file_path}")
+            return file_path
+    except:
+        # If there's an error parsing the ID, try using regex
+        match = re.search(r'"index":"([^"]+)"', triggered_id)
+        if match:
+            file_path = match.group(1)
+            print(f"Opening file using regex: {file_path}")
+            return file_path
+    
+    # If we couldn't determine which file to open
+    raise PreventUpdate
+@app.callback(
+    Output('search-results', 'children'),
+    [Input('search-button', 'n_clicks')],
+    [State('search-input', 'value')]
+)
+def simple_search(n_clicks, search_term):
+    # Don't run on initial load
+    if n_clicks is None or not search_term:
+        return []
+    
+    # Debug output
+    print(f"Searching for: '{search_term}'")
+    
+    # Initialize results
+    results = []
+    total_matches = 0
+    sections_dir = "sections"  # Make sure this is the correct directory
+    
+    # Get all text files
+    try:
+        section_files = [file for file, _ in section_files_with_headings]
+        
+        # Search through each file
+        for file in section_files:
+            file_path = os.path.join(sections_dir, file)
+            
+            try:
+                # Read file content
+                with open(file_path, 'r', encoding='utf-8') as f:
+                    content = f.read()
+                
+                # Simple text search
+                if search_term in content:
+                    # Get display name for the file
+                    display_name = next((display for f, display in section_files_with_headings if f == file), file)
+                    
+                    # Find matches with context
+                    matches = []
+                    all_matches = list(re.finditer(re.escape(search_term), content))
+                    total_matches += len(all_matches)
+                    
+                    for match in all_matches[:3]:  # Limit to first 3 matches per file
+                        start = max(0, match.start() - 50)
+                        end = min(len(content), match.end() + 50)
+                        context = content[start:end]
+                        
+                        # Highlight the match
+                        highlighted = context.replace(
+                            search_term, 
+                            f'<span style="background-color: yellow; color: black">{search_term}</span>'
+                        )
+                        matches.append(highlighted)
+                    
+                    # Add to results
+                    if matches:
+                        results.append({
+                            'file': file,
+                            'display_name': display_name,
+                            'matches': matches,
+                            'match_count': len(all_matches)
+                        })
+            except Exception as e:
+                print(f"Error searching file {file_path}: {str(e)}")
+        
+        # Format results for display
+        formatted_results = []
+        
+        if results:
+            # Add a summary header showing total results
+            formatted_results.append(
+                html.H3(
+                    f"Found {total_matches} matches in {len(results)} files",
+                    style={
+                        'color': '#e8dcb5',
+                        'marginBottom': '15px',
+                        'borderBottom': '1px solid #e8dcb5',
+                        'paddingBottom': '5px'
+                    }
+                )
+            )
+            
+            # Sort results by match count (most matches first)
+            results.sort(key=lambda x: x['match_count'], reverse=True)
+            
+            for result in results:
+                # Create clickable result
+                formatted_results.append(
+                    html.Div([
+                        html.H4(
+                            f"{result['display_name']} ({result['match_count']} matches)", 
+                            style={
+                                'color': '#e8dcb5', 
+                                'cursor': 'pointer', 
+                                'textDecoration': 'underline'
+                            }
+                        ),
+                        html.Div([
+                            html.P(
+                                dcc.Markdown(f"...{match}...", dangerously_allow_html=True),
+                                style={
+                                    'direction': 'rtl', 
+                                    'textAlign': 'right', 
+                                    'backgroundColor': 'rgba(232, 220, 181, 0.2)',
+                                    'padding': '8px',
+                                    'borderRadius': '5px',
+                                    'margin': '5px 0',
+                                    'cursor': 'pointer'  # Make the text appear clickable
+                                }
+                            ) for match in result['matches']
+                        ], id={'type': 'match-context', 'index': result['file']}),
+                        html.Hr(style={'borderColor': 'rgba(232, 220, 181, 0.3)'})
+                    ], 
+                    id={'type': 'search-result', 'index': result['file']},
+                    style={'marginBottom': '15px'},
+                    n_clicks=0
+                    )
+                )
+        else:
+            formatted_results = [html.P("No matches found", style={'color': '#e8dcb5'})]
+        
+        return formatted_results
+        
+    except Exception as e:
+        print(f"Error in search function: {str(e)}")
+        return [html.P(f"Error: {str(e)}", style={'color': '#e8dcb5'})]
+
+@app.callback(
+    Output('section-selector', 'value', allow_duplicate=True),
+    [Input({'type': 'search-result', 'index': ALL}, 'n_clicks'),
+     Input({'type': 'match-context', 'index': ALL}, 'n_clicks_timestamp')],
+    prevent_initial_call=True
+)
+def open_search_result(result_clicks, context_clicks):
+    ctx = dash.callback_context
+    
+    if not ctx.triggered:
+        raise PreventUpdate
+    
+    # Get the triggered component's ID
+    triggered_id = ctx.triggered[0]['prop_id'].split('.')[0]
+    
+    try:
+        # Parse the ID to get the file path
+        id_dict = json.loads(triggered_id)
+        if 'index' in id_dict:
+            file_path = id_dict['index']
+            print(f"Opening file: {file_path}")
+            return file_path
+    except:
+        # If there's an error parsing the ID, try using regex
+        match = re.search(r'"index":"([^"]+)"', triggered_id)
+        if match:
+            file_path = match.group(1)
+            print(f"Opening file using regex: {file_path}")
+            return file_path
+    
+    # If we couldn't determine which file to open
+    raise PreventUpdate
 # Run the app
 if __name__ == '__main__':
     print("Starting Dash app...")
     app.run(debug=True)
 
-# This text shows that the code easn't modifed
+# This text shows that the code hasn't been modifed (18:56)
+#This text shows that the code hasn't been modifed (21:54)
