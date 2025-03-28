@@ -429,43 +429,17 @@ app.layout = html.Div([
     html.Div([
         # Section selection area - Rock style (Left panel)
         html.Div([
-            html.H3("Select a Risala:", 
-                    className='sidebar-header',
-                    style={
-                        'marginBottom': '20px',
-                        'color': '#f5f5f5',
-                        'textAlign': 'left',
-                        'fontFamily': 'Open Sans, sans-serif'
-                    }),
-            
-            # Modified radio items for section selection with headings
-            dcc.RadioItems(
-                id='section-selector',
-                options=[{'label': display_name, 'value': file} 
-                         for file, display_name in section_files_with_headings],
-                value=section_files_with_headings[0][0] if section_files_with_headings else None,
-                labelStyle={
-                    'display': 'block', 
-                    'margin': '10px 0', 
-                    'cursor': 'pointer',
-                    'padding': '10px',
-                    'borderRadius': '5px',
-                    'transition': 'background-color 0.3s'
-                },
-                className='custom-radio'
-            ),
-            
-            # Add a simple search panel
+            # Add search functionality at the top
             html.Div([
-                html.H3("Search Texts:", 
+                html.H3("Search within the epistles:", 
                         className='sidebar-header',
-                        style={'marginTop': '30px', 'color': '#f5f5f5'}),
+                        style={'marginBottom': '20px', 'color': '#f5f5f5'}),
                 
                 # Search input
                 dcc.Input(
                     id='search-input',
                     type='text',
-                    placeholder='Enter search term...',
+                    placeholder='...Enter search term',
                     style={
                         'width': '100%',
                         'padding': '10px',
@@ -491,16 +465,43 @@ app.layout = html.Div([
                                 'cursor': 'pointer',
                                 'marginBottom': '20px'
                             }),
-                
-                # Search results container
+                            
+                # Search results container moved here - directly under the search button
                 html.Div(id='search-results', 
                          style={
                              'marginTop': '10px',
-                             'maxHeight': '400px',
+                             'maxHeight': '300px',
                              'overflowY': 'auto',
-                             'color': '#e8dcb5'
+                             'color': '#3e2723'
                          })
-            ], style={'marginTop': '30px'})
+            ], style={'marginBottom': '30px'}),
+            
+            # Then the section selector
+            html.H3("Select a Risala:", 
+                    className='sidebar-header',
+                    style={
+                        'marginBottom': '20px',
+                        'color': '#f5f5f5',
+                        'textAlign': 'left',
+                        'fontFamily': 'Open Sans, sans-serif'
+                    }),
+            
+            # Modified radio items for section selection with headings
+            dcc.RadioItems(
+                id='section-selector',
+                options=[{'label': display_name, 'value': file} 
+                         for file, display_name in section_files_with_headings],
+                value=section_files_with_headings[0][0] if section_files_with_headings else None,
+                labelStyle={
+                    'display': 'block', 
+                    'margin': '10px 0', 
+                    'cursor': 'pointer',
+                    'padding': '10px',
+                    'borderRadius': '5px',
+                    'transition': 'background-color 0.3s'
+                },
+                className='custom-radio'
+            )
         ], className='sidebar rock-bg rock-scroll', style={
             'borderRight': '1px solid #3a3529',
             'overflowY': 'auto'
@@ -532,9 +533,9 @@ app.layout = html.Div([
     # Footer
     html.Footer([
         html.Div([
-            html.P("    © Aslisho Qurboniev 2025", 
+            html.P(" By Aslisho Qurboniev (2025), CC-BY-SA 4.0", 
                   style={
-                      'margin': '0',
+                      'margin': '0.5',
                       'textAlign': 'left'
                   })
         ], className='footer-content')
@@ -565,7 +566,7 @@ def update_text_content(selected_file):
         # Convert OpenITI markdown to HTML components
         components = openiti_to_html_components(content)
         
-        return f"Summary of {section_name}", components
+        return f"{section_name}", components #the header above the text that could be modified to add more text
     except Exception as e:
         print(f"Error reading file {file_path}: {str(e)}")
         return f"Error: {section_name}", f"Could not read the file: {str(e)}"    
@@ -672,7 +673,7 @@ def simple_search(n_clicks, search_term):
             # Add a summary header showing total results
             formatted_results.append(
                 html.H3(
-                    f"Found {total_matches} matches in {len(results)} files",
+                    f"Found {total_matches} matches in {len(results)} risalas",
                     style={
                         'color': '#e8dcb5',
                         'marginBottom': '15px',
@@ -685,16 +686,38 @@ def simple_search(n_clicks, search_term):
             # Sort results by match count (most matches first)
             results.sort(key=lambda x: x['match_count'], reverse=True)
             
-            for result in results:
+
+            for i, result in enumerate(results):
                 # Create clickable result
                 formatted_results.append(
                     html.Div([
-                        html.H4(
-                            f"{result['display_name']} ({result['match_count']} matches)", 
+
+
+
+
+                        html.Button(  # Use a button instead of a div for better click handling
+                            f"{result['display_name']} ({result['match_count']} matches)",
+                            id={
+                                'type': 'search-result-button',
+                                'index': i,  # Use a simple numeric index
+                                'file': result['file']  # Store the file path as a separate property
+                            },
                             style={
-                                'color': '#e8dcb5', 
-                                'cursor': 'pointer', 
-                                'textDecoration': 'underline'
+                                'color': '#3e2723',
+
+                                'cursor': 'pointer',
+                                'textAlign': 'left',
+                                'backgroundColor': 'transparent',
+                                'border': 'none',
+                                'textDecoration': 'underline',
+
+
+
+                                'fontWeight': 'bold',
+                                'fontSize': '16px',
+                                'width': '100%',
+                                'padding': '8px',
+                                'marginBottom': '5px'
                             }
                         ),
                         html.Div([
@@ -706,17 +729,27 @@ def simple_search(n_clicks, search_term):
                                     'backgroundColor': 'rgba(232, 220, 181, 0.2)',
                                     'padding': '8px',
                                     'borderRadius': '5px',
-                                    'margin': '5px 0',
-                                    'cursor': 'pointer'  # Make the text appear clickable
+
+
+                                    'margin': '5px 0'
                                 }
                             ) for match in result['matches']
-                        ], id={'type': 'match-context', 'index': result['file']}),
-                        html.Hr(style={'borderColor': 'rgba(232, 220, 181, 0.3)'})
-                    ], 
-                    id={'type': 'search-result', 'index': result['file']},
-                    style={'marginBottom': '15px'},
-                    n_clicks=0
-                    )
+
+
+
+
+
+
+
+                        ]),
+                        html.Hr(style={'borderColor': 'rgba(62, 39, 35, 0.3)'})
+                    ],
+                    style={
+                        'marginBottom': '15px',
+                        'padding': '10px',
+                        'borderRadius': '5px',
+                        'backgroundColor': 'rgba(232, 220, 181, 0.1)'
+                    })
                 )
         else:
             formatted_results = [html.P("No matches found", style={'color': '#e8dcb5'})]
@@ -729,36 +762,46 @@ def simple_search(n_clicks, search_term):
 
 @app.callback(
     Output('section-selector', 'value', allow_duplicate=True),
-    [Input({'type': 'search-result', 'index': ALL}, 'n_clicks'),
-     Input({'type': 'match-context', 'index': ALL}, 'n_clicks_timestamp')],
+
+
+    [Input({'type': 'search-result-button', 'index': ALL, 'file': ALL}, 'n_clicks')],
     prevent_initial_call=True
 )
-def open_search_result(result_clicks, context_clicks):
+
+def open_search_result(n_clicks_list):
     ctx = dash.callback_context
     
     if not ctx.triggered:
         raise PreventUpdate
     
-    # Get the triggered component's ID
-    triggered_id = ctx.triggered[0]['prop_id'].split('.')[0]
+
+
+    # Get the triggered component's ID directly from callback_context
+    triggered_id = ctx.triggered_id
     
-    try:
-        # Parse the ID to get the file path
-        id_dict = json.loads(triggered_id)
-        if 'index' in id_dict:
-            file_path = id_dict['index']
-            print(f"Opening file: {file_path}")
-            return file_path
-    except:
-        # If there's an error parsing the ID, try using regex
-        match = re.search(r'"index":"([^"]+)"', triggered_id)
-        if match:
-            file_path = match.group(1)
-            print(f"Opening file using regex: {file_path}")
-            return file_path
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    if triggered_id and isinstance(triggered_id, dict) and 'file' in triggered_id:
+        file_path = triggered_id['file']
+        print(f"Opening file: {file_path}")
+        return file_path
     
-    # If we couldn't determine which file to open
+
+    print("Could not determine which file to show")
     raise PreventUpdate
+
 # Run the app
 if __name__ == '__main__':
     print("Starting Dash app...")
