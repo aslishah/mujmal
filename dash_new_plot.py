@@ -54,7 +54,7 @@ def get_section_files(sections_dir="sections"):
     def sort_key(filename):
         if filename == "Preface.txt":
             return 0  # Place Preface first
-        elif "Risala_" in filename:
+        elif "Risala" in filename:
             # Extract the number after "Risala_"
             try:
                 return int(filename.split('_')[1].split('.')[0])
@@ -381,12 +381,13 @@ app.index_string = '''
             .text-header {
                 font-family: 'Open Sans', sans-serif;
                 color: #5d4037;
-                border-bottom: 2px solid #8d6e63;
-                padding-bottom: 15px;
+                border-bottom: 1px solid #8d6e63; /* Thinner border */
+                padding-bottom: 10px; /* Reduced padding */
                 text-align: right;
-                background-image: url('/assets/mujmal.png')
-                font-size: 36px;
+                font-size: 24px; /* Smaller font size (was 36px) */
                 font-weight: regular;
+                margin-bottom: 10px; /* Reduced margin */
+                min-height: auto; /* Allow it to shrink to content */
             }
             /* Arabic text in header */
             .main-header h1 span {
@@ -509,17 +510,20 @@ app.layout = html.Div([
         
         # Text display area - Papyrus style (Right panel)
         html.Div([
-            html.H2(id='text-header', 
+            html.H3(id='text-header', 
                     className='text-header',
                     style={
-                        'marginBottom': '20px',
-                        'fontFamily': 'Open Sans, sans-serif'
+                        'marginBottom': '10px',
+                        'fontFamily': 'Open Sans, sans-serif',
+                        'fontSize': '18px',
+                        'padding': '5px 0',
+                        'lineHeight': '1.2'
                     }),
             # Container for OpenITI content
             html.Div(id='text-content', 
                     className='papyrus-bg papyrus-scroll openiti-content',
                     style={
-                        'padding': '20px',
+                        'padding': '10px',
                         'borderRadius': '5px',
                         'flex': '1',
                         'overflowY': 'auto',
@@ -535,7 +539,7 @@ app.layout = html.Div([
         html.Div([
             html.P(" By Aslisho Qurboniev (2025), CC-BY-SA 4.0", 
                   style={
-                      'margin': '0.5',
+                      'margin': '0',
                       'textAlign': 'left'
                   })
         ], className='footer-content')
