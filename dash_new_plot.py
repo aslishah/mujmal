@@ -246,9 +246,9 @@ app.index_string = '''
             /* Custom radio button styling */
             .custom-radio {
                 cursor: pointer;
-                padding: 10px;
-                margin: 5px 0;
-                border-radius: 10px;
+                padding: 5px;
+                margin: 2px 0;
+                border-radius: 5px;
                 transition: background-color 0.3s;
                 font-family: 'Open Sans', sans-serif;
             }
@@ -495,10 +495,10 @@ app.layout = html.Div([
                 value=section_files_with_headings[0][0] if section_files_with_headings else None,
                 labelStyle={
                     'display': 'block', 
-                    'margin': '10px 0', 
+                    'margin': '2px 0', 
                     'cursor': 'pointer',
-                    'padding': '10px',
-                    'borderRadius': '5px',
+                    'padding': '2px',
+                    'borderRadius': '2px',
                     'transition': 'background-color 0.3s'
                 },
                 className='custom-radio'
@@ -652,10 +652,11 @@ def simple_search(n_clicks, search_term):
                         end = min(len(content), match.end() + 50)
                         context = content[start:end]
                         
-                        # Highlight the match
+                        # Highlight the match by adding HTML tags
+                        match_text = content[match.start():match.end()]
                         highlighted = context.replace(
-                            search_term, 
-                            f'<span style="background-color: yellow; color: black">{search_term}</span>'
+                            match_text, 
+                            f'<span style="background-color: yellow; color: black">{match_text}</span>'
                         )
                         matches.append(highlighted)
                     
@@ -695,10 +696,6 @@ def simple_search(n_clicks, search_term):
                 # Create clickable result
                 formatted_results.append(
                     html.Div([
-
-
-
-
                         html.Button(  # Use a button instead of a div for better click handling
                             f"{result['display_name']} ({result['match_count']} matches)",
                             id={
@@ -708,15 +705,11 @@ def simple_search(n_clicks, search_term):
                             },
                             style={
                                 'color': '#3e2723',
-
                                 'cursor': 'pointer',
                                 'textAlign': 'left',
                                 'backgroundColor': 'transparent',
                                 'border': 'none',
                                 'textDecoration': 'underline',
-
-
-
                                 'fontWeight': 'bold',
                                 'fontSize': '16px',
                                 'width': '100%',
@@ -733,18 +726,9 @@ def simple_search(n_clicks, search_term):
                                     'backgroundColor': 'rgba(232, 220, 181, 0.2)',
                                     'padding': '8px',
                                     'borderRadius': '5px',
-
-
                                     'margin': '5px 0'
                                 }
                             ) for match in result['matches']
-
-
-
-
-
-
-
                         ]),
                         html.Hr(style={'borderColor': 'rgba(62, 39, 35, 0.3)'})
                     ],
@@ -763,7 +747,6 @@ def simple_search(n_clicks, search_term):
     except Exception as e:
         print(f"Error in search function: {str(e)}")
         return [html.P(f"Error: {str(e)}", style={'color': '#e8dcb5'})]
-
 @app.callback(
     Output('section-selector', 'value', allow_duplicate=True),
 
@@ -778,31 +761,13 @@ def open_search_result(n_clicks_list):
     if not ctx.triggered:
         raise PreventUpdate
     
-
-
     # Get the triggered component's ID directly from callback_context
     triggered_id = ctx.triggered_id
     
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     if triggered_id and isinstance(triggered_id, dict) and 'file' in triggered_id:
         file_path = triggered_id['file']
         print(f"Opening file: {file_path}")
         return file_path
-    
-
     print("Could not determine which file to show")
     raise PreventUpdate
 
@@ -812,4 +777,5 @@ if __name__ == '__main__':
     app.run(debug=True)
 
 # This text shows that the code hasn't been modifed (18:56)
-#This text shows that the code hasn't been modifed (21:54)
+#This text shows that the code hasn't been modifed (21:54) search terms implemented
+# trying to improve highlighting funtion and clickability of search results 29 march 11:56
