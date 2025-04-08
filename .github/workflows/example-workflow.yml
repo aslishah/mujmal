@@ -30,7 +30,6 @@ jobs:
 
       - name: Run Makefile files
         run: |
-          make clean_dirs
           make run_app
 
       - name: Upload Artifact
