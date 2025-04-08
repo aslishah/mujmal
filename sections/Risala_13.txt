@@ -12,3 +12,67 @@
 -145-
 
 -146-
+
+--- ENGLISH TRANSLATION ---
+
+Here is an English translation of the selected passage from the *Epistles of the Brethren of Purity* (Ikhwan al-Safa), maintaining the scholarly tone and philosophical nuances of the original Arabic text:
+
+---
+
+### Summary of the Thirteenth Epistle on Analytics [i.e., the Second Book of Logic, Which Concludes the Mathematical Sciences]  
+**In the Name of God, the Most Gracious, the Most Merciful**  
+
+Know that "demonstration" (*burhān*) is a type of "syllogism" (*qiyās*), and syllogism is the genus to which demonstration belongs. Demonstration cannot be properly understood except through division (*qismah*), analysis (*taḥlīl*), and definition (*ḥadd*).  
+
+As for "syllogism," it is when a generic term is mentioned, and you divide that genus into its species, and the species into their individual instances, examining the state of each species and instance separately until you discern whether any of these species or instances contain the fallacy that the opponent seeks to exploit.  
+
+"Analysis," on the other hand, is the reverse of what we have described. It resembles what physicians do when they say, "This thing is of two kinds: either it is an animal or an inanimate object." If it is inanimate, they analyze its composition—just as, for example, a goldsmith might say, "This substance consists of so much gold, so much silver, and so much copper."  
+
+The gold is a substance whose moisture, earthy parts, and ductile components are unified, and the heat of the mine has tempered it such that its aqueous and ductile parts have firmly bonded with its earthy parts, so that fire cannot separate them. Thus, it does not burn.  
+
+-141-  
+
+As for silver, it has been tempered, but its earthy parts are not as firmly bound with its moisture. Therefore, fire separates them, and it burns. Copper, being impure, has been tempered beyond moderation, so that most of its moisture has burned away and blackened due to the heat of the mine. Thus, fire disperses its parts, and it burns away entirely, leaving no residue. The moisture, liquidity, ductility, and earthy nature of gold, being firmly bound, do not burn—and this is analysis.  
+
+Similarly, one may analyze a syllogism. First, take the initial premise and say, "Every body is formed, and every formed thing is originated." This is a syllogism of two premises. Then, if one wishes to analyze it, they take the first premise and say, "Every body is formed, and a body is composed of substance." Primarily, a body possesses length, width, and depth, and it is matter (*hayūlā*), which is a simple substance (*jawhar basīṭ*).  
+
+When one says "every body," the celestial spheres and their contents fall under this term. The celestial spheres consist of form (*ṣūrah*) and matter (*māddah*). Their form is corporeal but lacks a natural disposition (*ṭabīʿah*), for if it had one, it would be subject to change, diminution, or cooling. And although the apprehension of intelligibles is a power of the celestial spheres, the discussion concerns celestial matter and form, which are not visible to the naked eye—for what we see is not the celestial sphere itself but the atmosphere. Our senses cannot perceive beyond five to ten *farsakhs* (a unit of distance). If the proof lies in discerning the configuration (*hayʾah*), then the configuration is intelligible, not perceptible—for the perceptible is that which the senses can fully grasp and the imagination can conceive. Thus, if it is apprehended through intellectual reflection, it is intelligible, not perceptible, and the intelligible is distinct from the perceptible.  
+
+If the argument rests on the stars, which are visible to us, what we see of the stars is not due to the power of our vision. Rather, the light of the stars, due to their immense size, falls upon the vitreous humor of our eyes. Likewise, the simple substance (*jawhar basīṭ*) pertaining to the celestial spheres and stars will never be separated—and we accept all this as established.  
+
+-142-  
+
+For there is proof that everything formed is originated (*muḥdath*), since the intelligible forms are conceptualized by the intellect, and no two originated things exist simultaneously. Thus, when one examines the statement we have made, the method of analysis and division becomes clear.  
+
+As for the method of "definitions" (*ḥudūd*), its purpose is to know the true nature of species in relation to their genera and their differentiating characteristics (*fuṣūl*). For example, one might ask, "What is the definition of a human?" The answer would be, "A mortal, rational animal." Here, "animal" is the genus, "rational" the differential, and "mortal" the corporeal aspect.  
+
+Then one might say, "An animal is a sentient, mobile body." And "body" is a composite substance possessing length, width, and depth, while "substance" is an uncomposed instrument that constitutes all bodies—whether animal or otherwise. (We shall elaborate on this in the Epistle on Definitions.)  
+
+The purpose of demonstration (*burhān*) is to know the intelligible form by which the universe and all within it subsist, and this is ascertained through a "valid syllogism" (*qiyās ṣaḥīḥ*). A valid syllogism, as we have said, consists of three terms and two premises. The premises employed in demonstration and valid syllogism are of four kinds:  
+
+1. **Primary intelligibles** (*awwaliyyāt al-ʿaql*)—such as "five times five is twenty-five," or "four times twenty-five is one hundred," or "the sun is luminous," or "every triangle has three angles—whether acute, obtuse, or right."  
+2. **Empirical observations** (*mujarrabāt*)—verified by both intellect and sense, such as "scammony purges yellow bile," or "hellebor purges black bile." The intellect knows this is not mere coincidence, for if it were, it would sometimes occur and sometimes not. Thus, this and similar cases fall under empirical premises.  
+3. **Perceptibles** (*maḥsūsāt*)—such as the burning of fire, the cutting of a blade, the length and width of a body, the straightness or curvature of a line, or the shortening and lengthening of day and night.  
+4. **Widely transmitted reports** (*mutawātirāt*)—such as the construction of the Kaaba, the existence of the Prophet, the chronicles of kings, and the like. The condition for such reports is that they must be beyond doubt.  
+
+-143-  
+
+Anything outside these four types of premises has no place in demonstrative syllogism. This serves as an introduction to the science of demonstration.  
+
+However, when a syllogism is presented, if there is any doubt about it, one must examine all three terms and both premises to determine which form it follows. One must also scrutinize the conditions of each form separately and assess whether the definition of the problem at hand is correct or not. Is the genus proximate or remote? Is the differential essential, specific, or accidental? Is the predicate of the problem inherent to the subject or not? For if the predicate is not inherent to the subject, the problem is invalid.  
+
+This much suffices as an introduction to logic.  
+
+**And God is the Guardian of Innocence and the Bestower of Success.**  
+
+-144-  
+
+### The Natural Sciences  
+
+-145-  
+
+-146-  
+
+---
+
+This translation preserves the intricate philosophical reasoning, technical terminology, and structured argumentation characteristic of the *Epistles of the Brethren of Purity*. Let me know if you'd like any refinements or further contextualization.

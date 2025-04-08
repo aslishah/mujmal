@@ -1,4 +1,6 @@
 # Mujmal al-hikma App - published version
+# English text is converted from Markdown to html
+# Persian's OpenITI mArkdown is also converted to html
 
 import os
 import dash
@@ -8,6 +10,14 @@ import re
 import json
 from dash.exceptions import PreventUpdate
 
+# Get the directory and make sure it is absolute
+script_dir = os.path.dirname(os.path.abspath(__file__))
+print(f"Script directory: {script_dir}")
+
+# Define sections directory relative to the script location
+sections_dir = os.path.join(script_dir, "sections")
+print(f"Sections directory: {sections_dir}")
+
 # Initialize the Dash app
 app = dash.Dash(__name__,
                 # requests_pathname_prefix='/<mujmal>/', #these were used for github action
@@ -16,8 +26,6 @@ app = dash.Dash(__name__,
                     # Google Fonts for Sans Serif
                     "https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
                 ])
-
-
 # Add this function to extract the first line (heading) from a file
 def get_first_line_after_header(file_path):
     """
@@ -37,7 +45,7 @@ def get_first_line_after_header(file_path):
         return ""
 server = app.server
 # Modify the get_section_files function to also return headings
-def get_section_files(sections_dir="sections"):
+def get_section_files(sections_dir=sections_dir): #use the absolute path by default
     """
     Get all text files from the sections directory and sort them properly.
     Returns a list of tuples (filename, display_name) where display_name includes the heading.
@@ -90,49 +98,77 @@ section_files_with_headings = get_section_files()
 
 def openiti_to_html_components(text):
     """
-    Convert OpenITI markdown to Dash HTML components.
+    Convert OpenITI markdown to Dash HTML components, handling both Arabic/Persian and English text.
     """
     # Create a list to store HTML components
     components = []
 
-    # Common style with Neirizi font
-    #neirizi_style = {'fontFamily': 'Neirizi, serif'}
-    terafik_style = {'fontFamily': 'Terafik, sans-serif'}
-
-    # Process the text line by line
-    lines = text.split('\n')
-    for line in lines:
-        # Skip empty lines
-        if not line.strip():
-            components.append(html.Br())
-            continue
+    # Common style with Terafik font for Arabic/Persian
+    terafik_style = {'fontFamily': 'Terafik, sans-serif', 'direction': 'rtl', 'textAlign': 'right'}
+    
+    # Style for English text
+    english_style = {'fontFamily': 'Open Sans, sans-serif', 'direction': 'ltr', 'textAlign': 'left'}
+    
+    # Flag to track if we're in the English translation section
+    in_english_section = False
+    
+    # Split the text into sections
+    sections = text.split("--- ENGLISH TRANSLATION ---")
+    
+    # Process Arabic section (OpenITI Markdown)
+    if len(sections) > 0:
+        arabic_text = sections[0]
+        arabic_lines = arabic_text.split('\n')
         
-        # Process headers (### | syntax)
-        if line.startswith('### | '):
-            content = line.replace('### | ', '')
-            components.append(html.H1(content, className='openiti-h1', style = terafik_style))
-            continue
-        
-        if line.startswith('### || '):
-            content = line.replace('### || ', '')
-            components.append(html.H2(content, className='openiti-h2'))
-            continue
+        for line in arabic_lines:
+            # Skip empty lines
+            if not line.strip():
+                components.append(html.Br())
+                continue
             
-        if line.startswith('### ||| '):
-            content = line.replace('### ||| ', '')
-            components.append(html.H3(content, className='openiti-h3'))
-            continue
+            # Process headers (### | syntax)
+            if line.startswith('### | '):
+                content = line.replace('### | ', '')
+                components.append(html.H1(content, className='openiti-h1', style=terafik_style))
+                continue
+            
+            if line.startswith('### || '):
+                content = line.replace('### || ', '')
+                components.append(html.H2(content, className='openiti-h2', style=terafik_style))
+                continue
+                
+            if line.startswith('### ||| '):
+                content = line.replace('### ||| ', '')
+                components.append(html.H3(content, className='openiti-h3', style=terafik_style))
+                continue
+            
+            # Process comments (% syntax)
+            if line.startswith('%'):
+                content = line[1:].strip()
+                components.append(html.Div(content, className='openiti-comment', style=terafik_style))
+                continue
+
+            # Process regular paragraphs
+            components.append(html.P(line, style=terafik_style))
+    
+    # Add separator if English section exists
+    if len(sections) > 1:
+        components.append(html.Hr(style={'margin': '30px 0'}))
+        components.append(html.H2("English Translation", style={'textAlign': 'center', 'margin': '20px 0'}))
+        components.append(html.Hr(style={'margin': '30px 0'}))
         
-        # Process comments (% syntax)
-        if line.startswith('%'):
-            content = line[1:].strip()
-            components.append(html.Div(content, className='openiti-comment'))
-            continue
+        # Process English section (Standard Markdown)
+        english_text = sections[1]
         
-        # Process regular paragraphs
-        # For page numbers, uncertain readings, and editorial notes, we'll use simple text
-        # as these would require more complex HTML manipulation
-        components.append(html.P(line, style=terafik_style))
+        # Create a div with the English style that contains the Markdown content
+        components.append(
+            html.Div([
+                dcc.Markdown(
+                    english_text,
+                    dangerously_allow_html=True,
+                )
+            ], style=english_style)
+        )
     
     return components
 
@@ -557,7 +593,7 @@ def update_text_content(selected_file):
         return "Welcome to the Text Viewer", "Please select a section to view its content."
     
     section_name = selected_file.replace('.txt', '')
-    file_path = os.path.join("sections", selected_file)
+    file_path = os.path.join(sections_dir, selected_file) #again using absolute path
     
     print(f"Attempting to read file: {file_path}")
     print(f"File exists: {os.path.exists(file_path)}")
@@ -770,11 +806,12 @@ def open_search_result(n_clicks_list):
         return file_path
     print("Could not determine which file to show")
     raise PreventUpdate
-
+current_dir =os.getcwd()
+print(current_dir)
 # Run the app
 if __name__ == '__main__':
     print("Starting Dash app...")
-    app.run(debug=True)
+    app.run(debug=True, host='127.0.0.1', port=8080)
 
 # This text shows that the code hasn't been modifed (18:56)
 #This text shows that the code hasn't been modifed (21:54) search terms implemented

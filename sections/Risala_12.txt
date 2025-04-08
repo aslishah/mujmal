@@ -29,3 +29,85 @@
 -139-
  و در هر سه شكل شرط‍‌ است كه - حدّ اوسط‍‌ در شكل اول در صغرى محمول بود و در كبرى موضوع،- و در شكل دؤم در هر دو مقدمه محمول بود،- و در شكل سوم در هردو مقدمه موضوع. و از دو سالب قياس نيايد و از دو جزوى قياس نيايد، و چون مقدمۀ صغرى سالب بود و مقدمۀ كبرى جزوى بود قياس نيايد. و چون اين شرطها را نگاه دارد اگر مقدمه راست بود نتيجه دروغ بود، و اگر نتيجه راست بود مقدمه دروغ بود يا هردو دروغ. و بداند كه اينچه ياد كرديم همچون مدخلى باشد در علم منطق، و همچنين هر سه رساله كه ياد كرديم چون حساب و هندسه و نجوم. چه اگر مشروح گوئيم كتاب مطول شود.و باللّه العصمة و التوفيق.
 -140-
+
+--- ENGLISH TRANSLATION ---
+
+Here is the English translation of the selected passage from the *Epistles of the Brethren of Purity (Ikhwān al-Ṣafā)*, maintaining the scholarly tone and philosophical nuances of the original Arabic text:
+
+---
+
+### **Summary of the Twelfth Epistle on Porphyry’s Isagoge in Logic**  
+*In the Name of God, the Most Gracious, the Most Merciful*  
+
+We stated in the previous epistle that speech consists of nouns, verbs, and particles. The **noun** denotes a thing without reference to time—indeed, the essence of the thing is known through the noun. The **verb**, which logicians call *kalima* (word), denotes both a thing and the time of that thing. The **particle** is referred to as a *relation* or a *connector*. Some logicians hold that nouns and verbs are complete in themselves, whereas the meaning of a particle cannot be understood without them. In any case, since no harm or fallacy arises from particles, it is better that they exist.  
+
+Examples of nouns include *Zayd*, *ʿAmr*, *tree*, and *stone*. Examples of verbs include *did*, *struck*, and *went*, and the like. Examples of particles include *in*, *on*, and *to*—as when one says, *Zayd went on*. If one says, *Zayd went*, it conveys meaning, but incompletely. Often, without particles, no meaning is conveyed at all—as when one says, *Zayd is a house*, from which it is unclear whether Zayd is *in* the house or *built* the house, and many such examples exist.  
+
+Thus, nouns, verbs, and particles must be used together, and the composition of speech should follow this structure. When speech is combined, it is called a *statement* (*qawl*), a *proposition* (*qaḍiyya*), or a *definitive utterance* (*sukkun jazm*). When it involves affirmation or negation, it is called a *report* (*khabar*), which may be either true or false. Among these terms, the most well-known among logicians is *proposition* (*qaḍiyya*). A proposition is a statement upon which a judgment is made, such as saying, *Such-and-such is so*, or *Such-and-such is not so*. The *is* and *is not* are called the *judgment* (*ḥukm*), as when we say, *Fire is hot*, or *It is not hot*.  
+
+A judgment expressed in the affirmative is called *affirmative* (*mūjib*), while one expressed in the negative is called *negative* (*sālib*). These judgments may sometimes be true and sometimes false—as when we say, *Fire is not hot*, which is false.  
+
+Propositions are of two types:  
+1. **Absolute judgment** (*ḥukm muṭlaq*), such as *Fire is burning*.  
+2. **Conditional judgment** (*ḥukm shartī*), such as *If fire is hot, it burns*.  
+
+The conditional is further divided into two categories:  
+1. **Connected conditional** (*muttasil*), such as *If the sun rises, it is day*.  
+2. **Disjunctive conditional** (*munfaṣil*), such as *A number is either even or odd*.  
+
+Propositions may also be quantified in terms of their existential scope—either universal or particular. A universal proposition is one like *All humans are rational*, while a particular proposition is like *Some humans are scribes*.  
+
+A universal affirmative judgment is called *universal affirmative* (*kullī mūjib*), a universal negative is *universal negative* (*kullī sālib*), a particular affirmative is *particular affirmative* (*juzʾī mūjib*), and a particular negative is *particular negative* (*juzʾī sālib*). These four types constitute the categorical propositions (*ḥamlī*), so called because they consist of two parts: the **subject** (*mawḍūʿ*) and the **predicate** (*maḥmūl*). For example, in *Fire is burning*, *fire* is the subject, *burning* is the predicate, and *is* is the judgment.  
+
+However, the proposition we just gave is called *indefinite* (*muhmal*), because we did not quantify it universally (e.g., *All fire is burning*). In dialectic and demonstration, indefinite propositions are treated as particular judgments, not universal ones.  
+
+The terms *all*, *every*, and *none* are called **quantifiers** (*sūr*). Quantifiers are either universal or particular. Universal quantifiers may be affirmative (*all*) or negative (*none*). For example:  
+- *All humans are animals* (universal affirmative).  
+- *No humans are animals* (universal negative).  
+
+The words *some* and *not all* are particular quantifiers. One must not infer a universal judgment from a singular case—e.g., *Zayd is just, therefore all humans are just*—since Zayd’s justice does not necessitate universal justice. Such propositions are called *singular* (*shakhṣiyya*) or *specific* (*makhṣūṣa*).  
+
+In syllogisms, propositions are used as **premises** (*muqaddimāt*). When two premises are combined, they yield a **conclusion** (*natīja*). For example:  
+1. *Every human is an animal.*  
+2. *Every animal is corporeal.*  
+∴ *Every human is corporeal.*  
+
+Here, the terms are *human*, *animal*, and *corporeal*—each called a **term** (*ḥadd*). *Human* is the **minor term**, *animal* the **middle term**, and *corporeal* the **major term**. The middle term must be distributed in at least one premise for the syllogism to be valid.  
+
+Syllogisms are classified into three figures based on the position of the middle term:  
+1. **First figure**: Middle term is predicate in the minor premise and subject in the major premise.  
+2. **Second figure**: Middle term is predicate in both premises.  
+3. **Third figure**: Middle term is subject in both premises.  
+
+Errors arise when:  
+- Both premises are negative.  
+- Both premises are particular.  
+- The minor premise is negative and the major is particular.  
+
+**Conversion** (*ʿaks*) involves swapping the subject and predicate while preserving meaning—e.g., *All humans are rational* → *Some rational beings are human*. Universal affirmatives convert to particular affirmatives unless the predicate is a *genus* or *property*. Universal negatives convert universally, while particular negatives cannot be converted.  
+
+**Contradiction** (*naqīḍ*) occurs when one proposition negates another—e.g., *All A are B* contradicts *Some A are not B*. For contradiction to hold, the terms, time, and modality must remain identical.  
+
+### **Conditions for Valid Syllogisms**  
+1. **First figure**:  
+   - Middle term is predicate in the minor premise and subject in the major.  
+   - Minor premise must be affirmative.  
+   - Major premise must be universal.  
+
+2. **Second figure**:  
+   - One premise must be affirmative, the other negative.  
+   - Major premise must be universal.  
+   - Conclusion must be negative.  
+
+3. **Third figure**:  
+   - One premise must be universal.  
+   - Minor premise must be affirmative.  
+   - Conclusion must be particular.  
+
+If these conditions are violated, the syllogism is invalid.  
+
+This serves as an introduction to the science of logic, just as the preceding epistles on arithmetic, geometry, and astronomy do. To elaborate further would extend this treatise excessively. *And God is the Grantor of success and protection.*  
+
+---
+
+This translation preserves the original's technical terminology, logical structure, and philosophical depth while rendering it into clear, scholarly English. Let me know if you'd like any refinements or additional contextual notes.

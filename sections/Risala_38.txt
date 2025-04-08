@@ -8,3 +8,35 @@
 -289-
 
 -290-
+
+--- ENGLISH TRANSLATION ---
+
+Here is the scholarly English translation of the selected passage from the *Epistles of the Brethren of Purity* (Ikhwān al-Ṣafā), maintaining its philosophical depth and classical tone:
+
+---
+
+### **Summary of the Eighth Epistle on Psychic Matters Concerning the Quantity and Types of Movements**  
+*In the Name of God, the Most Gracious, the Most Merciful*  
+
+Know that the philosophers unanimously agree that movement belongs to the soul, not the body. If movement appears in the body, it originates from the soul, not the body itself. The movement of the body is borrowed, whereas for the soul, it is essential, not accidental. Whatever is essential to a thing remains with it as long as that thing endures. For example, an animal is defined as "a named, sentient being." Thus, sentience is intrinsic to the animal, and as long as the animal exists, sensation remains with it. Similarly, certain attributes never depart from a thing as long as that thing persists and are never lost—such as the bipedal gait of birds and humans, human laughter and weeping, or the neighing and braying of horses and donkeys. Therefore, movement is intrinsic to the soul but accidental to the body, for upon the soul’s departure, movement ceases, and the body becomes motionless.  
+
+Thus, the movement of the soul is one, though it manifests in different loci. Just as the soul and body of the cosmos constitute a single entity—for the entire universe is one soul and one body—all movements in the higher and lower realms arise from a single life and a single living being. At times, it encompasses the whole, at others, it resides in the celestial spheres, and still other times, it operates within terrestrial bodies. All movements derive from that [primordial] movement, and many analogous examples exist in the perceptible world. For instance, when a person stands on their feet or turns a millstone with their hand, that rotation is a single movement encompassing many subordinate motions: the movement of the millwheel, the movement of the mill’s axle, the movement of the millstone, the movement of the grain—each of which further divides into four types, and each type into further subdivisions—then the movement of the flour, and finally, the movement of the man. All these are accidental, while their root is the vital movement of the man’s soul, which is the cause of all these motions. Thus, the movement of the person’s life is essential, while these others are accidental. Often, the mill is turned by something else, such as wind or water—all of which are accidental, their causes lying in distant factors.  
+
+Such is the nature of all movement in the sublunary world. As for the celestial realm, because its matter is inseparable from its form, its movement is essential. The separation of form from matter occurs only when matter undergoes change, decays, and its nature deteriorates. But in the spheres and stars, there is no alteration of nature, no decay, no change or corruption. Their movement is not the change associated with generation and corruption. Rather, their change consists in revolving around themselves, with the stars sometimes in one constellation and at other times in another. It has been proven by demonstration that this is not true change. To elaborate further here would be excessive.  
+
+Thus, every movement in the sublunary world is accidental, and the cause of these movements is the universal soul of the celestial realm.  
+
+What we intend to discuss in this epistle concerning movement and its primary cause is more appropriately addressed in the context of cause and effect, as we have done in other epistles—such as those on generation and corruption, the heavens and the cosmos, quiddity and nature, the introduction to astronomy, and cycles and epochs. The movement that arises from another movement has the first as its cause, while the second movement is caused by the first. The cause is the "agent," and the effect is the "patient." We shall elaborate on this in another epistle, for much remains to be said.  
+
+*And God knows best.*  
+
+---
+
+### **Notes on Translation Choices:**  
+1. **حكماء (ḥukamā’)** – Rendered as "philosophers" to reflect the classical Islamic philosophical tradition.  
+2. **عرضى (ʿaraḍī) vs. ذاتى (dhātī)** – Translated as "accidental" and "essential," maintaining Aristotelian metaphysical terminology.  
+3. **عالم علوى/سفلى (ʿālam ʿulwī/suflī)** – Preserved as "celestial/sublunary realm," aligning with medieval cosmological distinctions.  
+4. **نفس كل (nafs kull)** – Translated as "universal soul," referencing the Neoplatonic World Soul concept.  
+5. **كون و فساد (kawn wa fasād)** – Rendered as "generation and corruption," the standard translation for Aristotle’s *genesis kai phthora*.  
+
+The translation adheres to the original’s syntactical complexity while ensuring readability for an English academic audience. Let me know if you'd like any refinements or emphasis on specific philosophical terms.
