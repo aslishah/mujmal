@@ -22,6 +22,7 @@ print(f"Sections directory: {sections_dir}")
 app = dash.Dash(__name__,
                 # requests_pathname_prefix='/<mujmal>/', #these were used for github action
                 # routes_pathname_prefix='/<mujmal>/', #this was also for github actions
+                suppress_callback_exceptions=True, 
                 external_stylesheets=[
                     # Google Fonts for Sans Serif
                     "https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
@@ -447,18 +448,82 @@ app.index_string = '''
 
 # Then modify the app layout to use the new section_files_with_headings
 app.layout = html.Div([
-    # Header with Persian manuscript background
+    # Header with Persian manuscript background and tabs
     html.Div([
-        html.H1([
-            "Rasaʾil Ikhwān al-Ṣafāʾ – ",
-            html.Span("مجمل الحكمة", style={'fontFamily': 'Neirizi, serif'})
+        # Flex container for header content
+        html.Div([
+            # Title with original styling
+            html.H1([
+                " ",
+                html.Span("مجمل الحكمة", style={'fontFamily': 'Neirizi, serif'})
+            ], style={
+                'textAlign': 'center',
+                'margin': '10px',
+                'position': 'relative',
+                'zIndex': '1',
+                'fontFamily': 'Open Sans, sans-serif',
+                'fontWeight': '500',
+                'flex': '1',  # Take available space
+                'color': '#FFD700',  # Keep original golden color
+            }),
+            
+            # Tabs to the right of the title
+            html.Div([
+                dcc.Tabs(id='header-tabs', value=None, children=[
+                    dcc.Tab(label='Manuscript', value='tab-manuscript', 
+                           style={
+                               'padding': '0px 0px', 
+                               'fontSize': '20px',
+                               'backgroundColor': '#8d6e63',
+                               'color': '#e8dcb5',
+                               'border': 'none',
+                               'marginRight': '10px',
+                               'boxShadow': '0 2px 4px rgba(0,0,0,0.5)', 
+                           },
+                           selected_style={
+                               'padding': '0px 0px', 
+                               'fontSize': '20px', 
+                               'fontWeight': 'bold',
+                               'backgroundColor': 'transparent',
+                               'color': '#e8dcb5', 
+                               'borderBottom': '2px solid #FFD700',
+                               'boxShadow': '0 1px 2px rgba(0,0,0,0.5)',
+                           }),
+                    dcc.Tab(label='Visualization', value='tab-visualization', 
+                           style={
+                               'padding': '0px', 
+                               'fontSize': '20px',
+                               'backgroundColor': 'red',
+                               'color': '#e8dcb5',
+                               'border': 'none',
+                               'marginRight': '10px',
+                               'boxShadow': '0 2px 4px rgba(0,0,0,0.5)', 
+                           },
+                           selected_style={
+                               'padding': '0px', 
+                               'fontSize': '20px', 
+                               'fontWeight': 'bold',
+                               'backgroundColor': 'red',
+                               'color': '#e8dcb5',  
+                               'borderBottom': '2px solid #FFD700',
+                               'boxShadow': '0 1px 2px rgba(0,0,0,0.5)', 
+                           }),
+                ], style={
+                    'fontFamily': 'Open Sans, sans-serif',
+                    'height': '30px',
+                    'backgroundColor': 'transparent',
+                    'borderBottom': 'none',
+                })
+            ], style={
+                'marginRight': '20px',
+                'alignSelf': 'center',
+            })
         ], style={
-            'textAlign': 'right',
-            'margin': '5px',
-            'position': 'relative',
-            'zIndex': '1',
-            'fontFamily': 'Open Sans, sans-serif',
-            'fontWeight': '700',
+            'display': 'flex',
+            'flexDirection': 'row',  # Keep as row to place tabs to the right
+            'alignItems': 'center',
+            'justifyContent': 'space-between',
+            'width': '100%',
         })
     ], className='main-header'),
     
@@ -568,7 +633,10 @@ app.layout = html.Div([
                         'boxShadow': '0 4px 8px rgba(0,0,0,0.2)'
                     })
         ], className='content')
-    ], className='content-container'),
+    ], className='content-container', id='main-content-container'),
+    
+    # Add a hidden container for the modal content
+    html.Div(id='modal-container', style={'display': 'none'}),
     
     # Footer
     html.Footer([
@@ -581,6 +649,159 @@ app.layout = html.Div([
         ], className='footer-content')
     ], className='main-footer')
 ], className='main-container')
+
+# Add a callback to handle tab clicks and show modal content
+@app.callback(
+    [Output('modal-container', 'children'),
+     Output('modal-container', 'style')],
+    [Input('header-tabs', 'value')]
+)
+def show_modal_content(tab_value):
+    # If no tab is selected, hide the modal
+    if tab_value is None:
+        return None, {'display': 'none'}
+    
+    # If manuscript tab is selected
+    if tab_value == 'tab-manuscript':
+        # IIIF manifest URL
+        manifest_url = "https://content.staatsbibliothek-berlin.de/dc/1690824786/manifest"
+        modal_content = html.Div([
+            # Close button
+            html.Button("×", id='close-modal', style={
+                'position': 'absolute',
+                'top': '10px',
+                'right': '10px',
+                'fontSize': '24px',
+                'fontWeight': 'bold',
+                'border': 'none',
+                'background': 'none',
+                'cursor': 'pointer',
+                'zIndex': '1000',
+                'color': '#5d4037'
+            }),
+            
+            # Modal title
+            html.H2("Mujmal al-Hikma, mss. Berlin Diez A oct. 132 (Public Domain Mark 1.0)", style={
+                'textAlign': 'center',
+                'marginBottom': '20px',
+                'color': '#5d4037'
+            }),
+            
+            # Universal Viewer iframe
+            html.Iframe(
+                src=f"https://universalviewer.io/uv.html?manifest={manifest_url}",
+                style={
+                    'width': '100%',
+                    'height': 'calc(100vh - 150px)',
+                    'border': 'none',
+                    'borderRadius': '5px',
+                    'boxShadow': '0 4px 8px rgba(0,0,0,0.2)'
+                }
+            )
+        ], style={
+            'position': 'relative',
+            'padding': '20px',
+            'backgroundColor': '#f5f5f5',
+            'borderRadius': '5px',
+            'boxShadow': '0 4px 12px rgba(0,0,0,0.5)',
+            'width': '90%',
+            'maxWidth': '1200px',
+            'margin': '0 auto',
+            'height': '90vh',
+            'overflowY': 'auto'
+        })
+        
+        return modal_content, {
+            'display': 'flex',
+            'position': 'fixed',
+            'top': '0',
+            'left': '0',
+            'width': '100%',
+            'height': '100%',
+            'backgroundColor': 'rgba(0,0,0,0.7)',
+            'zIndex': '1000',
+            'justifyContent': 'center',
+            'alignItems': 'center'
+        }
+    
+    # If visualization tab is selected
+    elif tab_value == 'tab-visualization':
+        # Path to the HTML visualization file
+        viz_path = "assets/visualization.html"
+        
+        modal_content = html.Div([
+            # Close button
+            html.Button("×", id='close-modal', style={
+                'position': 'absolute',
+                'top': '10px',
+                'right': '10px',
+                'fontSize': '24px',
+                'fontWeight': 'bold',
+                'border': 'none',
+                'background': 'none',
+                'cursor': 'pointer',
+                'zIndex': '1000',
+                'color': '#5d4037'
+            }),
+            
+            # Modal title
+            html.H2("The Length of the Epistles in Mujmal al-Hikma", style={
+                'textAlign': 'center',
+                'marginBottom': '20px',
+                'color': '#5d4037'
+            }),
+            
+            # HTML visualization iframe
+            html.Iframe(
+                src=viz_path,
+                style={
+                    'width': '100%',
+                    'height': 'calc(100vh - 150px)',
+                    'border': 'none',
+                    'borderRadius': '5px',
+                    'boxShadow': '0 4px 8px rgba(0,0,0,0.2)'
+                }
+            )
+        ], style={
+            'position': 'relative',
+            'padding': '20px',
+            'backgroundColor': '#f5f5f5',
+            'borderRadius': '5px',
+            'boxShadow': '0 4px 12px rgba(0,0,0,0.5)',
+            'width': '90%',
+            'maxWidth': '1200px',
+            'margin': '0 auto',
+            'height': '90vh',
+            'overflowY': 'auto'
+        })
+        
+        return modal_content, {
+            'display': 'flex',
+            'position': 'fixed',
+            'top': '0',
+            'left': '0',
+            'width': '100%',
+            'height': '100%',
+            'backgroundColor': 'rgba(0,0,0,0.7)',
+            'zIndex': '1000',
+            'justifyContent': 'center',
+            'alignItems': 'center'
+        }
+    
+    # Default case
+    return None, {'display': 'none'}
+
+# Add a callback to close the modal when the close button is clicked
+@app.callback(
+    [Output('header-tabs', 'value'),
+     Output('modal-container', 'style', allow_duplicate=True)],
+    [Input('close-modal', 'n_clicks')],
+    prevent_initial_call=True
+)
+def close_modal(n_clicks):
+    if n_clicks:
+        return None, {'display': 'none'}
+    return dash.no_update, dash.no_update
 
 # The callback remains the same
 @app.callback(
@@ -658,7 +879,6 @@ def simple_search(n_clicks, search_term):
     # Initialize results
     results = []
     total_matches = 0
-    sections_dir = "sections"  # Make sure this is the correct directory
     
     # Get all text files
     try:
@@ -816,3 +1036,9 @@ if __name__ == '__main__':
 # This text shows that the code hasn't been modifed (18:56)
 #This text shows that the code hasn't been modifed (21:54) search terms implemented
 # trying to improve highlighting funtion and clickability of search results 29 march 11:56
+
+
+"""
+Next steps: PDF viewer using pdf.js
+Then adding tabls for visualisation 
+"""
