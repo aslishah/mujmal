@@ -17,14 +17,10 @@
 
 --- ENGLISH TRANSLATION ---
 
-Here is the English translation of the selected passage from the *Epistles of the Brethren of Purity (Ikhwān al-Ṣafā)*, maintaining its scholarly tone and philosophical nuances:
-
----
-
 ### **Summary of All Theological Epistles in One Treatise**  
 *In the Name of God, the Most Gracious, the Most Merciful*  
 
-Know that this treatise presents various schools of thought, as well as matters of belief, disposition, and mutual support. In this treatise, there is no bias, partisanship, or discord. Therefore, we deemed it proper to compile one chapter divided into ten sections, each containing what is fitting from the beliefs, dispositions, and methods of the philosophers, as well as what occupies them from the beginning to the end of their lives. What we have presented in this treatise is entirely free of obscurity, and all that is in this book—which conforms to the beliefs of the philosophers—we have included. As for anything inclined toward other perspectives, we have disregarded it and omitted arguments, for tales and fables are abundant. Truth must prevail.  
+Know that this treatise presents various schools of thought, as well as matters of belief, disposition, and mutual support. In this treatise, there is nothing but bias, partisanship, or discord. Therefore, we deemed it proper to compile one chapter divided into ten sections, each containing what is fitting from the beliefs, dispositions, and methods of the philosophers, as well as what occupies them from the beginning to the end of their lives. What we have presented in this treatise is entirely free of obscurity, and all that is in this book—which conforms to the beliefs of the philosophers—we have included. As for anything inclined other directions, we have disregarded it and omitted arguments about it, for tales and fables are abundant. Truth is needed.  
 
 ### **First Section**  
 Know that in these epistles, we have recounted many of the philosophers’ beliefs, though not systematically. Here, we shall summarize them concisely.  
@@ -76,6 +72,4 @@ We shall elaborate on this in the philosophers’ creed.
 - **Technical Terms**: Preserved Arabic philosophical terms (e.g., *wājib al-wujūd*, *maʿād*, *riyāḍah*) with explanatory context.  
 - **Rhetorical Nuances**: Maintained the didactic tone ("Know that...") and logical flow of arguments.  
 - **Cultural References**: Explained humoral theory (*akhlāṭ*) and Greek ascetic practices without over-translation.  
-- **Structure**: Kept the original paragraph numbering for scholarly reference.  
-
-This translation balances fidelity to the original’s depth with clarity for modern readers, adhering to the Ikhwān al-Ṣafā’s synthesis of philosophy, theology, and mysticism.
+ 
