@@ -455,7 +455,7 @@ app.layout = html.Div([
         html.Div([
             # Title with original styling
             html.H1([
-                " ",
+                "Rasāʾil Ikhwān al-Ṣafāʾ - ",
                 html.Span("مجمل الحكمة", style={'fontFamily': 'Neirizi, serif'})
             ], style={
                 'textAlign': 'center',
@@ -463,7 +463,7 @@ app.layout = html.Div([
                 'position': 'relative',
                 'zIndex': '1',
                 'fontFamily': 'Open Sans, sans-serif',
-                'fontWeight': '500',
+                'fontWeight': '600',
                 'flex': '1',  # Take available space
                 'color': '#FFD700',  # Keep original golden color
             }),
@@ -471,49 +471,87 @@ app.layout = html.Div([
             # Tabs to the right of the title
             html.Div([
                 dcc.Tabs(id='header-tabs', value=None, children=[
-                    dcc.Tab(label='Manuscript', value='tab-manuscript', 
+                    dcc.Tab(label='Rasaʾil Ikhwan al-Safaʾ', value='tab-manuscript-1', 
                            style={
-                               'padding': '0px 0px', 
-                               'fontSize': '20px',
-                               'backgroundColor': '#8d6e63',
+                               'padding': '5px', 
+                               'fontSize': '18px',
+                               'backgroundColor': '#739480',
                                'color': '#e8dcb5',
                                'border': 'none',
                                'marginRight': '10px',
-                               'boxShadow': '0 2px 4px rgba(0,0,0,0.5)', 
+                               'boxShadow': '0 2px 4px rgba(0,0,0,0.5)',
+                               'width': 'auto',
+                               'minWidth': 'fit-content',  # Ensure it fits the text
+                               'whiteSpace': 'nowrap', 
                            },
                            selected_style={
-                               'padding': '0px 0px', 
-                               'fontSize': '20px', 
+                               'padding': '5px', 
+                               'fontSize': '18px', 
                                'fontWeight': 'bold',
                                'backgroundColor': 'transparent',
                                'color': '#e8dcb5', 
                                'borderBottom': '2px solid #FFD700',
                                'boxShadow': '0 1px 2px rgba(0,0,0,0.5)',
+                               'width': 'auto',
+                               'minWidth': 'fit-content',
+                               'whiteSpace': 'nowrap',
                            }),
-                    dcc.Tab(label='Visualization', value='tab-visualization', 
+                           dcc.Tab(label='Mujmal al-Hikma', value='tab-manuscript-2', 
                            style={
-                               'padding': '0px', 
-                               'fontSize': '20px',
-                               'backgroundColor': 'red',
+                               'padding': '5px', 
+                               'fontSize': '18px',
+                               'backgroundColor': '#8d6e63',
                                'color': '#e8dcb5',
                                'border': 'none',
                                'marginRight': '10px',
-                               'boxShadow': '0 2px 4px rgba(0,0,0,0.5)', 
+                               'boxShadow': '0 2px 4px rgba(0,0,0,0.5)',
+                               'width': 'auto',
+                               'minWidth': 'fit-content',
+                               'whiteSpace': 'nowrap', 
                            },
                            selected_style={
-                               'padding': '0px', 
-                               'fontSize': '20px', 
+                               'padding': '5px', 
+                               'fontSize': '18px', 
+                               'fontWeight': 'bold',
+                               'backgroundColor': 'transparent',
+                               'color': '#e8dcb5', 
+                               'borderBottom': '2px solid #FFD700',
+                               'boxShadow': '0 1px 2px rgba(0,0,0,0.5)',
+                               'width': 'auto',
+                               'minWidth': 'fit-content',
+                               'whiteSpace': 'nowrap',
+                           }),
+                    dcc.Tab(label='Visualization', value='tab-visualization', 
+                           style={
+                               'padding': '5px', 
+                               'fontSize': '18px',
+                               'backgroundColor': '#7d0005',
+                               'color': '#e8dcb5',
+                               'border': 'none',
+                               'marginRight': '10px',
+                               'boxShadow': '0 2px 4px rgba(0,0,0,0.5)',
+                               'width': 'auto',
+                               'minWidth': 'fit-content',
+                               'whiteSpace': 'nowrap', 
+                           },
+                           selected_style={
+                               'padding': '5px', 
+                               'fontSize': '18px', 
                                'fontWeight': 'bold',
                                'backgroundColor': 'red',
                                'color': '#e8dcb5',  
                                'borderBottom': '2px solid #FFD700',
-                               'boxShadow': '0 1px 2px rgba(0,0,0,0.5)', 
+                               'boxShadow': '0 1px 2px rgba(0,0,0,0.5)',
+                               'width': 'auto',
+                               'minWidth': 'fit-content',
+                               'whiteSpace': 'nowrap', 
                            }),
                 ], style={
                     'fontFamily': 'Open Sans, sans-serif',
                     'height': '30px',
                     'backgroundColor': 'transparent',
                     'borderBottom': 'none',
+                    'display': 'flex',
                 })
             ], style={
                 'marginRight': '20px',
@@ -584,6 +622,7 @@ app.layout = html.Div([
                     className='sidebar-header',
                     style={
                         'marginBottom': '20px',
+                        'marginTop': '0px',
                         'color': '#f5f5f5',
                         'textAlign': 'left',
                         'fontFamily': 'Open Sans, sans-serif'
@@ -616,17 +655,18 @@ app.layout = html.Div([
                     className='text-header',
                     style={
                         'marginBottom': '10px',
+                        'marginTop': '0px',
                         'fontFamily': 'Open Sans, sans-serif',
                         'fontSize': '18px',
-                        'padding': '5px 0',
-                        'lineHeight': '1.2'
+                        'padding': '0px 0',
+                        'lineHeight': '1.5'
                     }),
             # Container for OpenITI content
             html.Div(id='text-content', 
                     className='papyrus-bg papyrus-scroll openiti-content',
                     style={
-                        'padding': '10px',
-                        'borderRadius': '5px',
+                        'padding': '30px',
+                        'borderRadius': '0px',
                         'flex': '1',
                         'overflowY': 'auto',
                         'backgroundColor': '#e8dcb5',
@@ -663,9 +703,72 @@ def show_modal_content(tab_value):
         return None, {'display': 'none'}
     
     # If manuscript tab is selected
-    if tab_value == 'tab-manuscript':
+    if tab_value == 'tab-manuscript-1':
         # IIIF manifest URL
-        manifest_url = "https://content.staatsbibliothek-berlin.de/dc/1690824786/manifest"
+        manifest_url = "https://iiif.bodleian.ox.ac.uk/iiif/manifest/12fcf5c5-2bb0-4e0e-b8a9-7620bd6bec90.json"
+        modal_content = html.Div([
+            # Close button
+            html.Button("×", id='close-modal', style={
+                'position': 'absolute',
+                'top': '10px',
+                'right': '10px',
+                'fontSize': '24px',
+                'fontWeight': 'bold',
+                'border': 'none',
+                'background': 'none',
+                'cursor': 'pointer',
+                'zIndex': '1000',
+                'color': '#5d4037'
+            }),
+            
+            # Modal title
+            html.H2("Rasāʾil Ikhwān al-Ṣafāʾ, Bodleian Library MS. Laud Or. 260 (CC BY-NC 4.0)", style={
+                'textAlign': 'center',
+                'marginBottom': '20px',
+                'color': '#5d4037'
+            }),
+            
+            # Mirador viewer (replaced Universal Viewer)
+            html.Iframe(
+            src=f"https://projectmirador.org/embed/?iiif-content={manifest_url}",
+            style={
+                'width': '100%',
+                'height': 'calc(100vh - 150px)',
+                'border': 'none',
+                'borderRadius': '5px',
+                'boxShadow': '0 4px 8px rgba(0,0,0,0.2)'
+            }
+        )
+        ], style={
+            'position': 'relative',
+            'padding': '20px',
+            'backgroundColor': '#f5f5f5',
+            'borderRadius': '5px',
+            'boxShadow': '0 4px 12px rgba(0,0,0,0.5)',
+            'width': '90%',
+            'maxWidth': '1200px',
+            'margin': '0 auto',
+            'height': '90vh',
+            'overflowY': 'auto'
+        })
+        
+        return modal_content, {
+            'display': 'flex',
+            'position': 'fixed',
+            'top': '0',
+            'left': '0',
+            'width': '100%',
+            'height': '100%',
+            'backgroundColor': 'rgba(0,0,0,0.7)',
+            'zIndex': '1000',
+            'justifyContent': 'center',
+            'alignItems': 'center'
+        }
+    # If second manuscript tab is selected (new tab)
+    elif tab_value == 'tab-manuscript-2':
+        # IIIF manifest URL for second manuscript - use a different manuscript
+        manifest_url = "https://content.staatsbibliothek-berlin.de/dc/1690824786/manifest"  # Mujmal Berlin
+        
         modal_content = html.Div([
             # Close button
             html.Button("×", id='close-modal', style={
@@ -688,9 +791,9 @@ def show_modal_content(tab_value):
                 'color': '#5d4037'
             }),
             
-            # Universal Viewer iframe
+            # Mirador Viewer iframe
             html.Iframe(
-                src=f"https://universalviewer.io/uv.html?manifest={manifest_url}",
+                src=f"https://projectmirador.org/embed/?iiif-content={manifest_url}",
                 style={
                     'width': '100%',
                     'height': 'calc(100vh - 150px)',
@@ -724,7 +827,6 @@ def show_modal_content(tab_value):
             'justifyContent': 'center',
             'alignItems': 'center'
         }
-    
     # If visualization tab is selected
     elif tab_value == 'tab-visualization':
         # Path to the HTML visualization file
