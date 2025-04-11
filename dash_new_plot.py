@@ -455,17 +455,17 @@ app.layout = html.Div([
         html.Div([
             # Title with original styling
             html.H1([
-                "Rasāʾil Ikhwān al-Ṣafāʾ - ",
+                " ",
                 html.Span("مجمل الحكمة", style={'fontFamily': 'Neirizi, serif'})
             ], style={
-                'textAlign': 'center',
-                'margin': '10px',
+                'textAlign': 'right',
+                'margin': '30px',
                 'position': 'relative',
                 'zIndex': '1',
                 'fontFamily': 'Open Sans, sans-serif',
                 'fontWeight': '600',
-                'flex': '1',  # Take available space
-                'color': '#FFD700',  # Keep original golden color
+                'flex': '1',  
+                'color': '#FFD700',
             }),
             
             # Tabs to the right of the title
@@ -546,6 +546,38 @@ app.layout = html.Div([
                                'minWidth': 'fit-content',
                                'whiteSpace': 'nowrap', 
                            }),
+
+                               # New About tab
+                    dcc.Tab(label='About', value='tab-about',
+                        style={
+                            'padding': '5px',
+                            'fontSize': '18px',
+                            'backgroundColor': 'rgba(0,0,0,0.3)',
+                            'color': '#e8dcb5',
+                            'border': 'none',
+                            'borderRadius': '5px',
+                            'marginRight': '10px',
+                            'boxShadow': '0 2px 4px rgba(0,0,0,0.5)',
+                            'width': 'auto',
+                            'direction': 'ltr',
+                            'minWidth': 'fit-content',
+                            'whiteSpace': 'nowrap',
+                        },
+                        selected_style={
+                            'padding': '5px',
+                            'fontSize': '18px', 
+                            'fontWeight': 'bold',
+                            'backgroundColor': 'rgba(0,0,0,0.5)',
+                            'color': '#FFD700',
+                            'border': 'none',
+                            'borderRadius': '5px',
+                            'marginRight': '10px',
+                            'boxShadow': '0 1px 2px rgba(0,0,0,0.5)',
+                            'width': 'auto',
+                            'minWidth': 'fit-content',
+                            'whiteSpace': 'nowrap',
+                        }),
+                    
                 ], style={
                     'fontFamily': 'Open Sans, sans-serif',
                     'height': '30px',
@@ -698,8 +730,8 @@ app.layout = html.Div([
     [Input('header-tabs', 'value')]
 )
 def show_modal_content(tab_value):
-    # If no tab is selected, hide the modal
-    if tab_value is None:
+    # If no tab is selected or if About tab is selected, hide the modal
+    if tab_value is None or tab_value == 'tab-about':
         return None, {'display': 'none'}
     
     # If manuscript tab is selected
@@ -910,30 +942,143 @@ def close_modal(n_clicks):
 @app.callback(
     [Output('text-header', 'children'),
      Output('text-content', 'children')],
-    [Input('section-selector', 'value')]
+    [Input('section-selector', 'value'),
+     Input('header-tabs', 'value')]
 )
-def update_text_content(selected_file):
-    if not selected_file:
-        return "Welcome to the Text Viewer", "Please select a section to view its content."
+def update_text_content(selected_file, selected_tab):
+    # Get the context of the callback to determine which input triggered it
+    ctx = dash.callback_context
+    trigger_id = ctx.triggered[0]['prop_id'].split('.')[0] if ctx.triggered else None
+    # If the About tab was clicked
+    if selected_tab == 'tab-about':
+        # Path to the about.md file in the assets folder
+        about_file_path = os.path.join(script_dir, 'assets', 'about.md')
+        try:
+            # Check if the file exists
+            if os.path.exists(about_file_path):
+                # Read the markdown file
+                with open(about_file_path, 'r', encoding='utf-8') as file:
+                    about_markdown = file.read()
+            else:
+                # If file doesn't exist, provide default content
+                print(f"About file not found at: {about_file_path}")
+                about_markdown = """
+# About Mujmal al-Hikma
+
+This application presents the *Mujmal al-Hikma* (Summary of Wisdom), a collection of epistles attributed to the Ikhwan al-Safa (Brethren of Purity).
+
+The Ikhwan al-Safa were a secret brotherhood of philosophers in Basra, Iraq during the 10th century CE. They produced an encyclopedia of 52 epistles covering subjects from mathematics and logic to spirituality and mysticism.
+
+## About This Project
+
+This digital edition was created by Aslisho Qurboniev (2025) as part of research on the Ikhwan al-Safa corpus. The text is presented in its original Persian with English translations.
+
+The application features:
+
+- Original Persian text with English translations
+- Manuscript viewers for examining historical documents
+- Data visualizations of textual analysis
+- Full-text search capabilities
+
+## License
+
+This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC-BY-SA 4.0).
+
+## Contact
+
+For questions or feedback about this project, please contact Aslisho Qurboniev at [example@email.com](mailto:example@email.com).
+                """
+            
+            # Create a container with the markdown content
+            about_content = html.Div([
+                dcc.Markdown(
+                    about_markdown,
+                    dangerously_allow_html=True,
+                    style={
+                        'fontSize': '16px',
+                        'lineHeight': '1.6',
+                        'color': '#3e2723',  # Same brown color used elsewhere
+                        'fontFamily': 'Open Sans, sans-serif',  # Same font as other English text
+                        'padding': '20px',
+                        'direction': 'ltr',
+                        'textAlign': 'left'
+                    }
+                )
+            ], style={
+                'backgroundColor': '#e8dcb5',  # Same papyrus background color
+                'backgroundImage': 'url("https://www.transparenttextures.com/patterns/papyrus.png")',  # Same texture
+                'borderRadius': '5px',
+
+                'boxShadow': '0 4px 8px rgba(0,0,0,0.2)',  # Same shadow effect
+                'padding': '20px',
+                'overflowY': 'auto',
+
+
+                'direction': 'ltr',
+                'textAlign': 'left',
+                'flex': '1',  # Take up available space like other content
+                'height': '100%',  # Full height like other content
+                'fontFamily': 'Open Sans, sans-serif'  # Consistent font family
+            })
+            
+            return "About this app", about_content
+            
+        except Exception as e:
+
+
+            print(f"Error handling about tab: {str(e)}")
+            # Provide a fallback content in case of error
+            error_content = html.Div([
+                html.H1("About this app"),
+                html.P(f"Error loading about page: {str(e)}"),
+                html.P("Please check if the about.md file exists in the assets folder.")
+            ])
+            return "About this app", error_content
     
-    section_name = selected_file.replace('.txt', '')
-    file_path = os.path.join(sections_dir, selected_file) #again using absolute path
-    
-    print(f"Attempting to read file: {file_path}")
-    print(f"File exists: {os.path.exists(file_path)}")
-    
-    try:
-        with open(file_path, 'r', encoding='utf-8') as file:
-            content = file.read()
-            print(f"Successfully read {len(content)} characters from {file_path}")
+    # If a section was selected
+    elif selected_file:
+        section_name = selected_file.replace('.txt', '')
+
+
+        file_path = os.path.join(sections_dir, selected_file)
         
-        # Convert OpenITI markdown to HTML components
-        components = openiti_to_html_components(content)
+        print(f"Attempting to read file: {file_path}")
+        print(f"File exists: {os.path.exists(file_path)}")
+
         
-        return f"{section_name}", components #the header above the text that could be modified to add more text
-    except Exception as e:
-        print(f"Error reading file {file_path}: {str(e)}")
-        return f"Error: {section_name}", f"Could not read the file: {str(e)}"    
+        try:
+            with open(file_path, 'r', encoding='utf-8') as file:
+                content = file.read()
+                print(f"Successfully read {len(content)} characters from {file_path}")
+            
+            # Convert OpenITI markdown to HTML components
+            components = openiti_to_html_components(content)
+            
+
+            return f"{section_name}", components
+        except Exception as e:
+            print(f"Error reading file {file_path}: {str(e)}")
+
+
+            return f"Error: {section_name}", f"Could not read the file: {str(e)}"
+    
+    # Default case - use Preface.txt
+    else:
+        default_file = 'Preface.txt'
+        section_name = default_file.replace('.txt', '')
+        file_path = os.path.join(sections_dir, default_file)
+        
+        try:
+            with open(file_path, 'r', encoding='utf-8') as file:
+                content = file.read()
+            
+            # Convert OpenITI markdown to HTML components
+            components = openiti_to_html_components(content)
+            
+            return f"{section_name}", components
+        except Exception as e:
+            print(f"Error reading default file {file_path}: {str(e)}")
+            return "Welcome to the Text Viewer", "Please select a section to view its content"
 @app.callback(
     Output('section-selector', 'value'),
     [Input({'type': 'search-result', 'index': ALL}, 'n_clicks'),
@@ -1129,6 +1274,16 @@ def open_search_result(n_clicks_list):
         return file_path
     print("Could not determine which file to show")
     raise PreventUpdate
+@app.callback(
+    Output('header-tabs', 'value', allow_duplicate=True),
+    [Input('section-selector', 'value')],
+    prevent_initial_call=True
+)
+def clear_tab_selection(selected_section):
+    # If a section is selected, clear the tab selection
+    if selected_section:
+        return None
+    raise PreventUpdate
 current_dir =os.getcwd()
 print(current_dir)
 # Run the app
@@ -1140,8 +1295,6 @@ if __name__ == '__main__':
 #This text shows that the code hasn't been modifed (21:54) search terms implemented
 # trying to improve highlighting funtion and clickability of search results 29 march 11:56
 
-
-"""
-Next steps: PDF viewer using pdf.js
-Then adding tabls for visualisation 
-"""
+#new changes
+##new change s 22
+## this line should go
