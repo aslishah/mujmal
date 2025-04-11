@@ -568,7 +568,7 @@ app.layout = html.Div([
                             'fontSize': '18px', 
                             'fontWeight': 'bold',
                             'backgroundColor': 'rgba(0,0,0,0.5)',
-                            'color': '#FFD700',
+                            'color': '#e8dcb5',
                             'border': 'none',
                             'borderRadius': '5px',
                             'marginRight': '10px',
