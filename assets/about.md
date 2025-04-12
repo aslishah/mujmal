@@ -1,17 +1,19 @@
 # About Mujmal al-Hikma App
 
-This application presents the *Mujmal al-Hikma* (Compendium of Wisdom), a Persian transcreation of the Epistles of the Brethren of Purity, based on an Arabic original. The text of the Mujmal is based on Muhammad Taqi Daneshpazhuh and Iraq Afshar's edition.
+This application is a reader and research environment for the *Mujmal al-Hikma* (Compendium of Wisdom), an anonymous Persian transcreation of the _Epistles of the Brethren of Purity_, based on an Arabic original. The text of the _Mujmal_ is based on Muhammad-Taqi Daneshpazhuh and Iraq Afshar's edition.
 
-There are major and minor differences between this work and the Arabic Rasail Ikhwan al-Safa with many interventions on the part of the translator, but the general structure is the same. While the Persian Ikhwanian tradition is very rich adn worth studying on its own, it is alos hoped that the study of the Mujmal will also contributed to the the study of the more famous Arabic tradition.
+There are major differences between this work and the Arabic _Rasail Ikhwan al-Safa_ with many interventions on the part of the translator, such as omitting one entire epistle (_On Animals_), and combining and reframing others. The biggest liberty the translator has taken with Part IV, reducing the epistles in this part to chapters of one epistle. Otherwise, the general structure is the same again with some confusion in part IV. The author-translator is upfront about these alterations and justifies them as clarifying cryptic language and removing superfluous and usefless uncientific content. So far my reading suggests that the original Arabic _Mujmal al-hikma_ on which this translation is based represented a faithful abridgement of the _Rasāʾil Ikhwān al-Ṣafāʾ_ or just the _Rasāʾil_ under another title. 
+
+While the Persian Ikhwanian tradition is very rich and worth studying on its own, it is also hoped that the study of the _Mujmal_ will contributed to our understanding the more famous Arabic tradition.
 
 ## About This Project
 
-This digital edition was created by Aslisho Qurboniev (2025) as part of research on the Ikhwan al-Safa corpus. The text is presented in its original Persian with AI powered English translations and other features that will be updated in due course. All these materials are shared solely for the purpose of research and colaboration.
+This digital edition was created by Aslisho Qurboniev (2025) as part of research on the _Ikhwān al-Safāʾ_ corpus. The text is presented in its original Persian with AI powered English translations. Other features that will be added in due course. All these materials are shared solely for the purpose of research and colaboration.
 
 The application features:
 
 - Original Persian text with English translations   
-- Manuscript viewers for examining historical documents
+- Manuscript images of the two texts
 - Data visualizations of textual analysis
 - Full-text search capabilities
 
