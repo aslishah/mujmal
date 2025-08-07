@@ -81,3 +81,84 @@ This is *Isagoge*. And God knows best what is correct.
 -125-  
 
 -126-
+
+--- ENGLISH TRANSLATION ---
+
+Here is the translation of the provided text from the Epistles of Ikhwan al-Safa (Brethren of Purity), maintaining the scholarly tone and philosophical precision of the original:
+
+---
+
+### **Summary of the Tenth Epistle on Isagoge in Logic**  
+*In the name of God, the Most Gracious, the Most Merciful.*  
+
+Know that the Almighty and Exalted God created two worlds and placed within each a distinct creation. There is the **World of the Celestial Kingdom** (*‘ālam-i malakūt*), which is the realm of the heavens, souls, and intellects, wherein He established the celestial bodies, essences, and intellects. Then there is the **Lower World** (*‘ālam-i suflā*), the inferior realm, wherein He placed animals, minerals, and plants. Whatever order and arrangement He ordained in the **Higher World** (*‘ālam-i ‘ulwī*), He manifested in the Lower World. And in the Lower World, all that appears has its origin in the Higher World—save for man, whom He composed of both body and essence: the body from the Lower World and the essence from the Higher World. Much has been said on this matter, some of which we have mentioned in other epistles and some of which we shall address later. Thus, man is a composite of both worlds, and he is nobler than all that exists in the Lower World, for his purpose pertains to the Higher World. His nobility lies in his capacity for speech and his ability to discern between good and evil, virtue and vice, purity and impurity. Speech without knowledge is the wings of man, for it is evident through rational proofs that the salvation of the human soul depends on knowledge—on recognizing one’s ultimate return and on knowing the Necessary Existence (*wājib al-wujūd*). If these meanings are not attained, and if this form—which is the human soul—is lost, it remains in vain, belonging neither to the Lower World nor to the Higher World, as we shall later demonstrate.  
+**—121—**  
+
+The nobility of speech lies in **demonstration** (*burhān*), and demonstration cannot be known except through the instrument of logic. The benefit of logic is to distinguish between good and evil, virtue and vice, and to seek sound belief. It is the most excellent instrument for the intellect. The scholars have divided it into five parts, the first of which is **Isagoge** (*Īsāghūjī*). What must be included in this epistle, free from superfluities, is as follows:  
+
+Speech consists of nouns, verbs, and particles that convey meaning—though not every meaning is admissible in logic, such as exclamations, requests, praises, and the like. Rather, [logic concerns] that which is established by proof and the formation of a thing so that its reality may be known. This is achieved either through **definition** (*ḥadd*) or through **demonstration** (*burhān*), which is syllogistic reasoning (*qiyās-i iqtirānī*) leading to a sound conclusion that cannot be contradicted in any way.  
+
+Thus, it must be understood that in knowledge, nothing can be known without prior knowledge, and the foundation of knowledge consists of **five terms** in one respect and **ten terms** in another, as we shall mention these ten terms in another epistle. As for the five terms, they are:  
+1. **Genus** (*jins*)  
+2. **Species** (*naw‘*)  
+3. **Differentia** (*faṣl*)  
+4. **Property** (*khāṣṣa*)  
+5. **Common Accident** (*‘araḍ-i ‘āmm*)  
+
+It is necessary to grasp their true nature:  
+- **Genus** is a universal form by which species are inferred and divided into various kinds. Its definition is that it is predicated of many things differing in their realities.  
+- **Species** is a universal form by which individuals are inferred. Its definition is that it is predicated of many things differing in number.  
+- **Differentia** is an essential attribute predicated of a single species.  
+- **Property** is a non-essential attribute predicated of a universal, whether it belongs to it alone or partially.  
+- **Common Accident** is an essential attribute predicated of multiple universals.  
+**—122—**  
+
+In truth, any attribute whose removal invalidates the described thing is called a **differentia**, such as the heat of fire or the wetness of water. If the described thing is not invalidated but the attribute is necessary, it is called a **property**, such as the capacity for laughter in man. If it is not necessary, it is called a **common accident**, either because it exceeds a single subject (like the whiteness of snow and gypsum), or because it is transient (like standing and sitting), or because it is slow to fade (like youth and old age).  
+
+A genus above which there is no higher genus is called the **Summum Genus** (*jins al-ajnās*). A species below which there is no lower species is called the **Infima Species** (*naw‘ al-anwā‘*). Between them lie **intermediate genera and species**:  
+- **Intermediate Genera** (*jins-i mutawassiṭ*), such as animals, minerals, and plants; or birds, reptiles, and quadrupeds; or fruit-bearing trees, barren trees, and herbs.  
+- **Substance** (*jawhar*) is the summum genus, for there is no genus beyond it.  
+- Man, plants, grapes, pigeons, fish, whales, and scorpions are all called **infima species**, for below man there is no species that could serve as a genus.  
+
+If a species lacks an absolute differentia—such as the shortness of a man or the flight of a bird—it must seek a **property** unique to that species and respond according to convention.  
+
+An **essential differentia** is something like the speech of man, the growth of plants, the heat of fire, the wetness of water, or the light of the sun.  
+
+A **property** is of four kinds:  
+1. One that belongs to a single species, though another species may share it—such as bipedalism, which belongs to both man and birds, while no other species shares it.  
+2. One that belongs to a single species but not universally—only to some individuals, such as the skill of writing in certain men.  
+3. One that belongs to a single species but not perpetually—only at times, such as the graying of a man’s hair.  
+4. One that belongs to a single species perpetually, such as laughter and weeping in man or the neighing of a horse.  
+**—123—**  
+
+A **common accident** includes length and shortness, sitting and standing, sleeping and walking, and the like.  
+
+**Genus**, **species**, and **differentia** are essential to the individual, while **properties**, though they emerge later—such as youth in man or barking in dogs—or may never emerge at all—such as laughter and weeping in man or the neighing of a horse—are accidents.  
+
+As for what you might say—"Zayd sat, stood, walked, slept"—these are undoubtedly **accidents**.  
+
+Know that letters are individual sounds, and when combined, they are called **words** (*alfāẓ*). When words convey **meanings** (*ma‘ānī*), they are called **nouns** (*asmā’*). When nouns are arranged, they form **speech** (*kalām*). When speech is combined, it becomes **propositions** (*aqāwīl*).  
+
+Words differ in three ways: in **form**, in **meaning**, or in **both form and meaning**. These are of five types:  
+1. **Homonymous** (*mushtarak*): identical in form but differing in meaning, such as the word *‘ayn* (which can mean "eye," "spring," "sun," or "gold").  
+2. **Synonymous** (*mutarādif*): differing in form but identical in meaning, such as the words for "lion" (*asad*, *layth*, *raybāl*).  
+3. **Disparate** (*mutabāyin*): differing in both form and meaning, such as "stone," "tree," "ice," and "fire."  
+4. **Univocal** (*mutawāṭi’*): identical in both form and meaning, such as the name "Zayd" for Zayd or "‘Amr" for ‘Amr—where the logical intent is that the name refers solely to that individual, with form and meaning aligned.  
+5. **Derived** (*mushtaqq*), such as "to strike" (*ḍaraba*), "striker" (*ḍārib*), and "struck" (*maḍrūb*).  
+**—124—**  
+
+For definitions (*ḥadd*), one must use universal and essential terms—either genus or differentia—avoiding properties and accidents. The attribute in the definition must be essential, though not all essential attributes are suitable. For example, "body," "motion," "shortness," and "growth" are all essential to man, yet one cannot say "Man is a body," for stone is a body but not man. Nor can one say "Man is a mover," for the serpent moves but is not man. Similarly, if one says merely "animal" (as in "Man is an animal"), this too is insufficient, for a dog is an animal but not man. Rather, one must say, "Man is a rational animal," for rationality is the differentia—without it, there is no humanity. Thus, we have combined these terms into a complete expression.  
+
+These three terms—**genus**, **species**, and **differentia**—function in two ways:  
+1. The **genus** answers the question *"mā huwa?"* ("What is it?"). For example, if asked, "What is man?" one answers, "Animal."  
+2. The **differentia** answers the question *"ayyu shay’ huwa?"* ("Which thing is it?"). For example, if asked, "Which animal is man?" one answers, "Rational."  
+
+Many philosophers include *mā’īt* in the definition of man, but this is unnecessary, for "rational animal" applies only to man.  
+
+This is **Isagoge**. And God knows best what is correct.  
+**—125—**  
+**—126—**  
+
+---
+
+This translation preserves the original structure, terminology, and philosophical depth while ensuring clarity and readability in English. The page numbers from the Persian text are maintained for reference. Let me know if you'd like any refinements.

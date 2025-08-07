@@ -68,3 +68,82 @@ Now we say that there are four methods of instruction:
 4. The fourth is called "division" (taqsīm). We shall apply division to the discussion of cause and effect to avoid prolixity, for there is no benefit in lengthy discourse. And God is the source of success.  
 
 -130-
+
+--- ENGLISH TRANSLATION ---
+
+Here is the translation of the provided Persian text from the Epistles of Ikhwan al-Safa (Brethren of Purity), maintaining the scholarly tone and philosophical precision of the original:
+
+---
+
+### Summary of the Eleventh Epistle on the Categories from Logic  
+In the name of God, the Most Gracious, the Most Merciful.  
+
+Know that when the sages contemplated the existent beings of the celestial and terrestrial realms—whether spiritual or corporeal, higher or lower—they discerned through sound measures that all contingent beings fall into two categories: either "substance" (*jawhar*) or "accident" (*‘araḍ*). Substance itself is of two kinds: "simple" (*basīṭ*) or "composite" (*murakkab*). Upon examining these divisions, they derived ten categories, naming them the "Ten Predicaments" (*al-maqūlāt al-‘ashr*).  
+
+Initially, observing bodies that moved, grew, and some even acted volitionally—possessing intellect and sensation—they recognized that corporeal forms inherently lack such capacities. Thus, they deduced the existence of an underlying substantial agent from which these actions arise, naming it "spiritual substance." The aggregate of attributes inhering in this substance they termed "body" (*jism*).  
+
+At times, a body would become inert—as in the death of an animal, the withering of a plant, or the transmutation of water, air, and fire—leading them to conclude that substance is divisible: part "simple," part "composite," yet both necessarily classified as "substance."  
+
+-127-  
+
+Thus, they designated "simple substance" as the "Genus of Genera" (*jins al-ajnās*), with the "higher" and "lower" realms as its species. Observing that bodies possess measurable attributes—dimension, quantity, height, depth, width, and density, each with distinct form and position—they grouped these under the genus "quantity" (*kammiyya*), all being "accidents."  
+
+Next, they noted other properties—such as blackness, whiteness, heat, softness, and moisture—which were neither substance nor quantity, and classified these as "quality" (*kayfiyya*), another genus of accidents.  
+
+They then identified relational terms—fatherhood, sonship, motherhood, brotherhood, marriage, partnership—and grouped these under "relation" (*iḍāfa*), also an accident.  
+
+Subsequently, they observed spatial designations—above, below, left, right, behind, before, middle, specific locations—and classified these as "where" (*ayn*).  
+
+Similarly, temporal markers—day, night, year, month, past and future times—were gathered under "when" (*matā*).  
+
+States of being—standing, sitting, lying, reclining, prostrate—formed the genus "position" (*waḍ‘*).  
+
+Expressions like "to him," "with him," "from him," "upon him," "near him," "for him" were categorized as "possession" (*mulk*).  
+
+Active verbs—"he acted," "he killed," "he stole," "he seized"—constituted the genus "acting" (*yaf‘al*).  
+
+Passive constructions—"was broken," "was cut," "was freed"—were termed "being acted upon" (*yanfa‘al*).  
+
+-128-  
+
+These are the Ten Predicaments in full:  
+1. Substance (*jawhar*)  
+2. Quantity (*kamm*)  
+3. Quality (*kayf*)  
+4. Where (*ayn*)  
+5. When (*matā*)  
+6. Position (*waḍ‘*)  
+7. Possession (*mulk*)  
+8. Relation (*iḍāfa*)  
+9. Acting (*yaf‘al*)  
+10. Being acted upon (*yanfa‘al*)  
+
+Upon examining existence, they found no proposition exceeding these ten, all being accidents except substance. This mirrors the "units" (*āḥād*), one of the ten primal principles—not a derivative, since all are composed from one, as the Necessary Being is the Cause of causes and Source of all reasons.  
+
+Among substance’s properties: it does not occupy space yet underlies attributes; it bears predicates but has no contrary; it admits neither increase nor diminution; it is singular yet receives opposites; it subsists independently.  
+
+Four methods of instruction exist:  
+1. **Definition** (*ḥadd*): Reveals a thing’s essence via its "proximate genus" (*jins aqrab*) and "essential differentia" (*faṣl dhātī*). For example:  
+   - "Man is a rational animal" (no other rational animal exists).  
+   - "Fire is a luminous elemental body, blazing and mobile" or "a luminous body whose natural motion burns, separates, and transforms earthly, aqueous, and aerial components." Brevity is secondary to precision—the proximate genus and essential differentia are indispensable. If the latter is elusive, a specific property suffices (e.g., "a horse is a running, load-bearing animal that neighs"), termed "description" (*rasm*).  
+
+2. **Demonstration** (*burhān*): To be discussed subsequently.  
+
+3. **Analysis** (*taḥlīl*): Deconstructing syllogisms (*qiyās*) into premises (*muqaddimāt*), definitions (*ḥudūd*), propositions (*qaḍāyā*), and simple terms (*alfāẓ mufrada*) to verify validity—rejecting fallacies (*mughālaṭa*), accepting sound reasoning.  
+
+4. **Division** (*taqsīm*): Applied here to cause and effect to avoid prolixity, which yields no benefit.  
+
+And God is the source of success.  
+
+-130-  
+
+---  
+**Notes on Translation Choices:**  
+- **"Predicaments"** for *maqūlāt* (lit. "categories") aligns with Aristotelian logical terminology.  
+- **"Genus of Genera"** preserves the hierarchical metaphysics of *jins al-ajnās*.  
+- **"Essential differentia"** for *faṣl dhātī* maintains the technical precision of Porphyrian logic.  
+- **"Being acted upon"** for *yanfa‘al* reflects the passive voice central to the ninth category.  
+- The translation strictly adheres to the original’s syntactical density while clarifying nested clauses (e.g., the fire definition) for readability.  
+- Page numbers (127–130) are preserved as requested.  
+
+This rendering balances fidelity to the Persian text’s philosophical rigor with accessible English academic prose.

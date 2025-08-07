@@ -12,3 +12,73 @@
 -145-
 
 -146-
+
+--- ENGLISH TRANSLATION ---
+
+Here is the English translation of the provided Persian text from the Epistles of Ikhwan al-Safa (Brethren of Purity), maintaining the scholarly tone and philosophical nuances while preserving the original page numbers:  
+
+---
+
+### Summary of the Fourteenth Epistle on the Second Analytics [of Logic], Which Concludes the Mathematical Sciences  
+In the name of God, the Most Gracious, the Most Merciful.  
+
+Know that "demonstration" (burhān) is a type of "syllogism" (qiyās), and syllogism is the genus of demonstration. Demonstration cannot be understood except through division (qismat), analysis (taḥlīl), and definition (ḥadd).  
+
+Now, "syllogism" is when a generic term is mentioned, and you divide that genus into its species, then divide the species into individuals, examining the state of each species and individual separately until nothing remains among these species and individuals that an opponent could use for sophistry.  
+
+"Analysis," on the other hand, is the reverse of what we have described. It is akin to what physicians do when they say: "This thing is of two kinds—either animate or inanimate." If it is inanimate, they analyze its substance. For example, if a goldsmith is told, "This is composed of so much gold, so much silver, and so much copper," they would explain:  
+
+- The gold is a substance whose moisture, earthy components, and ductile parts are unified, and the heat of the mine has tempered it so that its watery and ductile parts are firmly fused with its earthy components, to the point that fire cannot separate them. Thus, it does not burn.  
+-141-  
+- Silver has also been tempered, but its earthy components are not as firmly bound to its moisture. Thus, fire separates them, and it burns.  
+- Copper, being impure, has been tempered beyond moderation, so most of its moisture has burned away and turned black due to the heat of the mine. Thus, fire disperses it, and it burns away entirely.  
+
+The moisture, liquidity, ductility, and earthiness of gold, being firmly bound, do not burn—and this is analysis.  
+
+Similarly, syllogism may be analyzed. First, take the initial premise and say: "Every body is formed, and every formed thing is originated." This is a syllogism of two premises. Then, if one wishes to analyze it, they take the first premise and say: "Every body is formed, and a body is composed of substance." Primarily, in a body, there is length, width, and depth, as well as matter (hayūlā), which is a simple substance.  
+
+When one says "every body," the celestial spheres and their contents fall under this term. The celestial spheres consist of form and matter. Their form is corporeal yet devoid of nature (ṭabīʿa), for if they had a nature, they would be subject to change—either diminishing, cooling, or decaying.  
+
+Although the apprehension of intelligibles is a power of the celestial spheres, the discussion concerns celestial matter and form, which are not visible to the eye. What we see is not the celestial sphere but the atmosphere, for our senses cannot perceive beyond five to ten farsangs (a unit of distance). If the proof lies in discerning their configuration (hayʾa), then that configuration is intelligible, not perceptible. For the perceptible is that which the senses can encompass and the imagination can grasp. Thus, if it is apprehended by the intellect through thought, it is intelligible, not perceptible—and the intelligible is distinct from the perceptible.  
+
+If the evidence lies in the stars, which are visible to us, what we see of the stars is not due to the power of our vision. Rather, the light of the stars, due to their vastness and magnitude, falls upon the vitreous humor of our eyes. Likewise, the simple substance pertaining to the celestial spheres and stars will never be separated—and we accept all this as certain.  
+
+For the proof is that everything formed is originated, since the intelligible forms are shaped by the intellect’s conception, and no two originated things [are uncreated]. Thus, when one reflects upon the statements we have made, the methods of analysis and division become clear.  
+
+As for the method of "definitions" (ḥudūd), its purpose is to know the true nature of species in relation to genera and their differentiating attributes (faṣl). For instance, if one asks, "What is the definition of man?" the answer is: "a mortal, rational animal." Here, "animal" is the genus, "rational" the differentia, and "mortal" the corporeal aspect. Then one may say: "An animal is a sentient, mobile body."  
+
+-142-  
+- "Body" is a composite substance possessing length, width, and depth.  
+- "Substance" is the uncomposed instrument underlying all bodies, whether animate or inanimate—but we shall elaborate on this in the Epistle on Definitions.  
+
+The purpose of demonstration is to know the form by which the world and all within it subsist—and this is intelligible. It is known through "sound syllogism" (qiyās ṣaḥīḥ), which, as we have said, arises from three terms and two premises.  
+
+The premises employed in demonstration and sound syllogism are of four kinds:  
+1. **Primary intelligibles (awwaliyyāt al-ʿaql)**: e.g., "Five times five is twenty-five," "Four times twenty-five is one hundred," "The sun is luminous," "Every triangle has three angles—acute, obtuse, or right."  
+2. **Empirical observations (mujarrabāt)**: known through both intellect and sense, e.g., "Scammony purges yellow bile," "Hellebore purges black bile"—for the intellect knows this is not coincidental, as coincidence would be intermittent.  
+3. **Perceptibles (maḥsūsāt)**: e.g., "Fire burns," "A blade cuts," "A body has length and width," "A line is straight or curved," "Days and nights increase and decrease."  
+4. **Mass-transmitted knowledge (mutawātirāt)**: e.g., "The foundation of the Kaaba," "The existence of the Prophet," "The annals of kings," and the like—provided there is no doubt in their transmission.  
+
+Anything outside these four premises has no place in demonstrative syllogism. This serves as an introduction to the science of demonstration.  
+
+However, when a syllogism is presented, if doubt arises, one must examine all three terms and both premises to determine which form it follows. Then, one must assess the conditions of each form separately and scrutinize the definition to see:  
+- Whether the definition of the problem at hand is correct or not.  
+- Whether the genus is proximate or remote.  
+- Whether the differentia is essential, specific, or accidental.  
+- Whether the predicate of the problem is essential to the subject or not—for if it is not, the problem is invalid.  
+
+This suffices as an introduction to logic.  
+
+And with God lies protection and success.  
+
+-144-  
+
+### Natural Sciences  
+
+-145-  
+
+-146-  
+
+---
+
+This translation preserves the philosophical depth and structure of the original Persian text while ensuring clarity and fidelity to the source. The page numbers from the original manuscript are retained for reference.
