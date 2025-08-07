@@ -11,64 +11,60 @@
 
 --- ENGLISH TRANSLATION ---
 
-Here is the English translation of the selected passage from the *Epistles of the Brethren of Purity*, maintaining its scholarly tone and philosophical nuances:
+### Summary of the Eleventh Epistle on the Categories from Logic  
+In the name of God, the Most Gracious, the Most Merciful.  
 
----
+Know that when the sages observed the existent beings of the celestial and terrestrial realms, the spiritual and the corporeal—whether lower or higher—they discerned through sound measures that all existent beings, apart from the Necessary Existent, are of two kinds: either "substance" (jawhar) or "accident" (ʿaraḍ). And "substance" is of two kinds: either "simple" (basīṭ) or "composite" (murakkab). Upon examining these divisions, they derived ten categories, which they named the "ten predicaments" (maqūlāt ʿashr).  
 
-### Summary of the Eleventh Epistle on the Categories of Logic  
-*In the name of God, the Most Gracious, the Most Merciful*  
+Initially, when they observed bodies and saw that they moved and grew—some by volition—and possessed intellect and sensation, they realized that a body, in itself, does not possess such power. Thus, they understood that there must be a substantial agent within the body from which these actions arise. They named this substance "spiritual," and they gathered all the attributes inherent in the substance and called it "body" (jism).  
 
-Know that when the philosophers examined the existent beings of the celestial and terrestrial realms—both spiritual and corporeal, lower and higher—through sound measures, they discerned that all existent beings, apart from the Necessary Existent, are of two kinds: either **substance** (*jawhar*) or **accident** (*‘araḍ*).  
+At times, a body would become inert and cease to function—such as the death of an animal, the withering of a plant, or the transformation of water, air, and fire. From this, they understood that this substance is divisible: some of it is "simple," and some is "composite," yet both must necessarily be called "substance."  
 
-Substance is further divided into two kinds: **simple** (*basīṭ*) or **composite** (*murakkab*). Upon thorough examination, they derived ten divisions, which they named the **Ten Categories** (*al-maqūlāt al-‘ashr*).  
+-127-  
 
-Initially, when they observed bodies, they saw that they moved and grew, some by will, possessing intellect and sensation. They realized that a body, in itself, does not possess such power, so they concluded that there must be a substantial agent within the body from which these actions arise. They called this substance **spiritual** (*rūḥānī*), while they gathered all the attributes inherent in the substance and named them **body** (*jism*).  
+Thus, they called the "simple substance" the "genus of genera" (jins al-ajnās) and referred to the "higher" and "lower" realms as its species. Then, when they saw that bodies possessed dimensions—quantity, height, depth, width, and thickness—each with its own form and position, they gathered these attributes into a single genus and named it "quantity" (kammiyya), all of which are "accidents."  
 
-At times, a body would become inert and cease functioning—such as the death of an animal, the withering of a plant, or the transformation of water, air, and fire. Thus, they understood that this substance is divisible: some of it is **simple**, and some is **composite**, yet both must necessarily be called **substance**.  
+Next, they observed other things that were neither substance nor quantity—such as blackness, whiteness, heat, softness, and moisture—and gathered these into a genus, naming it "quality" (kayfiyya), all of which are "accidents."  
 
-They termed the **simple substance** the **genus of genera** (*jins al-ajnās*) and called the **higher** and **lower worlds** its species. Then, when they observed that bodies possessed dimensions—measure, quantity, height, depth, width, and thickness—each with its own form and position, they gathered these attributes into a genus and named it **quantity** (*kammiyya*), all of which are **accidents**.  
+Then, they saw names attributed to things—such as fatherhood, sonship, motherhood, brotherhood, marriage, and partnership—and gathered these into a genus, naming it "relation" (iḍāfa), all of which are "accidents."  
 
-Next, they observed other things that were neither substance nor quantity—such as blackness, whiteness, heat, softness, and moisture—and gathered these into a genus, naming it **quality** (*kayfiyya*), which is also an **accident**.  
+After that, they observed other names—such as above, below, left, right, behind, before, middle, this place, that position, and the like—and gathered these into a genus, calling it "where" (ayn).  
 
-Then, they noted relational terms—such as fatherhood, sonship, motherhood, brotherhood, marriage, and partnership—and classified them under the genus **relation** (*iḍāfa*), another **accident**.  
+Similarly, they found names such as day, night, year, month, last year, the year before, this time, that time—and gathered these into a genus, naming it "when" (matā).  
 
-They also observed other terms—such as above, below, left, right, behind, before, middle, and specific locations—and grouped them under the genus **place** (*ayn*). Similarly, they identified temporal terms—such as day, night, year, month, past, future, and specific moments—and classified them under the genus **time** (*matā*).  
+Likewise, they identified several states—such as standing, sitting, lying down, reclining, and being cast down—and gathered these into a genus, calling it "position" (waḍʿ).  
 
-They further discerned states—such as standing, sitting, lying down, reclining, and being cast down—and grouped them under the genus **posture** (*waḍ‘*).  
+They also found names such as "to him," "with him," "from him," "upon him," "near him," "for him," and the like—and gathered these into a genus, naming it "possession" (mulk).  
 
-Additionally, they noted possessive terms—such as "his," "with him," "from him," "upon him," "near him," and "for him"—and classified them under the genus **possession** (*milk*).  
+Moreover, they encountered names such as "he did," "he killed," "he stole," "he seized," and the like—and called this genus "acting" (yafʿal).  
 
-They also identified active expressions—such as "he did," "he killed," "he stole," and "he seized"—and named their genus **action** (*yaf‘al*).  
+Similarly, they found names such as "was broken," "was cut," "was released," and the like—and called this genus "being acted upon" (yanfaʿal).  
 
-Lastly, they recognized passive expressions—such as "was broken," "was cut," and "was freed"—and named their genus **passion** (*yanfa‘il*).  
+-128-  
 
-Thus, the **Ten Categories** are fully enumerated as follows:  
-1. Substance (*jawhar*)  
-2. Quantity (*kamm*)  
-3. Quality (*kayf*)  
-4. Place (*ayn*)  
-5. Time (*matā*)  
-6. Posture (*waḍ‘*)  
-7. Possession (*milk*)  
-8. Relation (*iḍāfa*)  
-9. Action (*yaf‘al*)  
-10. Passion (*yanfa‘il*)  
+These are the ten predicaments in full detail:  
+1. Substance (jawhar)  
+2. Quantity (kamm)  
+3. Quality (kayf)  
+4. Where (ayn)  
+5. When (matā)  
+6. Position (waḍʿ)  
+7. Possession (mulk)  
+8. Relation (iḍāfa)  
+9. Acting (yafʿal)  
+10. Being acted upon (yanfaʿal)  
 
-Upon examining all existents, they found that none fell outside these ten divisions. All were **accidents** except **substance**, which stands apart—akin to the number one among the digits, being a fundamental principle rather than a derivative, just as the Essence of Existence is the cause of all causes and the origin of all reasons.  
+Upon examining all existent things, they found that no statement fell outside these ten categories, and all were "accidents" except for "substance." This is an excellent indication, for this resembles the "units" (āḥād)—one of the ten principles, not a derivative, since all are composed from one, just as the Essence of Existence is the cause of all causes and the origin of all reasons.  
 
-Among the unique properties of **substance** is that it does not reside in a place, yet it serves as the substrate for other things. It can bear multiple predicates, be referred to, has no contrary, does not admit of increase or decrease, is numerically one, can receive opposing attributes, and subsists through itself.  
+Among the properties of "substance" is that it does not reside in a place, yet it is the subject of things and can bear many predicates. It can be referred to, yet it has no opposite, admits neither increase nor decrease, is singular in number, accepts contrary attributes, and subsists by its own essence.  
 
-Now, we say that there are **four methods of instruction**:  
-1. **Definition** (*ḥadd*), by which the reality of a thing is known through its **proximate genus** and **essential differentia**—as in defining a human as "a rational animal," since no other animal is rational, or defining fire as "a luminous elemental body that naturally moves to burn things, separating and transforming earthly, watery, and airy parts." A definition must be concise, for only through it can true reality be known. The **proximate genus** and **essential differentia** are indispensable. If one states the **remote genus**, all essential differentiae and attributes must be mentioned—as when we called fire an "element," though "body" is more remote but still correct. If the **essential differentia** is lacking, one may describe its specific trait or proximate genus—as in calling a horse "a running, neighing beast of burden," which is termed a **description** (*rasm*).  
+Now we say that there are four methods of instruction:  
+1. The first is "definition" (ḥadd), by which the reality of a thing is known. It consists of the "proximate genus" (jins aqrab) of the thing combined with its "essential differentia" (faṣl dhātī). For example, in defining "man," one might say: "Man is a rational animal," for among existent beings, there is no rational animal except man. Similarly, in defining "fire," one might say: "Fire is an elemental, luminous, blazing, and mobile body from among the four elements." Alternatively, one might say: "Fire is a luminous body whose natural motion burns things, separates the earthly, aqueous, and aerial components, and transforms them." One should not be constrained to express it in brief terms, for the truth cannot be known except through definition—whether lengthy or succinct—so long as it includes the "proximate genus" and the "essential differentia." If one mentions the "proximate genus," one must also mention all essential differentiae and attributes, near and far—as we did with fire, where "body" is more general than "element," yet it is correct. If one cannot find the "essential differentia," one may mention its specific property or proximate genus—as when one says of a horse: "It is a running, load-bearing animal that neighs." This is called "description" (rasm).  
 
-2. **Demonstration** (*burhān*), which we shall discuss later.  
+2. The second method is "demonstration" (burhān), which we shall discuss later.  
 
-3. **Analysis** (*taḥlīl*), which involves breaking down a syllogism into its premises, then examining each premise through definition, proposition, and simple terms to verify its validity—rejecting fallacies and accepting sound reasoning.  
+3. The third is called "analysis" (taḥlīl), which is the unraveling of a "syllogism" (qiyās) into its parts. For instance, if someone employs a "fallacy" (mughālaṭa) and one wishes to understand it, they break down the syllogism into its "premises" (muqaddimāt), the premises into their "definitions" (ḥudūd), the definitions into "propositions" (qaḍāyā), and the propositions into "simple terms" (alfāẓ mufrada). Each is examined separately to determine its validity. If it is a fallacy, it is rejected; if it is sound, it is accepted and reconstructed.  
 
-4. **Division** (*taqsīm*), which we shall apply to cause and effect to avoid prolixity, for lengthy discourse yields no benefit.  
+4. The fourth is called "division" (taqsīm). We shall apply division to the discussion of cause and effect to avoid prolixity, for there is no benefit in lengthy discourse. And God is the source of success.  
 
-*And God is the source of success.*  
-
----
-
-This translation preserves the intricate philosophical discourse of the original while rendering it accessible in English. Let me know if you'd like any refinements.
+-130-

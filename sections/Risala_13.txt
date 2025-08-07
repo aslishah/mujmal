@@ -1,76 +1,115 @@
-### | خلاصۀ رسالۀ سيزدهم در انولوطيقا [ى] دوم از منطق كه آخر رياضيات است
-بسم اللّه الرحمن الرحيم 
-بداند كه «برهان» نوعى بود از «قياس» و قياس جنس بود برهان را و برهان نشايد شناخت الا به طريق قسمت و تحليل و حدّ. اما «قياس» آن بود كه چون نام جنسى برند، تو آن جنس را قسمت كنى بر انواع، و انواع را قسمت كنى بر اشخاص، و از حال هر نوعى و شخصى جدايگانه بررسى و بازدانى تا ازين انواع و اشخاص هيچ چيز هست كه خصم بدان مغالطه مى‌خواهد. و «تحليل» عكس آن باشد كه ياد كرديم و مانند آن است كه طبيبان مى‌كنند و مى‌گويند كه اين چيز به دو قسم بود: يا حيوان بود يا جماد. اگر جماد بود آن جسم را تحليل كنند، چنانكه مثلا زرگرى را گويند اين سبب چندين زرست و چندين سيم و چندين مس. آنچه زرست جسمى است كه رطوبت او و اجزاء ارضى و دهنى او متحدند و حرارت معدن آن را طبخ كرده است كه اجزاى مائى و دهنى وى با اجزا [ى] ارضى مستحكم شده است چنانكه آتش ميان ايشان تفريق نتواند كرد. پس وى سوخته نشود.
--141-
- و سيم طبخ يافته است لكن با رطوبت او اجزاى ارضى را بغايت استحكام نيست. پس آتش او را تفريق كند و سوخته شود. و مس كه غش است طبخ او از اعتدال در گذشته است تا بيشتر رطوبت سوخته و سياه شده است در حرارت كانى. پس آتش ايشان را متفرق كند و سوخته شود و باقى نماند. و رطوبت و مائيت و دهنيت و ارضيت زر كه مستحكم است سوخته نخواهد شد و اين تحليل بود. پس قياس را همچنين تحليل كند. نخست مقدمۀ اول برگيرند و گويند هر جسمى مصورست و هر مصورى محدث است و اين قياس است از دو مقدمه.پس چون خواهند كه اين تحليل كنند نخست مقدمۀ اول برگيرند و گويند هر جسمى مصورست و جسم از جوهر مركب است. اولا در جسم درازا و پهنا و ستبر [ى] است و هيولى است و آن جوهرى بسيط‍‌ است. و چون گفت هر جسم، افلاك و مافيها در تحت اين الفاظ‍‌ آمد و افلاك از صورتى است و مادت. صورت جسمى است كه هيچ طبع ندارد، چه اگر طبع داشتى متأثر شدى يا به نقصان آمدى يا فسرده شدى. و اگرچه تصور معقولات قوّت افلاك است سخن در مادت و صورت فلكى مى‌رود، به رأى العين مرئى نيست، از آنكه اين چه ما مى‌بينيم هواست نه فلك. چه حسّ‌ ما بيشتر از پنج فرسنگ تا ده نتواند ديد. و اگر دليل دريافتن هيئت است هيئت معقول است نه محسوس. از آنكه محسوس آن بود كه حسّ‌ او را حصر كند و خيال گرد وى درآيد. پس اگر به فكر عقل دريافته شود، پس معقول بود نه محسوس، و معقول از محسوس جداست. و اگر حجت كواكب است كه ظاهرند ما را آنچه مرئى است از كواكب نه به قوت باصرۀ ماست. بلى نور كواكب از بزرگى و عظيمى در رطوبت جليدى ما مى‌افتد. و همچنين جوهرى بسيط‍‌ كه به افلاك و كواكب متعلق است هرگز 
--142-
-جدا نخواهد شد، و ما اين همه مسلم كنيم. چه دليل است بر آن‌كه هرچه مصورست محدث [است از آنكه مسايل معقولات مصور عقل است به تصور عقل و هيچ دو محدث] نيستند. پس چون در اين جملت كه ما گفتيم نگاه كرده آيد طريق تحليل و تقسيم معلوم شود. اما طريق «حدود». مقصود از شناختن حقيقت انواع است از اجناس و چندى فصلها، چنانكه گويد حدّ مردم چيست‌؟ گويند حيوان ناطق مايت. حيوان از جنس، و ناطق از جان، و مايت از تن. پس گويند حيوان جسم متحرك حساس بود. و «جسم» جوهرى بود مركب طولانى و عرضانى و عمقانى، و جوهر غير مركب آلتى بود تمام اجسام را، حيوان و غير حيوان - و اين در رسالۀ حدود بگوييم. اما غرض از برهان معرفت صورتى است كه عالم و آنچه در عالم است به وى قايم است و آن معقول است، و اين به «قياس صحيح» معلوم شود. و «قياس صحيح» چنانكه گفتيم از سه حدود و دو مقدمه پيدا آيد. و آن مقدمه‌ها كه در برهان و قياس صحيح به‌كار برند چهار است:- اوليّات [عقل]،- و مجرّبات،- و محسوسات،- و متواترات. اما «اوليّات عقل» چنان بود كه گويند پنج در پنج بيست و پنج باشد، يا چهار بيست و پنج صد باشد، يا آفتاب روشن است، يا از هر مثلثى سه زاويه برخيزد يا حاده يا منفرجه يا قائمه. اما «مجرّبات» بواسطۀ عقل و حسّ‌ بود، چنانكه اسهال صفرا سقمونيا را، و 
--143-
-اسهال سودا خربق را - كه عقل داند كه اين نه اتفاق است. چه اگر اتفاق بودى، گاه بودى و گاه نبودى. پس آن و مانند آن از مجرّبات است. اما «محسوسات» چون سوختن آتش را، و بريدن تيغ را، و درازى و پهنى جسم را، و راستى و كژى خط‍‌ را، و كاستن و افزودن روز و شب را. اما «متواترات» چنان بود كه نهاد كعبه، و بودن پيغمبر، و تاريخ پادشاهى و آنچه بدين ماند، و شرط‍‌ تواتر آن است كه در آن هيچ شك نباشد. و هرچه بيرون ازين چهار مقدمه باشد به هيچ‌گونه در قياس برهانى نيايد و اين چون مدخلى است در علم برهان. اما بايد كه چون قياس گفته آيد اگر در آن قياس شكى بود در هر سه حدّ نگاه كند و در هردو مقدمه ببيند تا از كدام شكل است و شرط‍‌ شكلها هريكى را بنگرد جداگانه و به حدّ نگاه كند تا حدّ مسئله كه نهاده است راست هست يا نه‌؟ و جنس اقرب است يا ابعد؟ و فصل ذاتى است يا خاصه يا عرضى‌؟ و محمول مسئله ذاتى موضوع هست يا نيست‌؟ چه اگر محمول مسئله نه ذاتى موضوع بود مسئله نه درست بود. اين قدر كفايت است در مدخل منطق.و باللّه العصمة و التوفيق.
--144-
-### طبيعيّات 
--145-
+### | خلاصۀ رسالۀ سيزدهم در انولوطيقا اولی در منطق 
+بسم اللّه الرحمن الرحيم
+بداند كه قضيتها را چون در قياس به‌كار برند آن را «مقدمه» خوانند، و چون دو مقدمه به يكديگر آيند ازيشان حكمى لازم آيد كه آن را «نتيجه» خوانند. مثال اين چنانكه گويند هر انسانى حيوان است و هر حيوانى نامى است. نتيجه آيد كه هر انسانى نامى است. پس از موضوع و محمول درين هر دو مقدمه سه لفظ‍‌ هست: مردم، انسان و حيوان و اين هريك را «حدّى» خوانند. مردم را «حدّ اصغر» خوانند و حيوان را «حدّ اوسط‍‌» خوانند و «مشترك» نيز خوانند، و نامى را «حدّ اكبر» خوانند و حدّ اوسط‍‌ «مشترك» باشد و علت «نتيجه» بود. چه اگر اشتراك وى نبود نتيجه نبود و اگر بود درست نباشد و ما به عكس و نقيض باز نمائيم كه مقدمات و نتايج صحيح كدام بود و دروغ كدام. پس چون اين سه «حدّ» به هم آيند ناچار حدّ اوسط‍‌ يا در يك مقدمه «موضوع»
+-136-
+ بود و در يكى «محمول»، يا در هردو «موضوع» بود، يا در هردو «محمول».- اگر در مقدمۀ اول محمول بود و در دوم موضوع بود آن را از شكل قياسها [ى] اول گيرند به شرطى كه ياد كنيم.- و اگر در هردو محمول بود آن را از شكل دوم گيرند.- و اگر در هردو موضوع بود آن را از شكل سيوم گيرند. شكل اول - چنان‌كه گويند هر مردمى حيوان است و هر حيوانى متحرك است - نتيجه آيد كه هر مردمى متحرك است و اين از ضرب اول بود. و اگر در هردو محمول بود و آن شكل دوم است، چنان بود كه گويند هر مصورى محدث است و هيچ قديم محدث نيست - نتيجه آيد كه هيچ مصور قديم نيست. و اگر در هردو موضوع بود شكل سوم باشد، چنانكه گويند هر حيوانى متحرك است و بعضى حيوان مردم است - نتيجه آيد كه بعضى متحرك مردم است. و اين مقدمه‌ها و حدّها گاه بود كه راست بود و گاه بود كه دروغ بود. چنانكه گويند هر حيوانى جسم است و هر سنگ جسم است. نتيجه آيد كه بعضى حيوان سنگ است و اين مقدمه‌ها راست است و نتيجه دروغ. و اين خطا از دو وجه است: اول آنكه اين قياس از شكل دوم است و در شكل دوم هيچ نتيجه موجب نباشد و ناچار بايد كه يك مقدمه موجب بود و يكى سالب، و اين هردو مقدمه موجب بود و نتيجه موجب. و ديگر آنكه گويند هر عاقلى مميّز است و هيچ مميّز گناه نكند، نتيجه آيد كه هيچ عاقلى گناه نكند، و اين خطاست. از آنكه هم مقدمات و هم نتيجه تلبيس است، و بطلان اين تلبيس به راه نقيض و عكس درست شايد كردن. چنانكه اينجا گفته است كه هر عاقلى مميّز است جواب او آن بود كه نه هر عاقلى مميّز است از آنكه عاشق و آنكه حريص بود به‌دنيا و دردمند و مانند اين عاقل‌اند و مميّز نيستند. و آنچه گفت هيچ مميّز گناه نكند درست نيست از آنكه عكس او اين است كه هيچ گناه نكننده مميّز نيست و نه چنين است. از آنكه پيغمبران و فيلسوفان هيچ گناه نكردند و جمله مميّز بودند. پس وجه شناختن اين خطا
+-137-
+ از نقيض و عكس باشد.
+### || فصل در نقض قضيتها
+هر «قضيه» كه در آن خطائى باشد چون عاقل در آن نگاه كند قضيۀ ديگر يابد بر ضد آن و آن را نقيض قضيۀ اول خوانند، چنانكه اين سخن كه گفته آمدست كه هر عاقل مميّز است نقيض او آن باشد كه نه هر عاقلى مميّز است. پس اين قضيۀ اول باطل شود. و شرطهاى «نقيض» آن بود كه يكى كلى بود و يكى جزوى، و يكى موجب و يكى سالب، ، و موضوع و محمول، و زمان و مكان، و قوت و فعل، و همگى و پاره در هردو قضيه يكى باشد. پس چون اين شرطها به‌جاى آرد نقيض درست باشد بى‌هيچ شكى.
+### || فصل در عكس مقدّمها
+عکس آن بود کی بود كه موضوع را محمول كنيم و محمول را موضوع، و مقدم را تالى كنيم و تالى را مقدم و معنى به‌جاى بود، و چنانكه گويى هر مردمى گوياست.مردم موضوع است و گويا محمول. گويا را موضوع كنى و مردم را محمول و همان معنى به‌جاى بود چنانكه گويى هر گويايى مردم است. و در مقدم و تالى متصل گويى اگر آفتاب برآيد روز بود. پس گويى اگر روز بود آفتاب برآمده باشد. و در منفصل گويى هر شمارى يا زوج بود يا فرد. پس گويى هر شمارى يا فرد بود يا زوج. و در «عكس» بايد كه نيك نگاه كرده آيد. اما عكس كلى موجب چنان بود كه گويى هر گويايى مردم است. گويا موضوع بود و مردم محمول. اگر گويا محمول كنى و مردم موضوع معنى هم به جاى
+-138-
+ بود كه در حدّ فصل و خاصه بود و كلى باز آيد، و هرچه جزين باشد كلى موجب جزوى موجب باز آيد. مثال «فصل» چنانكه گويى هر مردمى گوياست، اين را عكس كنى و گويى هر گويايى مردم است. و «خاصه» چنانكه گويى هر مردمى خندنده است. اين را عكس كنى و گويى هر خندنده‌اى مردم است. و آنچه جز فصول و خاصه باشد چنان بود كه گويد مردم حيوان است و اين را عكس كند و گويد بعضى حيوان مردم است و اين جزوى موجب باشد. و عكس كلى سالب كلى سالب باز آيد البته بى‌هيچ شكى، چنانكه گويد هيچ مردم سنگ نيست. در عكس گويى هيچ سنگ مردم نيست. و عكس جزوى موجب جزوى موجب باز آيد. و جزوى سالب را عكس نباشد. البته همين است حال عكس.
 
--146-
+### || فصل 
+و شرطهاى شكل اول - يكى آن است كه حدّ اوسط‍‌ در مقدمۀ صغرى محمول بود و در مقدمۀ كبرى موضوع،- و دؤم آنكه مقدمۀ صغرى موجب بود،- و سيوم آنكه مقدمۀ كبرى كلى بود، و اگر اين سه شرط‍‌ نباشد قياس درست نبود. و شرط‍‌ شكل دوم آن است كه يك مقدمه موجب بود و يكى سالب، و مقدمۀ كبرى البته كلى بود، و ديگر آنكه هيچ نتيجۀ موجب نبود، و اين شرطها اگر نبود قياس خطا بود. و شرط‍‌ شكل سوم آن است كه يك مقدمه هركدام بود كلى بود و مقدمۀ صغرى موجب بود و هيچ نتيجه كلى نبود.
+-139-
+ و در هر سه شكل شرط‍‌ است كه - حدّ اوسط‍‌ در شكل اول در صغرى محمول بود و در كبرى موضوع،- و در شكل دؤم در هر دو مقدمه محمول بود،- و در شكل سوم در هردو مقدمه موضوع. و از دو سالب قياس نيايد و از دو جزوى قياس نيايد، و چون مقدمۀ صغرى سالب بود و مقدمۀ كبرى جزوى بود قياس نيايد. و چون اين شرطها را نگاه دارد اگر مقدمه راست بود نتيجه دروغ بود، و اگر نتيجه راست بود مقدمه دروغ بود يا هردو دروغ. و بداند كه اينچه ياد كرديم همچون مدخلى باشد در علم منطق، و همچنين هر سه رساله كه ياد كرديم چون حساب و هندسه و نجوم. چه اگر مشروح گوئيم كتاب مطول شود.و باللّه العصمة و التوفيق.
+-140-
 
 --- ENGLISH TRANSLATION ---
 
-Here is an English translation of the selected passage from the *Epistles of the Brethren of Purity* (Ikhwan al-Safa), maintaining the scholarly tone and philosophical nuances of the original Arabic text:
+### Summary of the Thirteenth Epistle on the First Analytics in Logic  
+In the name of God, the Most Gracious, the Most Merciful.  
 
----
+Know that when propositions are used in syllogism, they are called "premises," and when two premises come together, a judgment necessarily follows from them, which is called the "conclusion." An example of this is when it is said: "Every human is an animal, and every animal is a substance." The conclusion follows that "Every human is a substance." Thus, in these two premises, there are three terms: "human," "animal," and "substance," each of which is called a "term." "Human" is called the "minor term," "animal" is called the "middle term" and is also referred to as the "shared term," and "substance" is called the "major term." The middle term is "shared" and is the cause of the "conclusion," for if there were no sharing, there would be no conclusion, and if it were present incorrectly, the conclusion would not be valid. We shall demonstrate through converse and contradiction which premises and conclusions are true and which are false.  
 
-### Summary of the Thirteenth Epistle on Analytics [i.e., the Second Book of Logic, Which Concludes the Mathematical Sciences]  
-**In the Name of God, the Most Gracious, the Most Merciful**  
+When these three terms come together, the middle term must either be:  
+1. The "subject" in one premise and the "predicate" in the other,  
+2. The "subject" in both premises, or  
+3. The "predicate" in both premises.  
 
-Know that "demonstration" (*burhān*) is a type of "syllogism" (*qiyās*), and syllogism is the genus to which demonstration belongs. Demonstration cannot be properly understood except through division (*qismah*), analysis (*taḥlīl*), and definition (*ḥadd*).  
+- If in the first premise it is the predicate and in the second the subject, it is taken from the first figure of syllogisms, provided we remember.  
+- If it is the predicate in both, it is taken from the second figure.  
+- If it is the subject in both, it is taken from the third figure.  
 
-As for "syllogism," it is when a generic term is mentioned, and you divide that genus into its species, and the species into their individual instances, examining the state of each species and instance separately until you discern whether any of these species or instances contain the fallacy that the opponent seeks to exploit.  
+**First Figure**: For example, if it is said: "Every human is an animal, and every animal is mobile," the conclusion follows: "Every human is mobile," and this is of the first mood.  
 
-"Analysis," on the other hand, is the reverse of what we have described. It resembles what physicians do when they say, "This thing is of two kinds: either it is an animal or an inanimate object." If it is inanimate, they analyze its composition—just as, for example, a goldsmith might say, "This substance consists of so much gold, so much silver, and so much copper."  
+**Second Figure**: If the middle term is the predicate in both premises, as in: "Every body is created, and no eternal thing is created," the conclusion follows: "No body is eternal."  
 
-The gold is a substance whose moisture, earthy parts, and ductile components are unified, and the heat of the mine has tempered it such that its aqueous and ductile parts have firmly bonded with its earthy parts, so that fire cannot separate them. Thus, it does not burn.  
+**Third Figure**: If the middle term is the subject in both premises, as in: "Every animal is mobile, and some animals are human," the conclusion follows: "Some humans are mobile."  
 
--141-  
+These premises and terms may sometimes be true and sometimes false. For example, if it is said: "Every animal is a body, and every stone is a body," the conclusion would be: "Some animals are stones." Here, the premises are true, but the conclusion is false. This error arises for two reasons:  
+1. This syllogism is of the second figure, and in the second figure, no universal affirmative conclusion is valid. It is necessary that one premise be affirmative and the other negative, but here both are affirmative, and the conclusion is affirmative.  
+2. If it is said: "Every rational being is discerning, and no discerning being commits sin," the conclusion would be: "No rational being commits sin," which is false. Both the premises and the conclusion are deceptive, and the falsity of this deception can be shown through contradiction and conversion.  
 
-As for silver, it has been tempered, but its earthy parts are not as firmly bound with its moisture. Therefore, fire separates them, and it burns. Copper, being impure, has been tempered beyond moderation, so that most of its moisture has burned away and blackened due to the heat of the mine. Thus, fire disperses its parts, and it burns away entirely, leaving no residue. The moisture, liquidity, ductility, and earthy nature of gold, being firmly bound, do not burn—and this is analysis.  
+For instance, the statement "Every rational being is discerning" can be refuted by saying: "Not every rational being is discerning, for the lover, the greedy, the afflicted, and the like are rational but not discerning." Likewise, the statement "No discerning being commits sin" is incorrect because its converse would be: "No sinner is discerning," which is untrue, for prophets and philosophers committed no sin yet were all discerning. Thus, the way to recognize this error is through contradiction and conversion.  
 
-Similarly, one may analyze a syllogism. First, take the initial premise and say, "Every body is formed, and every formed thing is originated." This is a syllogism of two premises. Then, if one wishes to analyze it, they take the first premise and say, "Every body is formed, and a body is composed of substance." Primarily, a body possesses length, width, and depth, and it is matter (*hayūlā*), which is a simple substance (*jawhar basīṭ*).  
+-136-  
 
-When one says "every body," the celestial spheres and their contents fall under this term. The celestial spheres consist of form (*ṣūrah*) and matter (*māddah*). Their form is corporeal but lacks a natural disposition (*ṭabīʿah*), for if it had one, it would be subject to change, diminution, or cooling. And although the apprehension of intelligibles is a power of the celestial spheres, the discussion concerns celestial matter and form, which are not visible to the naked eye—for what we see is not the celestial sphere itself but the atmosphere. Our senses cannot perceive beyond five to ten *farsakhs* (a unit of distance). If the proof lies in discerning the configuration (*hayʾah*), then the configuration is intelligible, not perceptible—for the perceptible is that which the senses can fully grasp and the imagination can conceive. Thus, if it is apprehended through intellectual reflection, it is intelligible, not perceptible, and the intelligible is distinct from the perceptible.  
+### Chapter on the Contradiction of Propositions  
+Every proposition that contains an error, when examined by a rational person, will yield another proposition opposed to it, called the "contradiction" of the first proposition. For example, the statement "Every rational being is discerning" is contradicted by "Not every rational being is discerning," thereby invalidating the first proposition.  
 
-If the argument rests on the stars, which are visible to us, what we see of the stars is not due to the power of our vision. Rather, the light of the stars, due to their immense size, falls upon the vitreous humor of our eyes. Likewise, the simple substance (*jawhar basīṭ*) pertaining to the celestial spheres and stars will never be separated—and we accept all this as established.  
+The conditions for contradiction are:  
+- One must be universal, the other particular.  
+- One must be affirmative, the other negative.  
+- The subject, predicate, time, place, potentiality, actuality, and entirety or part must be the same in both propositions.  
 
--142-  
+When these conditions are met, the contradiction is undoubtedly valid.  
 
-For there is proof that everything formed is originated (*muḥdath*), since the intelligible forms are conceptualized by the intellect, and no two originated things exist simultaneously. Thus, when one examines the statement we have made, the method of analysis and division becomes clear.  
+### Chapter on the Conversion of Premises  
+Conversion is when the subject is made the predicate and the predicate the subject, while the meaning remains unchanged. For example, if it is said: "Every human is speaking," where "human" is the subject and "speaking" is the predicate, then in conversion, "speaking" becomes the subject and "human" the predicate, as in: "Every speaking being is human," preserving the same meaning.  
 
-As for the method of "definitions" (*ḥudūd*), its purpose is to know the true nature of species in relation to their genera and their differentiating characteristics (*fuṣūl*). For example, one might ask, "What is the definition of a human?" The answer would be, "A mortal, rational animal." Here, "animal" is the genus, "rational" the differential, and "mortal" the corporeal aspect.  
+In connected propositions, such as "If the sun rises, it is day," the converse would be: "If it is day, the sun has risen." In disjunctive propositions, such as "Every number is either even or odd," the converse would be: "Every number is either odd or even."  
 
-Then one might say, "An animal is a sentient, mobile body." And "body" is a composite substance possessing length, width, and depth, while "substance" is an uncomposed instrument that constitutes all bodies—whether animal or otherwise. (We shall elaborate on this in the Epistle on Definitions.)  
+In conversion, careful attention is required. The conversion of a universal affirmative proposition (e.g., "Every speaking being is human") retains its meaning if the predicate becomes the subject and the subject the predicate, provided it pertains to the differential or property, and the universal remains universal.  
 
-The purpose of demonstration (*burhān*) is to know the intelligible form by which the universe and all within it subsist, and this is ascertained through a "valid syllogism" (*qiyās ṣaḥīḥ*). A valid syllogism, as we have said, consists of three terms and two premises. The premises employed in demonstration and valid syllogism are of four kinds:  
+For example:  
+- **Differential**: "Every human is speaking" converts to "Every speaking being is human."  
+- **Property**: "Every human is laughing" converts to "Every laughing being is human."  
 
-1. **Primary intelligibles** (*awwaliyyāt al-ʿaql*)—such as "five times five is twenty-five," or "four times twenty-five is one hundred," or "the sun is luminous," or "every triangle has three angles—whether acute, obtuse, or right."  
-2. **Empirical observations** (*mujarrabāt*)—verified by both intellect and sense, such as "scammony purges yellow bile," or "hellebor purges black bile." The intellect knows this is not mere coincidence, for if it were, it would sometimes occur and sometimes not. Thus, this and similar cases fall under empirical premises.  
-3. **Perceptibles** (*maḥsūsāt*)—such as the burning of fire, the cutting of a blade, the length and width of a body, the straightness or curvature of a line, or the shortening and lengthening of day and night.  
-4. **Widely transmitted reports** (*mutawātirāt*)—such as the construction of the Kaaba, the existence of the Prophet, the chronicles of kings, and the like. The condition for such reports is that they must be beyond doubt.  
+For propositions that are neither differential nor property, such as "A human is an animal," the conversion yields: "Some animals are human," which is a particular affirmative.  
 
--143-  
+The conversion of a universal negative remains a universal negative without doubt (e.g., "No human is a stone" converts to "No stone is human"). The conversion of a particular affirmative remains a particular affirmative, but a particular negative has no valid conversion.  
 
-Anything outside these four types of premises has no place in demonstrative syllogism. This serves as an introduction to the science of demonstration.  
+-137-  
 
-However, when a syllogism is presented, if there is any doubt about it, one must examine all three terms and both premises to determine which form it follows. One must also scrutinize the conditions of each form separately and assess whether the definition of the problem at hand is correct or not. Is the genus proximate or remote? Is the differential essential, specific, or accidental? Is the predicate of the problem inherent to the subject or not? For if the predicate is not inherent to the subject, the problem is invalid.  
+### Chapter  
+The conditions for the **first figure** are:  
+1. The middle term is the predicate in the minor premise and the subject in the major premise.  
+2. The minor premise is affirmative.  
+3. The major premise is universal.  
 
-This much suffices as an introduction to logic.  
+If these three conditions are not met, the syllogism is invalid.  
 
-**And God is the Guardian of Innocence and the Bestower of Success.**  
+The conditions for the **second figure** are:  
+1. One premise is affirmative, the other negative.  
+2. The major premise must be universal.  
+3. No conclusion is universal affirmative.  
 
--144-  
+If these conditions are not met, the syllogism is erroneous.  
 
-### [Next ->] The Natural Sciences  
+The conditions for the **third figure** are:  
+1. One of the premises is universal.  
+2. The minor premise is affirmative.  
+3. No conclusion is universal.  
 
--145-  
+-138-  
 
--146-  
+In all three figures, the condition is:  
+- In the first figure, the middle term is the predicate in the minor premise and the subject in the major premise.  
+- In the second figure, it is the predicate in both premises.  
+- In the third figure, it is the subject in both premises.  
 
----
+No syllogism arises from two negative premises or two particular premises. If the minor premise is negative and the major premise is particular, no syllogism follows.  
+
+If these conditions are observed:  
+- If the premises are true, the conclusion is false.  
+- If the conclusion is true, the premises are false, or both are false.  
+
+Know that what we have mentioned here serves as an introduction to the science of logic, just as the three preceding epistles (on arithmetic, geometry, and astronomy) do. For if we were to elaborate, the book would become lengthy.  
+
+And with God is protection and success.  
+
+-140-

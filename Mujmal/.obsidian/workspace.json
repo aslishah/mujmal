@@ -40,8 +40,21 @@
               "icon": "lucide-file",
               "title": "2025-04-07"
             }
+          },
+          {
+            "id": "8aa57bea87a40428",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.10"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.10"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -188,7 +201,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e0f1c12f7e2f748e",
+  "active": "8aa57bea87a40428",
   "lastOpenFiles": [
     "Welcome.md",
     "2025-04-07.md"
