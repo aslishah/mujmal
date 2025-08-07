@@ -24,3 +24,148 @@
 -57-
 
 -58-
+
+--- ENGLISH TRANSLATION ---
+
+Here is the English translation of the provided Persian text from the Epistles of Ikhwan al-Safa (Brethren of Purity), maintaining the scholarly tone and philosophical nuances of the original:
+
+---
+
+### Summary of the Second Epistle on Geometry  
+In the name of God, the Most Gracious, the Most Merciful.  
+We say that geometry is of two kinds: intellectual and sensory. As for the *sensory*, it is the knowledge of magnitudes and what pertains to them—geometric shapes—which may be perceived either by the sense of sight or the sense of touch. Magnitudes are of three kinds: line, surface, and body. As for the *intellectual*, it is the knowledge of the dimensions of these magnitudes and what pertains to them, conceived in the soul through thought, in contrast to sensory perception in apprehension and comprehension. Dimensions are also of three kinds: length, width, and depth—these being the attributes of sensory magnitudes. Contemplation of abstract dimensions can only be achieved through the power of thought and the discipline of the soul.  
+
+Sensory geometry, however, is closer to the understanding of the learner, and whatever is grasped prior to practice is a kind of geometry. An example of sensory geometry is length, width, and depth—such as a cube, which has six equal sides, perceivable by the senses, with right and left, front and back, and above and below. This is purely sensory.  
+
+Thus, we say that the origin of a line is a point, as we mentioned in the first epistle that "one" is the origin of number. Here, we mean the *sensory* point, not the intellectual one.  
+
+-47-  
+
+When sensory points are arranged in this manner... a line emerges, and the line is the origin of the surface—just as the point is the origin of the line—and the surface is the origin of the body. A line has length alone, a surface has length and width but no depth. Thus, when a surface is duplicated, the first body is formed.  
+
+**Section on Types of Lines**  
+We say that lines are of three kinds:  
+1. A *straight* line, like this.  
+2. A *curved* line, like this.  
+3. One that is both straight and curved, like this.  
+
+When straight lines meet, they may be:  
+- *Equal*, like this.  
+- *Parallel*, like this.  
+- *Convergent*, like this.  
+- *Tangent*, like this.  
+- *Intersecting*, like this.  
+
+Each of these constitutes a genus of sensory geometric shapes.  
+
+When a straight line stands upon another straight line without inclining to either side, that line is called a *perpendicular*. The line upon which the perpendicular falls is called the *base*, and it forms a right angle, as in this example. This angle is called a *right angle*. If it is smaller than a right angle, it is called *acute*; if larger, it is called *obtuse*. When obtuse and acute angles lie on the same straight line, they together equal two right angles, as shown. If many angles lie on a single straight line, they are all acute and together equal two right angles, as shown.  
+
+Just as arithmetic is infinite, so too are shapes—such as the triangle,  
+
+-49-  
+
+the square, the pentagon, the hexagon, and so on. Thus, if someone claims that a shape with a thousand sides exists, or a body with a thousand surfaces and a thousand bases, there is no objection to this.  
+
+Since the nature of shapes follows this pattern, so too do angles—for the more sides and surfaces a shape has, the more angles it possesses. When two sides meet at an angle, each is called a *leg*, as shown. When a base is drawn between these two legs, a triangle is formed. If another triangle is combined with it, a square is formed. When four parallel lines meet, they form a square whose sides are equal. If the points at the ends of the lines are parallel, it is a *parallelogram*, as shown. If the points are not equal, it is non-parallel, as in this example.  
+
+A triangle may be:  
+- *Right-angled*, like this.  
+- *Acute-angled*, like this.  
+- *Obtuse-angled*, like this.  
+
+In any triangle, two obtuse angles never occur, but three acute angles may. A square is composed of two triangles, as shown. A square may be:  
+- *Equilateral*, like this.  
+- *Rectangular*, like this.  
+- *Rhomboid*, like this.  
+- *Skewed*, like this.  
+
+All other forms are derivatives of these. The circle is a fundamental shape.  
+
+**Section on Types of Angles**  
+Angles are of two kinds: *planar* and *solid*. A planar angle is formed by two lines meeting at a vertex without lying in the same straight line, as shown.  
+
+-51-  
+
+A solid angle is formed by three lines perpendicular to one another, as shown.  
+
+Planar angles are of three kinds:  
+1. Formed by two straight lines, like this.  
+2. Formed by two curved lines, like this.  
+3. Formed by one straight and one curved line, like this.  
+
+Angles formed by straight lines are of three types in terms of quality: *right*, *obtuse*, and *acute*, as previously mentioned.  
+
+**Section on Types of Curved Lines**  
+Curved lines are of four kinds:  
+1. A *complete circle*, like this.  
+2. A *semicircle*, like this.  
+3. *More than a semicircle*, like this.  
+4. *Less than a semicircle*, like this.  
+
+The *center* is the middle of the circle. The *diameter* is the line that divides the circle into two equal halves and passes through the center, as shown.  
+
+-52-  
+
+The *chord* is the line that serves as the base of an arc—or, if we may say, a straight line drawn from one end of an arc to the other, as shown.  
+
+The *sagitta* is the straight line that bisects the chord, as shown. When the sagitta connects to the midpoint of the arc, it is called the *versed sine*, as shown. When half the chord connects to the sagitta, it is called the *sine*, as shown.  
+
+Circles may be:  
+- *Concentric* (parallel to one another around a single center), like this.  
+- *Intersecting*, like this.  
+- *Tangent*—either internally, like this, or externally, like this.  
+
+We say that the smallest line requires two points and is composed of two parts, like this—or of three parts, or four, and so on infinitely. The smallest shape is the triangle, composed of three parts, as shown.  
+
+-53-  
+
+After three comes six, as shown; after six, ten; after ten, fifteen; and so on. The transcriber of this book says that in the arrangement of triangles, there are many lessons by which the wise may come to know the Necessary Existence (God) and be content, needing nothing else.  
+
+As for square shapes:  
+1. The first is composed of four parts, like this.  
+2. The next, of nine parts, like this.  
+3. Then sixteen, like this.  
+
+And so on infinitely. A property of these shapes is that they increase in natural order—just as in triangles, after one comes two, then three (forming a triangle), then six (another triangle), then ten, and so on. Squares follow the same pattern.  
+
+All shapes can be composed of triangles—for example, a square is two triangles, a pentagon three, a hexagon four, and so on.  
+
+Surfaces, in terms of quality, are of three kinds:  
+1. *Flat*, like a tablet, as shown.  
+2. *Concave*, like the inside of a bowl.  
+3. *Convex*, like the back of a dome.  
+
+Among shapes, some are called *oval*, like this; some *crescent*, like this; some *conical*, like this;  
+
+-55-  
+
+some *elliptical*, like this; some *semi-lunar*, like this; some *drum-shaped*, like this; and some *olive-shaped*, like this.  
+
+Know that the surface is the limit of the body, the limit of the surface is the line, and the limit of the line is the point. Thus, the point is like the "mother" of the line, the line is the origin of the surface, and the surface is the origin of the body. Therefore, nothing precedes the point, and nothing exceeds the body.  
+
+*Solid shapes* are numerous—such as the sphere, which has a single surface enclosing it. Other bodies with multiple enclosing surfaces include *pyramidal*, *cubic*, *well-shaped*, *slab-like*, and *milk-pail* forms.  
+
+The purpose of this epistle is to demonstrate that the foundation of all sciences and practices—especially those pertaining to wisdom—is arithmetic and geometry. It is forbidden for anyone to seek knowledge, wisdom, or the recognition of God Almighty without mastering these two sciences.  
+
+We affirm that whoever does not fully grasp these two sciences cannot know God Almighty—whatever they say is error, for divine knowledge comes after natural science and spiritual knowledge.  
+
+Geometry has two aspects: one in the sensory world and one in the intellectual world. How can one who has not first learned the sensory aspect attain the spiritual and intellectual aspect? Whoever claims otherwise is mistaken.  
+
+Know that arithmetic and geometry are the ladder by which one may ascend to divine knowledge and abstract intelligibles. What we have described in arithmetic and geometry can, once mastered, allow the disciplined mind to abstract numbers and shapes from matter and conceive of them purely.  
+
+Once this is achieved, it becomes clear that the forms of all sensible things can be abstracted from sensory perception—just as God (exalted is He) is free from form, as we have shown with the example of the cubic square, whose form appears in the senses while its essence transcends them.  
+
+We have not elaborated extensively in this epistle, for arithmetic and geometry cannot be fully covered here. The purpose is to awaken the intellect, provoke inquiry, ignite the desire for learning, and point the way—not to teach geometry itself.  
+
+For when the wise reflect that what is near them in the senses can be abstracted, they realize that the faculty performing this abstraction must itself be immaterial—and that is the soul. Thus, they yearn for their return [to the spiritual realm], seeking deliverance from the material world—the realm of generation and corruption, the greater Hell—and strive to ascend to the world of spirits, the eternal Paradise, preparing provisions for the journey.  
+
+This suffices on the matter.  
+And God is the source of protection and success.  
+
+-57-  
+
+-58-  
+
+---
+
+This translation preserves the original structure, terminology, and philosophical depth while ensuring readability in English. Let me know if you'd like any refinements.

@@ -36,3 +36,147 @@
 -75-
 
 -76-
+
+--- ENGLISH TRANSLATION ---
+
+Here is the English translation of the provided Persian text from the Epistles of Ikhwan al-Safa (Brethren of Purity), maintaining the scholarly tone and philosophical nuances of the original:
+
+---
+
+### Summary of the Third Epistle on Astronomy  
+In the name of God, the Most Gracious, the Most Merciful.  
+
+Having previously opened a discourse on numbers and geometry—subjects that bridge the intelligible and the sensible—we now turn to the science of astronomy, which pertains to the realm of spirits and is our abode. Know that astronomy is of three kinds:  
+1. **Universal Astronomy**: The knowledge of the composition of the celestial spheres, the number and distances of the stars, their motions, and related matters. This is called *‘ilm al-hay’a* (the science of configuration).  
+2. **Zij Calculations**: The computation of astronomical tables, calendrical reckoning, the extraction of dates, and the determination of ascendants for births and other such matters.  
+3. **Judicial Astronomy**: The science of predictions concerning years, cycles, and conjunctions, particularly those under the sphere of the Moon.  
+
+In this epistle, we shall introduce aspects of all three kinds. Know that the foundation of astronomy lies in understanding three things: the stars, the spheres, and the zodiacal signs.  
+
+-59-  
+**The Stars** are luminous spherical bodies, numbering 1,029 as observed. Seven are called "planets" (*sayyāra*): Saturn, Jupiter, Mars, the Sun, Venus, Mercury, and the Moon. The rest are called "fixed stars" (*thābita*). Each planet has its own sphere.  
+
+**The Spheres** are transparent spherical bodies nested within one another. There are nine spheres, as illustrated elsewhere. The closest to us is the sphere of the Moon, enveloping the air like the membrane around an egg’s yolk. The Earth stands at the center of the air, like the yolk within the egg white. Above the lunar sphere is the sphere of Mercury, then Venus, then the Sun.  
+
+-60-  
+Above the Sun is the sphere of Mars, then Jupiter, then Saturn. Beyond Saturn lies the sphere of the zodiac (*falak al-burūj*), and above it, the all-encompassing sphere (*al-falak al-muhīt*). This outermost sphere is in perpetual motion, completing one full rotation from east to west every day and night, carrying the other spheres with it.  
+
+The zodiacal sphere is divided into twelve parts, each called a sign (*burj*): Aries, Taurus, Gemini, Cancer, Leo, Virgo, Libra, Scorpio, Sagittarius, Capricorn, Aquarius, and Pisces. Each sign is divided into 30 degrees, totaling 360 degrees for the zodiac. Each degree is subdivided into 60 minutes, each minute into 60 seconds, and so on, up to the tenth division, beyond which calculation is unnecessary.  
+
+Here, we mention essential astronomical concepts:  
+- Six signs are northern, six southern.  
+- Six rise directly (*mustaqīm al-tulū‘*), six obliquely (*mu‘awwaj al-tulū‘*).  
+- Six are masculine, six feminine.  
+- Six are nocturnal, six diurnal.  
+- Six are ascending, six descending.  
+
+For example:  
+- Aries, Taurus, Gemini, Cancer, Leo, and Virgo are northern.  
+- Libra to Pisces are southern.  
+- Cancer to Sagittarius rise directly, taking over two hours to ascend.  
+- Capricorn to Gemini rise obliquely, taking under two hours.  
+- Aries, Gemini, Leo, Libra, Sagittarius, and Aquarius are masculine and diurnal.  
+- Taurus, Cancer, Virgo, Scorpio, Capricorn, and Pisces are feminine and nocturnal.  
+
+-61-  
+Leo, Virgo, Libra, Scorpio, Sagittarius, and Capricorn are in the solar domain. Aquarius, Pisces, Aries, Taurus, Gemini, and Cancer are in the lunar domain.  
+
+The signs are also grouped by seasons and elements:  
+- Aries, Taurus, Gemini: spring, ascending north.  
+- Cancer, Leo, Virgo: summer, descending north.  
+- Libra, Scorpio, Sagittarius: autumn, descending south.  
+- Capricorn, Aquarius, Pisces: winter, ascending south.  
+
+The triplicities (*muthallathāt*) are:  
+- **Fiery**: Aries, Leo, Sagittarius (eastern, hot, dry, choleric).  
+- **Earthy**: Taurus, Virgo, Capricorn (southern, cold, dry, melancholic).  
+- **Airy**: Gemini, Libra, Aquarius (western, hot, moist, sanguine).  
+- **Watery**: Cancer, Scorpio, Pisces (northern, cold, moist, phlegmatic).  
+
+-62-  
+Each of the twelve signs is assigned to a planet through rulerships, dignities, and debilities, such as:  
+- Aries: ruled by Mars, exalted by the Sun, debilitated by Saturn, afflicted by Venus.  
+- Taurus: ruled by Venus, exalted by the Moon, afflicted by Mars.  
+- And so on for all signs.  
+
+Each planet rules one sign in the solar domain and one in the lunar domain, except the Sun and Moon, which rule one each.  
+
+**The Nature of the Spheres**: The celestial spheres are layered like an onion, with no gaps between them. They are not composed of air or fire but are subtle bodies, devoid of color or elemental nature. They are the abode of angels and pure intellects, closer to living beings than we are.  
+
+The stars are alive, rational, discerning, and volitional. They were created and will not perish, as promised by God. Each sphere has its own unique essence, an apogee (*awj*), and a corresponding perigee (*hazīf*). For example, the Sun’s apogee is in Gemini, its perigee in Sagittarius.  
+
+-63-  
+When a planet is at its apogee, its motion is slowest; at perigee, fastest. The "mean distance" (*ba‘d al-awsat*) lies between these points.  
+
+Each planet (except the Sun) has an epicycle (*falak al-tadwīr*), a small sphere whose center lies on the deferent sphere (*falak al-hāmil*). The Sun lacks an epicycle, moving directly along the ecliptic without retrogradation.  
+
+The Sun is pure light, illuminating all. The Moon, though less luminous, reflects the Sun’s light. Below the lunar sphere lie the lunar nodes (*Rāhu* and *Ketu*), which cause eclipses when aligned with the Sun and Moon.  
+
+-64-  
+**Planetary Aspects**: The zodiac’s 360 degrees are divided into aspects (*nazar*):  
+1. **Conjunction** (*muqārana*): 0° (neutral).  
+2. **Sextile** (*tasadis*): 60° (favorable).  
+3. **Square** (*tarbī‘*): 90° (hostile).  
+4. **Trine** (*tathlīth*): 120° (highly favorable).  
+5. **Opposition** (*muqābala*): 180° (highly hostile).  
+
+These aspects govern planetary interactions.  
+
+**Purpose of This Epistle**:  
+1. To teach that these sciences are for spiritual advancement, not worldly gain.  
+2. To demonstrate that all creation is mutable, contingent, and dependent on the Necessary Being (*Wājib al-Wujūd*).  
+
+-65-  
+The celestial spheres are the abode of souls, the eternal paradise. Many astrologers deny resurrection and divine judgment, but we have shown their error. The Necessary Being ordained the heavens with perfect order, and the sublunary world follows their influence, as iron obeys the magnet.  
+
+The translator notes: These mysteries, hinted at here, are clarified for the reader’s benefit. Analogies like the magnet and iron prove the sublunary world’s submission to the celestial.  
+
+-66-  
+**Planetary Natures**:  
+- Saturn: cold, dry, masculine, malefic, diurnal.  
+- Jupiter: hot, moist, masculine, benefic, diurnal.  
+- Mars: excessively hot and dry, masculine, malefic, nocturnal.  
+- Sun: hot, dry, masculine; benefic in trine/sextile, malefic in opposition/square.  
+- Venus: cold, moist, feminine, benefic, nocturnal.  
+- Mercury: variable; benefic with benefics, malefic with malefics.  
+- Moon: cold, moist, feminine; benefic when well-aspected, malefic otherwise.  
+
+**Planetary Light**:  
+- Sun: 15° ahead and behind.  
+- Moon: 12°.  
+- Saturn/Jupiter: 9°.  
+- Mars: 8°.  
+- Venus/Mercury: 7°.  
+
+-67-  
+**Planetary Hours**: Each day and hour is ruled by a planet, beginning with the Sun at Sunday’s first hour.  
+
+**Astrological Houses**:  
+1. **Ascendant**: Life, body.  
+2. Wealth, livelihood.  
+3. Siblings, short journeys.  
+4. Parents, property, endings.  
+5. Children, gifts, messengers.  
+6. Illness, servants.  
+7. Marriage, long journeys, adversaries.  
+8. Death, calamities.  
+9. Religion, dreams, distant travel.  
+10. Mother, rulers, career.  
+11. Hopes, friends.  
+12. Enemies, imprisonment.  
+
+These houses have detailed interpretations in astrological texts.  
+
+-68-  
+**The Soul’s Journey**: The heavens are the eternal paradise, the Earth a transient abode. Only the soul, freed from bodily attachments and vices, can ascend to the celestial realm. Worldly obsessions—wealth, pleasure—bind the soul to the sublunary world, where it transmigrates through forms, as God says: *"Whenever their skins are burned, We replace them with new skins"* (Quran 4:56).  
+
+The righteous soul, untainted by sin, attains salvation. The wicked, consumed by envy, greed, and anger, remain trapped in darkness, like those blinded by disease.  
+
+-69-  
+**Spiritual Beings**: Just as visible planets influence the Earth, there are unseen spirits (*rūhāniyyāt*): angels, jinn, demons, and souls. The noble souls of the righteous ascend to the heavens, while the wicked become malevolent spirits, corrupting the world.  
+
+The translator concludes: These truths, once grasped, inspire the seeker to yearn for the celestial realm, as the prophets Idris (Hermes), Aristotle, Pythagoras, Jesus, and Muhammad (peace be upon them) attested. The heavens await those who purify their souls.  
+
+---  
+
+This translation preserves the original pagination (-59- to -76-) and adheres to the text’s philosophical and scholarly tone. Let me know if you need further refinements.

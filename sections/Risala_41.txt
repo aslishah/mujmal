@@ -44,3 +44,254 @@
 -317-
 
 -318-
+
+--- ENGLISH TRANSLATION ---
+
+Here is the English translation of the provided Persian text from the Epistles of Ikhwan al-Safa (Brethren of Purity), maintaining the scholarly tone and philosophical nuances of the original. The original page numbers are preserved as requested:
+
+---
+
+### Summary of the Tenth Epistle on Spiritual Matters Concerning Definitions and Descriptions  
+In the Name of God, the Most Gracious, the Most Merciful.  
+
+Know that in the entirety of the five logical books, we have discussed what a "definition" (ḥadd) is. Here, an epistle has been presented on simple definitions, though not in the exhaustive manner logicians would require. Moreover, most things were explained through "description" (rasm) rather than definition, and where definitions were given, they were "persuasive" (iqnāʿī) rather than "demonstrative" (burhānī)—except in a few cases. Therefore, we have compiled proven definitions from the works of great scholars—such as the *Ishārāt wa al-Tanbīhāt* by Khwāja Ḥujjat al-Ḥaqq (Avicenna), the *Nuqāwat al-Ḥikma* by Khwāja Ḥasan Jurjānī Iṣfahānī, and the book by ʿAbd Allāh Jibrāʾīl Bakhtīshūʿ the Physician—so that they may be of use to logicians.  
+
+We stated at the beginning of this book that we would not mention anything redundant, repetitive, or lacking demonstrative proof. We omit what must be omitted and elaborate where necessary. Thus, we have gathered these definitions so that what is most essential may be more abundant in this book.  
+
+We say: After the Necessary Existence (Wājib al-Wujūd), everything that exists—from the outermost sphere to the center—is of two kinds: either simple (basīṭ) or composite (murakkab).  
+
+-297-  
+
+The "simple" is intelligible, and its definition cannot be adequately formulated, nor can it be fully answered by definition or description. The "composite" is either perceptible by sight or not.  
+
+In formulating definitions, the sage finds much ease, particularly in two respects:  
+1. A definition shortens lengthy discourse and relieves the sage from composing extensive treatises.  
+2. When an opponent is asked, "What is the definition of such-and-such?" it immediately becomes clear whether they are knowledgeable or ignorant, eliminating the need for extensive testing.  
+
+The essence of a definition, as established in the art of logic, is that through it, a thing is known in its true reality and intrinsic nature. No essential predicate should be omitted—whether in potentiality or actuality—so that the entire matter falls under that statement. When the definition is analyzed and its components examined, all its essential meanings are grasped. If the thing is specific, its specificity is established through it. If it is general, the specific is distinguished from it. Both must be included in the definition, whether concisely or at length. If a concise phrase is insufficient, a detailed explanation is necessary. The purpose of a definition is knowledge, not brevity.  
+
+The first error in definition, arising from excessive conciseness, is when one is asked, "What is an animal?" and replies, "A body that senses." This does not convey the true reality of an animal, for an animal possesses many attributes beyond mere sensation that must be included in its definition. For example, an animal is a living body that nourishes itself, perceives, and moves by its own will. Only then is the reality of an animal understood.  
+
+The primary aim of sages in formulating definitions is to grasp both the reality and the distinction between essential and accidental attributes. A definition should not merely distinguish without revealing the reality—this is a common flaw.  
+
+-298-  
+
+For example, if one defines "human" as "a rational substance," substance (jawhar) is the highest genus (jins al-ajnās). By not specifying "animal" (the proximate genus, jins al-aqrab), essential attributes like motion, growth, corporeality, and life are omitted.  
+
+In truth, a valid definition must ensure that everything pertaining to the defined thing necessarily occurs to the listener’s mind, so that if they inquire further, nothing else remains except what falls under that definition. For instance, defining "human" as "a rational animal" ensures that every attribute of a human is found in "animal," except rationality. Thus, nothing essential is omitted, for a human has two attributes: animality and speech. Once the definitions of "animal" and "speech" are known and their realities examined, no attribute of a human remains unaccounted for.  
+
+Therefore, it is essential to preserve the "proximate genus" (jins al-aqrab) so that all essential attributes are included. The "proximate genus" is like a universal premise, encompassing all higher genera (ajnas al-abʿad). When one says "animal," it includes name, sensation, life, motion, and nourishment. When one says "rational," it encompasses the human soul, discernment, the apprehension of intelligibles, and specific traits like laughter, weeping, writing, crafts, and cleverness—the noblest traits of humans—down to madness, the lowest trait. All fall under "speech."  
+
+Know that sages and great scholars are incapable of defining things that cannot be fully grasped. Even if apprehended, language cannot express them, nor can words translate their true reality.  
+
+We shall mention several conditions to minimize errors in definitions. Errors in definition arise either from the genus, the differentia, or both. We will explain their causes.  
+
+An error in the "genus" is, for example, defining "human" as "a speaking body," thereby omitting what is nobler than body—namely, animal—and using "body" as the genus.  
+
+An error in the "differentia" is defining "human" as "a discerning animal." This is incorrect because speech is superior to discernment, and discernment falls under speech, not vice versa. Many animals discern—some drink pure water, recognize their young, or avoid filth (unlike pigs and dogs, which recognize their masters).  
+
+An error in both "genus" and "differentia" is defining "human" as "a moving body." Here, "body" is the remote genus (jins al-abʿad), and "moving," though an essential human attribute, does not encompass all attributes.  
+
+Another flawed definition is using the "matter" of a thing in place of its genus. For example, saying "a sword is iron that cuts" is incorrect because iron is the matter of the sword, not its genus. One should say, "A sword is a tool made of iron, flat and sharp, for combat." Here, "iron" is wrongly substituted for "tool."  
+
+Similarly, one might mistake a "part" for the "whole." For example, saying "ten is two fives" is incorrect because five is not the genus of ten. Instead, one should say, "Ten is a number that, when divided by one ten times, leaves nothing," or "a number composed of two fives." Though this differentia is not essential, it identifies ten uniquely.  
+
+When formulating definitions, one must avoid tautology. Tautology is substituting synonyms—e.g., defining "time" (zamān) as "duration" (mudda), or "lion" (shīr) as "what is called *asad*." Here, "time" and "duration," or "lion" and *asad*, are identical.  
+
+Another error is defining by opposites. For example, defining "power" (qudra) as "the opposite of incapacity" leaves both terms undefined. A definition must use known, not unknown, terms.  
+
+Similarly, defining a thing by its derivative is flawed. For example, defining "iron" as "what swords are made of," or, as Khwāja Ḥujjat al-Ḥaqq says, defining "the sun" as "the star that rises by day." If one reflects carefully on these principles, no doubt remains.  
+
+We have compiled definitions from the books of Khwāja Ḥujjat al-Ḥaqq and other sages.  
+
+A "definition" (ḥadd) is a statement indicating the reality of a thing and its identity. Many things lack an "essential differentia" (faṣl dhātī) but possess a "specific property" (khāṣṣa), which serves as their "description" (rasm).  
+
+"Description" consists of the "proximate genus" and the specific property of the thing. For example, a horse has no essential differentia (unless one cites its unique whinny, absent in other animals). If one says "it barks," a dog does so better. If one says "it sits," oxen, donkeys, and camels do so as well. Thus, many things can only be described, not defined.  
+
+"Description" is of two kinds:  
+1. Complete: A statement combining the "proximate genus" and an inseparable accident.  
+2. Incomplete: A statement identifying a thing without reference to its essence.  
+
+The attributes of the Necessary Existence (al-Bārī taʿālā) cannot be defined (for It has no genus) nor described (for It has no differentia, composition, or connection to anything). Whatever is attributed to It is called "the effusion of Its generosity." It is an existence beyond number, indivisible, and unchanging—this is the explanation of Its name.  
+
+-301-  
+
+**Definition of Intellect (ʿAql)**  
+"Intellect" is a term shared by many meanings:  
+1. A faculty distinguishing good from bad actions and beliefs.  
+2. Acquired intellect (ʿaql muktasab), gained through experience. Its definition: "A meaning that deduces premises to ascertain one’s benefit and pursue it."  
+3. A praiseworthy human existence from which speech, motion, rest, and voluntary actions arise.  
+
+Philosophers define it as "conceptions (taṣawwurāt) and assents (taṣdīqāt) innate to the human soul." Alternatively, intellect is of two kinds: theoretical (naẓarī) and practical (ʿamalī).  
+
+- Theoretical intellect: A faculty of the soul that apprehends universal forms.  
+- Practical intellect: A faculty that actualizes particular conceptions.  
+
+Further, "material intellect" (ʿaql hayūlānī) is the soul’s potential to receive immaterial forms. "Actual intellect" (ʿaql bi’l-fiʿl) is the soul’s perfection in actualizing conceptions. "Acquired intellect" (ʿaql mustafād) is a faculty abstracted from matter, enabling the soul to receive external knowledge.  
+
+The "Active Intellect" (ʿaql al-faʿʿāl) is defined in two ways:  
+1. A substance containing the forms of all things, its essence abstracted from matter, the source of all existence.  
+2. A universal substance that actualizes the material intellect through its emanation.  
+
+-302-  
+
+**Definition of Soul (Nafs)**  
+"Soul" is a shared term among humans, animals, and plants, or between humans and angels.  
+1. The soul is the perfection of a natural body potentially possessing life.  
+2. It is a substance separate from the body, the perfection of a moving body that moves voluntarily and enables speech (potentially or actually).  
+
+The "Universal Intellect" (ʿaql kullī) and "Universal Soul" (nafs kullī) are beyond the sphere, whereas "particular intellect" and "particular soul" govern individuals (e.g., Plato’s intellect or Hippocrates’ soul). The intellect and soul of Zayd and ʿAmr are not identical.  
+
+**Definition of Form (Ṣūra)**  
+Form is defined in three ways:  
+1. A term predicated of many things in answer to "What is it?" (i.e., the species).  
+2. A form standing for another thing, not as an accident (e.g., knowledge in the soul).  
+3. A simple, substantial form by which bodies subsist.  
+
+**Definition of Matter (Hayūlā)**  
+Matter is a simple substance existing in actuality, receptive to form.  
+
+**Definition of Subject (Mawḍūʿ)**  
+The primary subject of a secondary thing, preceding it in meaning and form (e.g., matter precedes body).  
+
+**Definition of Materiality (Mādda)**  
+The term for all matters—prime matter, secondary matter, etc. (e.g., earth and its contents, excluding animals).  
+
+**Definition of Elements (ʿAnāṣir)**  
+A shared term for principles (e.g., the soul is the matter of the body; elements are the matter of the three genera). An element is the matter from which another thing arises.  
+
+**Definition of Principle (Usṭuqus)**  
+The primary body from which all bodies originate and into which they dissolve.  
+
+**Definition of Pillars (Arkān)**  
+Simple, substantial bodies intrinsic to the cosmos (e.g., celestial spheres and elements).  
+
+**Definition of Nature (Ṭabīʿa)**  
+The primary principle of motion and rest inherent in a thing, sustaining the sublunary world.  
+
+**Definition of Body (Jism)**  
+A composite substance with length, width, and depth (whether celestial or terrestrial).  
+
+-304-  
+
+**Definition of Substance (Jawhar)**  
+An existence with five attributes:  
+1. Self-subsisting.  
+2. Apprehended by indication.  
+3. Not in a place.  
+4. Without an opposite.  
+5. Variable in form.  
+
+**Definition of Accident (ʿAraḍ)**  
+What cannot subsist by itself, requiring a substrate and being predicated of substance.  
+
+**Definition of Angel (Malak)**  
+A simple substance possessing life, speech, and intellect, immortal, mediating between the Necessary Existence and earthly bodies. Some are intellectual, some psychic, some corporeal.  
+
+**Definition of Sphere (Falak)**  
+A corporeal, spherical mass, ungenerated and imperishable, naturally moving circularly around a point.  
+
+**Definition of Star (Kawkab)**  
+A simple, spherical body whose natural place is the sphere, ungenerated and imperishable, luminous, moving circularly.  
+
+**Definition of Sun (Āftāb)**  
+The largest and brightest star, naturally placed in the fourth sphere.  
+
+**Definition of Moon (Māhtāb)**  
+A star naturally placed in the first sphere, receiving light from the sun, its intrinsic color black.  
+
+**Definition of Jinn**  
+An aerial, rational, transparent animal, assuming various forms.  
+
+**Definition of Fire (Ātish)**  
+A simple body whose essence is dryness, heat, motion, and light, moving upward, located below the lunar sphere.  
+
+**Definition of Air (Hawāʾ)**  
+A simple body, naturally warm and moist, transparent, subtle, located below the ether.  
+
+**Definition of Water (Āb)**  
+A simple body, naturally cold and moist, transparent, mobile, resting in its place.  
+
+**Definition of Earth (Zamīn)**  
+A simple body, cold and dry, naturally moving toward its center.  
+
+**Definition of World (ʿĀlam)**  
+All existents except the Necessary Existence (i.e., the natural, psychic, and intellectual worlds).  
+
+**Definition of Motion (Ḥaraka)**  
+The first perfection of what is in potentiality toward actuality. "Universal motion" is the motion of the heavens and all within them.  
+
+**Definition of Eternity (Dahr)**  
+An intelligible meaning attributed to the soul of time.  
+
+**Definition of Time (Zamān)**  
+The measure of celestial motion—past, future, and present (the "now").  
+
+**Definition of the Now (Ān)**  
+The imagined boundary between past and future.  
+
+**Definition of Limit (Nihāya)**  
+A terminus (intelligible or sensible) beyond which nothing exists.  
+
+**Definition of Point (Nuqṭa)**  
+An indivisible entity, the limit of a line.  
+
+**Definition of Line (Khaṭṭ)**  
+An extended quantity without breadth, the limit of a surface, divisible in length.  
+
+**Definition of Surface (Saṭḥ)**  
+Length and width, divisible into right angles, the limit of a body.  
+
+**Definition of Place (Makān)**  
+The inner boundary of one body surrounding another. A body may have two places (e.g., water’s place is both earth and air).  
+
+**Definition of Rest (Sukūn)**  
+The state following motion.  
+
+**Definition of Swiftness (Sabkī)**  
+Traversing a long distance in a short time (better termed "quickness," as "swiftness" also means "lightness").  
+
+**Definition of Slowness (Dirī)**  
+Traversing a short distance in a long time.  
+
+**Definition of Heat (Ḥarāra)**  
+A quality in a body that combines like and unlike, making it porous and alterable.  
+
+**Definition of Cold (Burūda)**  
+A quality combining like and unlike.  
+
+**Definition of Moisture (Ruṭūba)**  
+A quality causing a body to assume shapes and alter quickly without cohesion.  
+
+**Definition of Dryness (Yubūsa)**  
+A quality of a body’s compact composition. These four may be called "descriptions" or "nominal meanings."  
+
+**Definition of Cause (ʿIlla)**  
+An essence from which another’s existence arises (also called "reason," sabab). The "effect" (maʿlūl) is an essence whose existence derives from another (also called "result," musabbab).  
+
+**Definition of Origination (Ibdāʿ)**  
+Creating something without precedent or intermediary (e.g., knowledge, actions, or the intellect from God). Alternatively, something arising immediately from a cause (e.g., a millwheel turning by water).  
+
+**Definition of Innovation (Iḥdāth)**  
+Bringing something into existence after non-existence (temporal). Alternatively, non-temporal (e.g., actualizing a potential benefit in the intellect).  
+
+**Definition of Eternal (Qadīm)**  
+1. Relatively: Older than another in time.  
+2. Absolutely:  
+   - Temporally: Existence in infinite time (e.g., the intellect).  
+   - Essentially: Existence without beginning (the Necessary Existence).  
+
+**Definition of Genus (Jins)**  
+A term predicated of many differing species in answer to "What is it?"  
+
+**Definition of Differentia (Faṣl)**  
+A term predicated of many differing species in answer to "Which thing is it?"  
+
+**Definition of Property (Khāṣṣa)**  
+A predicate of many differing individuals but agreeing in form.  
+
+**Definition of Quantity (Kamm)**  
+An attribute of measurable and numerable things.  
+
+**Definition of Quality (Kayf)**  
+An attribute distinguishing a thing (e.g

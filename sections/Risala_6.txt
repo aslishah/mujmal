@@ -12,3 +12,50 @@
 -105-
 
 -106-
+
+--- ENGLISH TRANSLATION ---
+
+### Summary of the Sixth Epistle on the Mention of Proportion  
+*In the Name of God, the Most Gracious, the Most Merciful*  
+
+We intend in this epistle to discuss proportion and its nature. Know that proportion is the quantitative relation of one number to another in form, or of one form to another—whether they are equal or unequal. If they are **equal**, we say how many times one is of the other, and this is called the **ratio of equality**. There is no difficulty in this, for it is among the primary principles of reason that one is as many as one, ten as many as ten, and a thousand as many as a thousand.  
+
+If they are **unequal**, one must necessarily be greater and the other lesser. If the lesser is compared to the greater, it is called the **minor inequality**, such as half, third, quarter, fifth, sixth, eighth, ninth, tenth, or terms derived from these, like half of a sixth or a third of a fifth. If the greater is compared to the lesser, it is called the **major inequality**. The first is termed **numerical proportion**, such as the ratio of sixty and the like, while the second is termed **geometric proportion**, which is of five kinds:  
+
+-101-  
+1. The **ratio of duplication**,  
+2. The **ratio of sesquialter (one and a half)**,  
+3. The **ratio of sesquitertian (one and a third)**,  
+4. The **ratio of duplation with an additional fraction**,  
+5. The **ratio of duplation with additional fractions**.  
+
+The **absolute ratio of multiples** follows the natural order of increasing by one, such as 2, 3, 4, 5, ad infinitum. It is called "multiples" because two is twice one, three is thrice one, and so on. The **ratio of sesquialter** is like three to two, four to three, five to four—for example: 3, 4, 5. The **ratio of sesquitertian** is like five to three, seven to four, nine to five, eleven to six—for example: 5, 7, 9, 11. The **ratio of duplation with an additional fraction** is like five to two, seven to three, nine to four—for example: 5, 7, 9. The **ratio of duplation with additional fractions** is like eight to three, eleven to four, fourteen to five—for example: 8, 11, 14. There are no more than these five kinds.  
+
+We say that if a number is a square, its proportion is evident, but if it has excess or deficiency, the proportion becomes difficult. For example, twenty-five, being a square, when compared to seven: for five, we say "a fifth," and for two, "a fifth of a fifth," making seven's proportion to twenty-five either lesser or greater. Conversely, comparing twenty-five to seven: for twenty-one, we say "three times," and for four, "four-sevenths," so twenty-five is three and four-sevenths times seven—this proportion is either greater or lesser. If the number is not a square, like eleven, thirteen, seventeen, twenty-three, etc., its proportion cannot be determined except by approximation, as we shall later explain.  
+
+-102-  
+A property of **numerical proportion** is that for any two numbers, if half of each is added together, the result is a number midway between them. For example, three and five differ by two. Half of three is one and a half, and half of five is two and a half; their sum is four, which is one more than three and one less than five.  
+
+A property of **geometric proportion** is that if four quantities correspond to four numbers—such as five, ten, twenty, and forty—we say the ratio of five to ten is the same as twenty to forty, since five is half of ten and twenty is half of forty. This is called a **disjunct proportion**. If there are three numbers—like four, six, and nine—we say the ratio of four to six is the same as six to nine, just as five to ten is the same as ten to twenty, since four is two-thirds of six, six is two-thirds of nine, five is half of ten, and ten is half of twenty. This is called a **continuous proportion**.  
+
+When three numbers are in such a proportion that the first to the second is as the second to the third—like four, six, and nine—a property is that the product of the first and third equals the square of the second. For example, four times nine is thirty-six, and six times itself is also thirty-six. If there are four numbers—like five, ten, twenty, and forty—the product of the first and fourth equals the product of the second and third. All of this follows the same reasoning.  
+
+The transcriber of this book says: If one does not understand the principle of proportion, this matter cannot be grasped. Therefore, we mention here the **sexagesimal system (base-60)**, as it is most fitting, so the reader may comprehend proportion and know that sixty is a foundational system for the correction of astronomical calculations and other practical applications, including precise celestial computations. Its structure is shown on the following page.  
+
+-103-  
+Know that when the Almighty willed to create the universe, He first brought forth two things: **prime matter (hyle)** and **form**. From these two, He created absolute body, from which motion arose, from motion came heat, from heat came dryness, then from motion came rest, from rest came cold, and from cold came moisture. From these, the elements emerged, and from the elements came minerals, plants, and animals.  
+
+Fire, air, water, and earth are in extreme opposition and hostility to one another. When they combine, if their proportion is correct and their composition harmonious, **generation (kawn)** occurs.  
+
+-104-  
+But if their proportion is incorrect and discordant, **corruption (fasād)** arises. Among the virtues of proportion is this: just as in music, melody, and vocal modulation—if their composition and proportion are correct, they bring pleasure to the soul, and if perfectly harmonious, they induce ecstasy. But if the composition is flawed, the soul is repelled.  
+
+Similarly, in poetry and prosody, if the proportion is incorrect, the soul rejects it, but if correct, it delights the soul. The limbs of an animal, though diverse, if their proportion is flawed, render the form ugly. Likewise, in medicines, if their proportions are correct, they heal the sick, but if incorrect, they kill the healthy.  
+
+Similarly, gold, the master of minerals in the mine, arises from correct proportion, for if the proportion of mercury and sulfur is incorrect, iron, antimony, lead, and the like emerge—not gold. Likewise, the conditions of the celestial spheres and all contingent beings depend on proportion: whatever is well-proportioned is good, and whatever is ill-proportioned is evil.  
+
+*And God knows best.*  
+
+-105-  
+
+-106-
