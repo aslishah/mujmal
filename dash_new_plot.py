@@ -749,7 +749,7 @@ def show_modal_content(tab_value):
                 'border': 'none',
                 'background': 'none',
                 'cursor': 'pointer',
-                'zIndex': '1000',
+                'zIndex': '9999',
                 'color': '#5d4037'
             }),
             
@@ -812,7 +812,7 @@ def show_modal_content(tab_value):
                 'border': 'none',
                 'background': 'none',
                 'cursor': 'pointer',
-                'zIndex': '1000',
+                'zIndex': '9999',
                 'color': '#5d4037'
             }),
             
@@ -861,8 +861,9 @@ def show_modal_content(tab_value):
         }
     # If visualization tab is selected
     elif tab_value == 'tab-visualization':
-        # Path to the HTML visualization file
-        viz_path = "assets/visualization.html"
+        # Paths to the HTML visualization files (ensure these exist under assets/)
+        viz_path_mujmal = "assets/visualization.html"
+        viz_path_rasail = "assets/parts_of_rasail.html"
         
         modal_content = html.Div([
             # Close button
@@ -875,39 +876,51 @@ def show_modal_content(tab_value):
                 'border': 'none',
                 'background': 'none',
                 'cursor': 'pointer',
-                'zIndex': '1000',
+                'zIndex': '9999',
                 'color': '#5d4037'
             }),
             
             # Modal title
-            html.H2("The Length of the Epistles in Mujmal al-Hikma", style={
+            html.H2("Length of the Epistles in Rasāʾil Ikhwān al-Ṣafā", style={
                 'textAlign': 'center',
                 'marginBottom': '20px',
-                'color': '#5d4037'
+                'color': '#5d4037'  
             }),
             
-            # HTML visualization iframe
+            # Mujmal visualization (no H3 title)
             html.Iframe(
-                src=viz_path,
+                src=viz_path_mujmal,
                 style={
                     'width': '100%',
-                    'height': 'calc(100vh - 150px)',
+                    'height': '48vh',
                     'border': 'none',
                     'borderRadius': '5px',
-                    'boxShadow': '0 4px 8px rgba(0,0,0,0.2)'
+                    'boxShadow': '0 4px 8px rgba(0,0,0,0.2)',
+                    'position': 'relative',
+                    'zIndex': 1
+                }
+            ),
+            
+            html.Hr(style={'margin': '16px 0'}),
+            
+            # Rasail visualization (no H3 title)
+            html.Iframe(
+                src=viz_path_rasail,
+                style={
+                    'width': '100%',
+                    'height': '48vh',
+                    'border': 'none',
+                    'borderRadius': '5px',
+                    'boxShadow': '0 4px 8px rgba(0,0,0,0.2)',
+                    'position': 'relative',
+                    'zIndex': 1
                 }
             )
         ], style={
-            'position': 'relative',
-            'padding': '20px',
-            'backgroundColor': '#f5f5f5',
-            'borderRadius': '5px',
-            'boxShadow': '0 4px 12px rgba(0,0,0,0.5)',
-            'width': '90%',
-            'maxWidth': '1200px',
-            'margin': '0 auto',
-            'height': '90vh',
-            'overflowY': 'auto'
+            'maxWidth': '1400px',   # Wider content area
+            'width': '95vw',        # Responsive width
+            'margin': '0 auto',     # Center horizontally
+            'position': 'relative'  # Preserve close button position
         })
         
         return modal_content, {
@@ -928,7 +941,7 @@ def show_modal_content(tab_value):
 
 # Add a callback to close the modal when the close button is clicked
 @app.callback(
-    [Output('header-tabs', 'value'),
+    [Output('header-tabs', 'value', allow_duplicate=True),
      Output('modal-container', 'style', allow_duplicate=True)],
     [Input('close-modal', 'n_clicks')],
     prevent_initial_call=True
