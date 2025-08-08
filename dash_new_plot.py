@@ -1007,7 +1007,7 @@ def show_modal_content(tab_value):
         }
     # If comparison visualization tab is selected
     elif tab_value == 'tab-visualization-compare':
-        viz_path_compare = "assets/comparison_epistles.html"
+        viz_path_compare = "assets/comparison_epistles.html?v=1"
         modal_content = html.Div([
             # Close button
             html.Button("×", id='close-modal', style={
