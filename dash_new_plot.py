@@ -9,6 +9,7 @@ from dash.dependencies import Input, Output, State, ALL, MATCH
 import re
 import json
 from dash.exceptions import PreventUpdate
+# removed: from dash_split_pane import SplitPane
 
 # Get the directory and make sure it is absolute
 script_dir = os.path.dirname(os.path.abspath(__file__))
@@ -546,6 +547,31 @@ app.layout = html.Div([
                                'minWidth': 'fit-content',
                                'whiteSpace': 'nowrap', 
                            }),
+                    dcc.Tab(label='Comparison', value='tab-visualization-compare', 
+                           style={
+                               'padding': '5px', 
+                               'fontSize': '18px',
+                               'backgroundColor': '#5a2d0c',
+                               'color': '#e8dcb5',
+                               'border': 'none',
+                               'marginRight': '10px',
+                               'boxShadow': '0 2px 4px rgba(0,0,0,0.5)',
+                               'width': 'auto',
+                               'minWidth': 'fit-content',
+                               'whiteSpace': 'nowrap', 
+                           },
+                           selected_style={
+                               'padding': '5px', 
+                               'fontSize': '18px', 
+                               'fontWeight': 'bold',
+                               'backgroundColor': 'transparent',
+                               'color': '#e8dcb5',  
+                               'borderBottom': '2px solid #FFD700',
+                               'boxShadow': '0 1px 2px rgba(0,0,0,0.5)',
+                               'width': 'auto',
+                               'minWidth': 'fit-content',
+                               'whiteSpace': 'nowrap', 
+                           }),
 
                                # New About tab
                     dcc.Tab(label='About', value='tab-about',
@@ -577,7 +603,6 @@ app.layout = html.Div([
                             'minWidth': 'fit-content',
                             'whiteSpace': 'nowrap',
                         }),
-                    
                 ], style={
                     'fontFamily': 'Open Sans, sans-serif',
                     'height': '30px',
@@ -869,60 +894,161 @@ def show_modal_content(tab_value):
             # Close button
             html.Button("×", id='close-modal', style={
                 'position': 'absolute',
-                'top': '10px',
-                'right': '10px',
-                'fontSize': '24px',
+                'top': '8px',
+                'right': '8px',
+                'fontSize': '22px',
                 'fontWeight': 'bold',
-                'border': 'none',
-                'background': 'none',
+                'border': '1px solid #333',
+                'background': 'rgba(255,255,255,0.9)',
+                'borderRadius': '4px',
+                'padding': '0 10px',
                 'cursor': 'pointer',
                 'zIndex': '9999',
-                'color': '#5d4037'
+                'color': '#5d4037',
+                'boxShadow': '0 2px 6px rgba(0,0,0,0.2)'
             }),
-            
-            # Modal title
-            html.H2("Length of the Epistles in Rasāʾil Ikhwān al-Ṣafā", style={
+
+            # Subtle tip for resize affordance
+            html.Div("Tip: Drag the edge between visualizations to resize", style={
                 'textAlign': 'center',
-                'marginBottom': '20px',
-                'color': '#5d4037'  
+                'color': '#999',
+                'fontSize': '12px',
+                'margin': '2px 0 6px 0'
             }),
             
-            # Mujmal visualization (no H3 title)
-            html.Iframe(
-                src=viz_path_mujmal,
-                style={
-                    'width': '100%',
-                    'height': '48vh',
-                    'border': 'none',
-                    'borderRadius': '5px',
-                    'boxShadow': '0 4px 8px rgba(0,0,0,0.2)',
-                    'position': 'relative',
-                    'zIndex': 1
-                }
-            ),
-            
-            html.Hr(style={'margin': '16px 0'}),
-            
-            # Rasail visualization (no H3 title)
-            html.Iframe(
-                src=viz_path_rasail,
-                style={
-                    'width': '100%',
-                    'height': '48vh',
-                    'border': 'none',
-                    'borderRadius': '5px',
-                    'boxShadow': '0 4px 8px rgba(0,0,0,0.2)',
-                    'position': 'relative',
-                    'zIndex': 1
-                }
-            )
+            # Top resizable panel (Mujmal)
+            html.Div([
+                html.Iframe(
+                    src=viz_path_mujmal,
+                    style={
+                        'display': 'block',
+                        'margin': '0 auto',
+                        'width': '100%',
+                        'height': '100%',
+                        'border': 'none',
+                        'borderRadius': '5px',
+                        'boxShadow': '0 4px 8px rgba(0,0,0,0.2)'
+                    }
+                )
+            ], style={
+                'height': '45vh',
+                'minHeight': '200px',
+                'resize': 'vertical',
+                'overflow': 'auto',
+                'display': 'flex',
+                'justifyContent': 'center',
+                'alignItems': 'stretch',
+                'cursor': 'ns-resize',
+                'border': '1px dashed rgba(0,0,0,0.2)',
+                'borderBottom': '6px solid rgba(0,0,0,0.25)'
+            }),
+
+            # Visible handle between panels
+            html.Div("⇕ Drag from the edge to resize", title="Drag here to resize", style={
+                'textAlign': 'center',
+                'color': '#999',
+                'fontSize': '12px',
+                'background': 'rgba(0,0,1,0)',
+                'padding': '6px 0',
+                'margin': '0',
+                'cursor': 'ns-resize',
+                'borderRadius': '4px'
+            }),
+
+            # Bottom resizable panel (Rasail)
+            html.Div([
+                html.Iframe(
+                    src=viz_path_rasail,
+                    style={
+                        'display': 'block',
+                        'margin': '0 auto',
+                        'width': '100%',
+                        'height': '100%',
+                        'border': 'none',
+                        'borderRadius': '5px',
+                        'boxShadow': '0 4px 8px rgba(0,0,0,0.2)'
+                    }
+                )
+            ], style={
+                'height': '45vh',
+                'minHeight': '200px',
+                'resize': 'vertical',
+                'overflow': 'auto',
+                'display': 'flex',
+                'justifyContent': 'center',
+                'alignItems': 'stretch',
+                'cursor': 'ns-resize',
+                'border': '1px dashed rgba(0,0,0,0.2)',
+                'borderTop': '6px solid rgba(0,0,0,0.25)'
+            })
         ], style={
             'maxWidth': '1400px',   # Wider content area
             'width': '95vw',        # Responsive width
             'margin': '0 auto',     # Center horizontally
-            'position': 'relative'  # Preserve close button position
+            'position': 'relative',  # Preserve close button position
+            'height': '90vh',       # Fixed height for container
+            'overflow': 'hidden',   # Panels manage their own scroll
+            'paddingTop': '36px',   # Minimal padding for close button
+            'paddingLeft': '6px',
+            'paddingRight': '6px'
         })
         
+        return modal_content, {
+            'display': 'flex',
+            'position': 'fixed',
+            'top': '0',
+            'left': '0',
+            'width': '100%',
+            'height': '100%',
+            'backgroundColor': 'rgba(0,0,0,0.7)',
+            'zIndex': '1000',
+            'justifyContent': 'center',
+            'alignItems': 'center'
+        }
+    # If comparison visualization tab is selected
+    elif tab_value == 'tab-visualization-compare':
+        viz_path_compare = "assets/comparison_epistles.html"
+        modal_content = html.Div([
+            # Close button
+            html.Button("×", id='close-modal', style={
+                'position': 'absolute',
+                'top': '8px',
+                'right': '8px',
+                'fontSize': '22px',
+                'fontWeight': 'bold',
+                'border': '1px solid #333',
+                'background': 'rgba(255,255,255,0.9)',
+                'borderRadius': '4px',
+                'padding': '0 10px',
+                'cursor': 'pointer',
+                'zIndex': '9999',
+                'color': '#5d4037',
+                'boxShadow': '0 2px 6px rgba(0,0,0,0.2)'
+            }),
+            # Single centered iframe for comparison plot
+            html.Iframe(
+                src=viz_path_compare,
+                style={
+                    'display': 'block',
+                    'margin': '0 auto',
+                    'width': '100%',
+                    'height': '86vh',
+                    'border': 'none',
+                    'borderRadius': '5px',
+                    'boxShadow': '0 4px 8px rgba(0,0,0,0.2)'
+                }
+            )
+        ], style={
+            'maxWidth': '1400px',
+            'width': '95vw',
+            'margin': '0 auto',
+            'position': 'relative',
+            'height': '90vh',
+            'overflow': 'hidden',
+            'paddingTop': '36px',
+            'paddingLeft': '6px',
+            'paddingRight': '6px'
+        })
         return modal_content, {
             'display': 'flex',
             'position': 'fixed',
